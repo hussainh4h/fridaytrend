@@ -10,58 +10,49 @@ $layout_options = clipmydeals_layout_options();
 get_header();
 global $store_status;
 
-if(!get_option('cmd_old_header')) {
+if (!get_option('cmd_old_header')) {
 ?>
 <div class="cmd-not-found <?= $layout_options['container'] ?> pt-5">
   <div class="row mx-0">
 <?php
 }
-
 ?>
 
-	<section id="primary" class="content-area order-md-1 <?= ($layout_options['sidebar'])? 'col-sm-12 col-lg-8 col-lg-9':'col'?>">
-		<main id="main" class="site-main" role="main">
+<section id="primary" class="content-area order-md-1 <?= ($layout_options['sidebar']) ? 'col-sm-12 col-lg-8 col-lg-9' : 'col' ?>">
+  <main id="main" class="site-main" role="main">
 
-			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'clipmydeals' ); ?></h1>
-				</header><!-- .page-header -->
+    <section class="error-404 not-found">
+      <header class="page-header">
+        <h1 class="page-title"><?php esc_html_e('Oops! That page can’t be found.', 'clipmydeals'); ?></h1>
+      </header><!-- .page-header -->
 
-				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'clipmydeals' ); ?></p>
+      <div class="page-content">
+        <p><?php esc_html_e('It looks like nothing was found at this location. You can try searching or explore the links below:', 'clipmydeals'); ?></p>
 
-					<?php
-						get_search_form();
-					?>
-					<div>
-					<?php
-						while ( have_posts() ) : the_post();
-						if(is_tax()=="stores"){
-							$store_id = get_queried_object_id();
-							if($store_status[$store_id]=="inactive") continue;
-						}
-						if(get_post_type()=="coupons"){
-							$store_terms = get_the_terms(get_the_ID(),'stores');
-							store_taxonomy_status($store_terms[0]->term_id);
-							if($store_status[$store_terms[0]->term_id] == 'inactive') continue;
-						}
-						the_content();
-						endwhile;
-					?>
-					</div>
+        <!-- Search Form -->
+        <?php get_search_form(); ?>
 
-				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
+        <!-- Custom Suggestions -->
+        <div class="custom-404-content mt-4">
+          <h2><?php esc_html_e('Here are some helpful links:', 'clipmydeals'); ?></h2>
+          <ul>
+            <li><a href="<?php echo home_url(); ?>"><?php esc_html_e('Go to Homepage', 'clipmydeals'); ?></a></li>
+            <li><a href="<?php echo site_url('/coupons/'); ?>"><?php esc_html_e('Browse Coupons', 'clipmydeals'); ?></a></li>
+            <li><a href="<?php echo site_url('/contact/'); ?>"><?php esc_html_e('Contact Us', 'clipmydeals'); ?></a></li>
+          </ul>
+        </div>
+      </div><!-- .page-content -->
+    </section><!-- .error-404 -->
 
-		</main><!-- #main -->
-	</section><!-- #primary -->
+  </main><!-- #main -->
+</section><!-- #primary -->
 
 <?php
-if($layout_options['sidebar']){
-    get_sidebar();
+if ($layout_options['sidebar']) {
+  get_sidebar();
 }
 
-if(!get_option('cmd_old_header')) {
+if (!get_option('cmd_old_header')) {
 ?>
   </div> <!-- row -->
 </div> <!-- container -->
@@ -69,3 +60,4 @@ if(!get_option('cmd_old_header')) {
 }
 
 get_footer();
+?>

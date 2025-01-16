@@ -1,20 +1,20 @@
-:root {
-  --cmd-primary: #60af99;
-  --cmd-header-menu-color: #343434;
-  --cmd-header-search-btn-color: #f3969a;
-
-  --bs-success-rgb: 129, 199, 179;
-  --bs-secondary-text-emphasis: #6a3033;
-  --bs-secondary-bg-subtle: #fdf0f1;
-  --bs-secondary-border-subtle: #d1a1a3;
-}
-
-#desktop-search input,
-#mobile-search input,
-#mobile-search .input-group-text {
-  filter: brightness(120%);
-}
-
-.dropdown-menu .dropdown-item {
-  color: #efefef;
+:root {
+  --cmd-primary: #60af99;
+  --cmd-header-menu-color: #343434;
+  --cmd-header-search-btn-color: #f3969a;
+
+  --bs-success-rgb: 129, 199, 179;
+  --bs-secondary-text-emphasis: #6a3033;
+  --bs-secondary-bg-subtle: #fdf0f1;
+  --bs-secondary-border-subtle: #d1a1a3;
+}
+
+#desktop-search input,
+#mobile-search input,
+#mobile-search .input-group-text {
+  filter: brightness(120%);
+}
+
+.dropdown-menu .dropdown-item {
+  color: #efefef;
 }

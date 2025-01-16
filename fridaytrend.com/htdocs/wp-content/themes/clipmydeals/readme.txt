@@ -949,3 +949,7 @@ This theme will be an active project which we will update from time to time. Che
 
 = 8.4.6 - Oct 31, 2024 =
 * Minor Bugs Fixed
+
+= 8.5 - Jan 8, 2025 =
+* In list view all devices will have Single Coupons in a row
+* In Grid Coupon View (2 in a row) all devices will have 2 Coupons in a row

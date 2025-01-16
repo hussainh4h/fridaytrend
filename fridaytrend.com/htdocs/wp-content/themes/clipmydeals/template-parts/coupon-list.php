@@ -47,7 +47,7 @@ if (!empty(get_post_meta($id, 'cmd_valid_till', true)) and current_time('Y-m-d')
 <article id="coupon-list-<?= $id ?>" <?php post_class("card cmd-list-layout py-2 rounded-4 {$store_custom_fields['coupon_class']} " . get_post_meta($id, 'cmd_type', true)); ?>>
 	<div class="row mx-0">
 
-		<div class="coupon-badge col-lg-3 px-2 text-center">
+		<div class="coupon-badge col-md-3 px-2 text-center">
 			<div class="cmd-badge-text d-flex align-items-center text-center ps-4 h-100" style="<?= !empty($store_custom_fields['store_color']) ? 'background-color: ' . $store_custom_fields['store_color'] . ' !important;' : '' ?>">
 				<?php
 				$badge_text = '';
@@ -70,13 +70,13 @@ if (!empty(get_post_meta($id, 'cmd_valid_till', true)) and current_time('Y-m-d')
 		</div>
 
 
-		<div class="coupon-content col-lg-9 px-2">
+		<div class="coupon-content col-md-9 px-2">
 
 			<div class="rounded-4 p-2 pe-5" style="background-color: <?= !clipmydeals_isDarkPreset() ? clipmydeals_lighter_color($store_custom_fields['store_color']) : '#0000004d' ?>;">
 
 				<div class="row">
 
-					<div class="card-body col-lg-8">
+					<div class="card-body col-md-8">
 						<?php
 						if (get_theme_mod('coupon_page', 'yes') == 'no') :
 						?>
@@ -106,7 +106,7 @@ if (!empty(get_post_meta($id, 'cmd_valid_till', true)) and current_time('Y-m-d')
 
 					</div>
 
-					<div class="col-lg-4 mt-3">
+					<div class="col-md-4 mt-3">
 
 						<div class="row">
 
@@ -195,7 +195,7 @@ if (!empty(get_post_meta($id, 'cmd_valid_till', true)) and current_time('Y-m-d')
 						(comments_open($id) and get_theme_mod('coupon_page', 'yes') == 'yes')
 					) {
 					?>
-						<div class="card-footer col-lg-12 small" style="z-index:2">
+						<div class="card-footer col-md-12 small" style="z-index:2">
 
 							<?php if (!empty(get_post_meta($id, 'cmd_verified_on', true))) { ?>
 								<div class="float-start">

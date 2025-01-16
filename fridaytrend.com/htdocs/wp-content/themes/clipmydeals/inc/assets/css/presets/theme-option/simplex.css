@@ -1,17 +1,17 @@
-:root {
-  --cmd-primary: #d9230f;
-  --cmd-header-color: #ffffff;
-  --cmd-header-logo-color: #d9230f;
-  --cmd-header-menu-color: #7e7e7e;
-  --cmd-header-menu-active-color: #303030;
-}
-
-#desktop-search input,
-#mobile-search input,
-#mobile-search .input-group-text {
-  filter: brightness(90%);
-}
-
-.dropdown-menu.show {
-  background: #ffffff82;
-}
+:root {
+  --cmd-primary: #d9230f;
+  --cmd-header-color: #ffffff;
+  --cmd-header-logo-color: #d9230f;
+  --cmd-header-menu-color: #7e7e7e;
+  --cmd-header-menu-active-color: #303030;
+}
+
+#desktop-search input,
+#mobile-search input,
+#mobile-search .input-group-text {
+  filter: brightness(90%);
+}
+
+.dropdown-menu.show {
+  background: #ffffff82;
+}

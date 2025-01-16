@@ -31,32 +31,41 @@ if (get_option($wp_responsive) and (get_theme_mod('hp_coupon_layout', 'default')
 or (get_theme_mod('hp_coupon_layout', 'default') == 'default' and get_theme_mod('count_in_row', 2) == 1)
 or !get_option($wp_responsive))) { ?>
 	<!-- LIST VIEW -->
-	<div class="coupon-box coupon-box-list py-4 col-12 d-none d-lg-block">
+	<div class="coupon-box coupon-box-list py-4 col-12 d-none d-md-block">
 		<?php get_template_part('template-parts/coupon', 'list',array('coupon_description' => $coupon_description)); ?>
 	</div>
+	<div class="coupon-box coupon-box-grid col-8 mx-auto pb-4 px-1 px-md-3 d-print-none d-md-none ">
+	<?php get_template_part('template-parts/coupon-grid', 'mobile',array('coupon_description' => $coupon_description)); ?>
+</div>
 	<?php  } else {
 		if (
 			get_theme_mod('hp_coupon_layout', 'default') == 2
 			or (get_theme_mod('hp_coupon_layout', 'default') == 'default' and get_theme_mod('count_in_row', 2) == 2)
 		) {
 			$grid_view_class = 'col-6';
+			$grid_mobile_view_class = 'col-6';
+
 		} elseif (
 			get_theme_mod('hp_coupon_layout', 'default') == 3
 			or (get_theme_mod('hp_coupon_layout', 'default') == 'default' and get_theme_mod('count_in_row', 2) == 3)
 		) {
 			$grid_view_class = 'col-6 col-lg-4 col-md-6';
+			$grid_mobile_view_class = 'col-6 col-md-4';
+
 		} else {
 			$grid_view_class = 'col-6 col-lg-3 col-md-4';
-		} ?>
+			$grid_mobile_view_class = 'col-6 col-md-4';
+
+} ?>
 		<!-- GRID VIEW -->
 		<div class="coupon-box coupon-box-grid pb-4 d-none d-lg-block <?php echo $grid_view_class; ?>">
 			<?php
 			get_template_part('template-parts/coupon', 'grid',array('coupon_description' => $coupon_description));
 			?>
 		</div>
+		<div class="coupon-box coupon-box-grid <?php echo $grid_mobile_view_class; ?> pb-4 px-1 px-md-3 d-print-none d-lg-none ">
+	<?php get_template_part('template-parts/coupon-grid', 'mobile',array('coupon_description' => $coupon_description)); ?>
+</div>
 	<?php } ?>
 <!-- Mobile View -->
 
-<div class="coupon-box coupon-box-grid col-6 col-md-4 pb-4 px-1 px-md-3 d-print-none d-lg-none ">
-	<?php get_template_part('template-parts/coupon-grid', 'mobile',array('coupon_description' => $coupon_description)); ?>
-</div>

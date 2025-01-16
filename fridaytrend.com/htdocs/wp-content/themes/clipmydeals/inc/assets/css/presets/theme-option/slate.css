@@ -1,94 +1,94 @@
-:root {
-  --cmd-primary: #ffffff;
-  --cmd-header-color: #515960;
-  --cmd-card-bg: #32383e;
-  --cmd-font-default: #ffffff;
-  --cmd-header-search-btn-color: #62c462;
-  --cmd-body-bg: #272b30;
-  --cmd-list-badge-bg:var(--cmd-header-color);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--cmd-header-color);
-}
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--cmd-header-color);
-}
-html,
-.cmd-slider-widget {
-  scrollbar-color: var(--cmd-header-color) transparent;
-}
-/* Box around active tab */
-.navbar-nav .active > .nav-link {
-  color: #fff !important;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 0.25rem;
-}
-
-#desktop-search input,
-#mobile-search input,
-#mobile-search .input-group-text {
-  filter: brightness(150%);
-}
-.text-muted {
-  color: rgba(255, 255, 255, 0.75) !important;
-}
-.product-box article {
-  background-color: var(--cmd-card-bg);
-}
-.tbody,
-td,
-tfoot,
-th,
-thead,
-tr {
-  border-color: #6c6c6c;
-}
-
-.compare-button:hover svg,
-.buynow-button:hover svg {
-  fill: black;
-}
-table th,
-table td {
-  color: black !important;
-}
-.dataTables_wrapper select,
-.dataTables_wrapper input,
-.cmdcp-transactions-card .card-header,
-.cmdcp-bonuses-card .card-header,
-input {
-  color: black !important;
-}
-.form-select,
-.search-store select,
-.search-category select,
-.search-button select {
-  color: black;
-}
-.form-control:focus {
-  color: black !important;
-  background-color: var(--bs-body-bg);
-  border-color: #86b7fe;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(29, 103, 196, 0.25);
-}
-.active > .page-link, .page-link.active{
-  color: black;
-}
-.form-control {
-  color: black;
-}
-.priceModal td, .priceModal th{
-  color: white !important;
-}
-.alert-secondary{
-  background-color: var(--cmd-header-color);
-  color: white;
-}
-.coupon-button.bg-primary{
-  background-color: var(--cmd-header-color) !important;
-}
-.btn-primary{
-  --bs-btn-bg: var(--cmd-header-color) !important;
+:root {
+  --cmd-primary: #ffffff;
+  --cmd-header-color: #515960;
+  --cmd-card-bg: #32383e;
+  --cmd-font-default: #ffffff;
+  --cmd-header-search-btn-color: #62c462;
+  --cmd-body-bg: #272b30;
+  --cmd-list-badge-bg:var(--cmd-header-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--cmd-header-color);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cmd-header-color);
+}
+html,
+.cmd-slider-widget {
+  scrollbar-color: var(--cmd-header-color) transparent;
+}
+/* Box around active tab */
+.navbar-nav .active > .nav-link {
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+
+#desktop-search input,
+#mobile-search input,
+#mobile-search .input-group-text {
+  filter: brightness(150%);
+}
+.text-muted {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+.product-box article {
+  background-color: var(--cmd-card-bg);
+}
+.tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: #6c6c6c;
+}
+
+.compare-button:hover svg,
+.buynow-button:hover svg {
+  fill: black;
+}
+table th,
+table td {
+  color: black !important;
+}
+.dataTables_wrapper select,
+.dataTables_wrapper input,
+.cmdcp-transactions-card .card-header,
+.cmdcp-bonuses-card .card-header,
+input {
+  color: black !important;
+}
+.form-select,
+.search-store select,
+.search-category select,
+.search-button select {
+  color: black;
+}
+.form-control:focus {
+  color: black !important;
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(29, 103, 196, 0.25);
+}
+.active > .page-link, .page-link.active{
+  color: black;
+}
+.form-control {
+  color: black;
+}
+.priceModal td, .priceModal th{
+  color: white !important;
+}
+.alert-secondary{
+  background-color: var(--cmd-header-color);
+  color: white;
+}
+.coupon-button.bg-primary{
+  background-color: var(--cmd-header-color) !important;
+}
+.btn-primary{
+  --bs-btn-bg: var(--cmd-header-color) !important;
 }

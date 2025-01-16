@@ -1,14 +1,14 @@
-:root {
-  --cmd-primary: #746093;
-  --cmd-card-bg: #f8f4ff;
-  --cmd-header-gradient-color: #a24592;
-  --cmd-header-logo-color: #ffffff;
-  --cmd-header-menu-color: #dedede;
-  --cmd-header-search-btn-color: #ffc107;
-}
-
-#desktop-search input,
-#mobile-search input,
-#mobile-search .input-group-text {
-  filter: brightness(85%);
-}
+:root {
+  --cmd-primary: #746093;
+  --cmd-card-bg: #f8f4ff;
+  --cmd-header-gradient-color: #a24592;
+  --cmd-header-logo-color: #ffffff;
+  --cmd-header-menu-color: #dedede;
+  --cmd-header-search-btn-color: #ffc107;
+}
+
+#desktop-search input,
+#mobile-search input,
+#mobile-search .input-group-text {
+  filter: brightness(85%);
+}
