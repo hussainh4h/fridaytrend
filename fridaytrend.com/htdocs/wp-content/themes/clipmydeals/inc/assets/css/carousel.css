@@ -1,0 +1,183 @@
+.cmd-featuredoffers-widget .carousel-item {
+margin-right: 0;
+}
+
+/* show 2 items */
+.grid-2.cmd-featuredoffers-widget .carousel-inner .active,
+.grid-2.cmd-featuredoffers-widget .carousel-inner .active + .carousel-item {
+    display: block;
+}
+
+.grid-2.cmd-featuredoffers-widget .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+.grid-2.cmd-featuredoffers-widget .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+    transition: none;
+}
+
+.grid-2.cmd-featuredoffers-widget .carousel-inner .carousel-item-next,
+.grid-2.cmd-featuredoffers-widget .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+}
+
+.grid-2.cmd-featuredoffers-widget .carousel-inner .active.carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+}
+
+/* left or forward direction */
+.grid-2.cmd-featuredoffers-widget .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+.grid-2.cmd-featuredoffers-widget .carousel-item-next.carousel-item-left + .carousel-item,
+.grid-2.cmd-featuredoffers-widget .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+}
+
+/* farthest right hidden item must be abso position for animations */
+.grid-2.cmd-featuredoffers-widget .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+}
+
+/* right or prev direction */
+.grid-2.cmd-featuredoffers-widget .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+.grid-2.cmd-featuredoffers-widget .carousel-item-prev.carousel-item-right + .carousel-item,
+.grid-2.cmd-featuredoffers-widget .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+}
+
+/* show 3 items */
+.grid-3.cmd-featuredoffers-widget .carousel-inner .active,
+.grid-3.cmd-featuredoffers-widget .carousel-inner .active + .carousel-item,
+.grid-3.cmd-featuredoffers-widget .carousel-inner .active + .carousel-item + .carousel-item {
+    display: block;
+}
+
+.grid-3.cmd-featuredoffers-widget .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+.grid-3.cmd-featuredoffers-widget .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+.grid-3.cmd-featuredoffers-widget .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+    transition: none;
+}
+
+.grid-3.cmd-featuredoffers-widget .carousel-inner .carousel-item-next,
+.grid-3.cmd-featuredoffers-widget .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+}
+
+.grid-3.cmd-featuredoffers-widget .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+}
+
+/* left or forward direction */
+.grid-3.cmd-featuredoffers-widget .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+.grid-3.cmd-featuredoffers-widget .carousel-item-next.carousel-item-left + .carousel-item,
+.grid-3.cmd-featuredoffers-widget .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+.grid-3.cmd-featuredoffers-widget .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+}
+
+/* farthest right hidden item must be abso position for animations */
+.grid-3.cmd-featuredoffers-widget .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+}
+
+/* right or prev direction */
+.grid-3.cmd-featuredoffers-widget .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+.grid-3.cmd-featuredoffers-widget .carousel-item-prev.carousel-item-right + .carousel-item,
+.grid-3.cmd-featuredoffers-widget .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+.grid-3.cmd-featuredoffers-widget .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+}
+
+/* show 4 items */
+.grid-4.cmd-featuredoffers-widget .carousel-inner .active,
+.grid-4.cmd-featuredoffers-widget .carousel-inner .active + .carousel-item,
+.grid-4.cmd-featuredoffers-widget .carousel-inner .active + .carousel-item + .carousel-item,
+.grid-4.cmd-featuredoffers-widget .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+    display: block;
+}
+
+.grid-4.cmd-featuredoffers-widget .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+.grid-4.cmd-featuredoffers-widget .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+.grid-4.cmd-featuredoffers-widget .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+.grid-4.cmd-featuredoffers-widget .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+    transition: none;
+}
+
+.grid-4.cmd-featuredoffers-widget .carousel-inner .carousel-item-next,
+.grid-4.cmd-featuredoffers-widget .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+}
+
+.grid-4.cmd-featuredoffers-widget .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -25%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+}
+
+/* left or forward direction */
+.grid-4.cmd-featuredoffers-widget .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+.grid-4.cmd-featuredoffers-widget .carousel-item-next.carousel-item-left + .carousel-item,
+.grid-4.cmd-featuredoffers-widget .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+.grid-4.cmd-featuredoffers-widget .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+.grid-4.cmd-featuredoffers-widget .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+}
+
+/* farthest right hidden item must be abso position for animations */
+.grid-4.cmd-featuredoffers-widget .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+}
+
+/* right or prev direction */
+.grid-4.cmd-featuredoffers-widget .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+.grid-4.cmd-featuredoffers-widget .carousel-item-prev.carousel-item-right + .carousel-item,
+.grid-4.cmd-featuredoffers-widget .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+.grid-4.cmd-featuredoffers-widget .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+.grid-4.cmd-featuredoffers-widget .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+}

@@ -1,0 +1,10 @@
+:root {
+  --cmd-primary: #2196f3;
+  --cmd-header-search-btn-color: #ffc107;
+}
+
+#desktop-search input,
+#mobile-search input,
+#mobile-search .input-group-text {
+  filter: brightness(120%);
+}

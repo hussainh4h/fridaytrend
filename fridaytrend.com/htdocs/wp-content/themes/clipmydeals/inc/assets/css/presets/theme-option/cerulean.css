@@ -1,0 +1,10 @@
+:root {
+  --cmd-primary: #2fa4e7;
+  --cmd-card-bg:#edf9ff;
+}
+
+#desktop-search input,
+#mobile-search input,
+#mobile-search .input-group-text {
+  filter: brightness(85%);
+}

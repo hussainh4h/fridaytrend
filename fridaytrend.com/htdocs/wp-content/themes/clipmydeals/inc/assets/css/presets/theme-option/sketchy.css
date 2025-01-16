@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch");
+
+:root {
+  --cmd-primary: #333333;
+  --cmd-header-color: #ffffff;
+  --cmd-header-logo-color: #333333;
+  --cmd-header-menu-color: #555555;
+  --cmd-header-search-btn-color: #28a745;
+
+  --font-family-sans-serif: "Neucha", -apple-system, system-ui,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  font-family: "Neucha", -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+#desktop-search input::placeholder,
+#mobile-search input::placeholder {
+  opacity: 100%;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  font-family: "Cabin Sketch", cursive;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #efefef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Cabin Sketch", cursive;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Neucha", -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.form-control {
+  border: 2px solid #333 !important;
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px !important;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+
+#nav-search-button {
+  border: 2px solid #333 !important;
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px !important;
+}
+
+#mobile-search > .input-group-text {
+  border: 2px solid #333 !important;
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px !important;
+}
+
+#footer-widget .btn-primary,
+#footer-widget-wide .btn-primary {
+  color: #ffffff;
+}

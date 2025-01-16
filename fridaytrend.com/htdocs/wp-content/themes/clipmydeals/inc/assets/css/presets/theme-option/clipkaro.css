@@ -1,0 +1,32 @@
+:root {
+  --cmd-primary: #2f3c97;
+  --cmd-card-bg:#eff1fd;
+  --cmd-header-logo-color: #f07431;
+  --cmd-header-menu-color: #ffffff;
+  --cmd-header-menu-active-color: var(--cmd-header-logo-color);
+  --cmd-header-search-btn-color: #f07431;
+  --cmd-font-primary: #f07431;
+}
+
+.navbar-brand > a {
+  font-weight: 700;
+  text-transform: uppercase;
+  filter: brightness(120%);
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand > a {
+    font-size: 2rem;
+  }
+}
+
+#footer-widget .btn-primary,
+#footer-widget-wide .btn-primary {
+  color: #ffffff;
+}
+.coupon-button.bg-primary{
+  background-color: var(--cmd-header-color) !important;
+}
+.btn-primary{
+  --bs-btn-bg: var(--cmd-header-color) !important;
+}

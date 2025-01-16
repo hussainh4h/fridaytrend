@@ -1,0 +1,88 @@
+:root {
+  --cmd-primary: #375a7f;
+  --cmd-card-bg: #444444;
+  --cmd-font-default: #ffffff;
+  --cmd-font-primary: #02daa3;
+  --cmd-header-menu-active-color: #02daa3;
+  --cmd-header-search-btn-color: #02daa3;
+  --cmd-body-bg: #222222;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--cmd-font-primary);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cmd-font-primary);
+}
+html,
+.cmd-slider-widget {
+  scrollbar-color: var(--cmd-font-primary) transparent;
+}
+.bg-primary {
+  color: #ffffff !important;
+}
+.text-muted {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+.product-box article {
+  background-color: var(--cmd-card-bg);
+}
+.tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: #6c6c6c;
+}
+
+table th,
+table td {
+  color: black !important;
+}
+.dataTables_wrapper select,
+.dataTables_wrapper input,
+.cmdcp-transactions-card .card-header,
+.cmdcp-bonuses-card .card-header,
+input {
+  color: black !important;
+}
+
+.form-select,
+.search-store select,
+.search-category select,
+.search-button select {
+  color: black;
+}
+.form-control:focus {
+  color: black !important;
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(29, 103, 196, 0.25);
+}
+.form-select,
+.search-store select,
+.search-category select,
+.search-button select {
+  color: black;
+}
+.form-control:focus {
+  color: black !important;
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(29, 103, 196, 0.25);
+}
+.form-control {
+  color: black;
+}
+.priceModal td, .priceModal th{
+  color: white !important;
+}
+.coupon-button.bg-primary{
+  background-color: var(--cmd-header-color) !important;
+}
+.btn-primary{
+  --bs-btn-bg: var(--cmd-header-color) !important;
+}

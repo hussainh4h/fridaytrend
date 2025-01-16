@@ -1,0 +1,3458 @@
+# Copyright (C) 2021 ClipMyDeals
+# This file is distributed under the .
+msgid ""
+msgstr ""
+"Project-Id-Version: ClipMyDeals 5.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/clipmydeals\n"
+"POT-Creation-Date: 2024-06-03T10:41:48+05:30\n"
+"PO-Revision-Date: 2024-10-30 05:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: clipmydeals\n"
+"X-Loco-Version: 2.6.6; wp-6.5.4"
+
+#: inc/cmd_functions.php:2730
+msgid "\"[code]\" copied!"
+msgstr "\"[الكود]\" منسوخ!"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed and activated successfully."
+msgstr "تم تثبيت وتفعيل %1$s بنجاح."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "%1$s installed successfully."
+msgstr "تم تثبيت %1$s بنجاح."
+
+#. translators: 1: Link to comment author's page
+#: inc/template-tags.php:169
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">يقول:</span>"
+
+#: inc/cmd_tools.php:359
+msgid "%s Expired Coupons have been moved to trash."
+msgstr "تم نقل %s من الكوبونات منتهية الصلاحية إلى سلة المهملات."
+
+#: inc/cmd_tools.php:357
+msgid "%s Expired Coupons have been permanently deleted."
+msgstr "لقد تم حذف %s الكوبونات منتهية الصلاحية نهائيًا."
+
+#: inc/cmd_subscriptions.php:200
+msgid "%s subscriptions deleted successfully."
+msgstr "تم تثبيت %1$s بنجاح.تم حذف اشتراكات %s بنجاح."
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:60 inc/template-tags.php:70
+msgid ", "
+msgstr ", "
+
+#: inc/linkmydeals.php:56
+msgid ""
+"100% Commission to you: Just enter your affiliate IDs for each network in "
+"your account. All affiliate links contain your ID, so you get 100% "
+"commission. We're only interested in the monthly subscription amount, "
+"nothing else."
+msgstr ""
+"عمولة لك بنسبة 100%: ما عليك سوى إدخال معرفات الشركاء التابعين لكل شبكة في "
+"حسابك. تحتوي جميع الروابط التابعة على هويتك، وبالتالي تحصل على عمولة بنسبة "
+"100%. نحن مهتمون فقط بمبلغ الاشتراك الشهري، ولا شيء آخر."
+
+#. translators: 1: Date of comment, 2: Timeof comment
+#: inc/template-tags.php:175
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s في %2$s"
+
+#: inc/customizer.php:254
+msgid "2-Column Grid"
+msgstr "2-شبكة العمود"
+
+#: inc/customizer.php:255
+msgid "3-Column Grid"
+msgstr "3-شبكة العمود"
+
+#: inc/customizer.php:256
+msgid "4-Column Grid"
+msgstr "4-شبكة العمود"
+
+#: inc/cmd_tools.php:191
+msgid "<br/>Error on Row %s: %s"
+msgstr "<br/>خطأ في الصف %s: %s"
+
+#: inc/demo_import.php:68 inc/demo_import.php:95
+msgid ""
+"<div class=\"alert alert-danger\">Clicking \"<strong>Import Demo</strong>\" "
+"will reset your website as per selected demo. Third-party plugins & related "
+"data will NOT be imported. All your existing content & settings will be "
+"permanently deleted. Please take a backup of your content if you need to add "
+"it again later.</div>"
+msgstr ""
+"<div class=\"alert تنبيه-danger\">يؤدي النقر على \"<strong>استيراد العرض "
+"التوضيحي</strong>\" إلى إعادة تعيين موقع الويب الخاص بك وفقًا للعرض التوضيحي "
+"المحدد. لن يتم استيراد المكونات الإضافية والبيانات ذات الصلة التابعة لجهات "
+"خارجية. سيتم حذف كافة المحتويات والإعدادات الموجودة لديك نهائيًا. يرجى أخذ "
+"نسخة احتياطية من المحتوى الخاص بك إذا كنت بحاجة إلى إضافته مرة أخرى لاحقًا."
+"</div>"
+
+#: inc/quick_setup.php:105 inc/quick_setup.php:235
+msgid ""
+"<div class=\"alert alert-warning\">These are just basic settings for quick "
+"start. For more customization options you should go to <strong>"
+"Appearance</strong> > <a href=\"customize.php\"><strong>Customize</strong>"
+"</a></div>"
+msgstr ""
+"<div class=\"alert تنبيه-تحذير\">هذه مجرد إعدادات أساسية للبدء السريع. لمزيد "
+"من خيارات التخصيص، يجب عليك الانتقال إلى <strong>المظهر</strong> > <a "
+"href=\"customize.php\"><strong>تخصيص</strong></a></div>"
+
+#: functions.php:72
+msgid ""
+"<h2 style=\"color:#ffffff;\">IMPORTANT</h2><p>Please follow the <a "
+"style=\"color: #fff; text-decoration:underline;\" href=\"%1$s\" "
+"target=\"_blank\">Theme Activation steps</a> to enable all ClipMyDeals "
+"features.</p><p>We also recommend that you through complete <a style=\"color:"
+" #fff; text-decoration:underline;\" href=\"%2$s\" target=\"_blank\">"
+"ClipMyDeals Documentation</a> for in-depth understanding of theme features & "
+"options.</p>"
+msgstr ""
+"<h2 style=\"color:#ffffff;\">هام</h2><p>يُرجى اتباع <a style=\"color: #fff; "
+"text-decoration:underline;\" href=\"%1$s\" target=\"_blank\">خطوات تنشيط "
+"السمة</a> لتمكين جميع ميزات ClipMyDeals.</p><p>نوصيك أيضًا بإكمال <a "
+"style=\"color: #fff زخرفة النص:تسطير؛\" href=\"%2$s\" target=\"_blank\">"
+"وثائق ClipMyDeals</a> لفهم متعمق لميزات وخيارات الموضوع.</p>"
+
+#. translators: 1:Name 2:Title 3:Stores
+#: page-submit-coupons.php:116
+msgid ""
+"<p>Hi,</p>\n"
+"\t\t\t\t\t\t\t<p>A new coupon has been submitted on your website by <strong>"
+"%1$s</strong>.</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>Title:</strong> %%2$s\n"
+"\t\t\t\t\t\t\t\t<br/>\n"
+"\t\t\t\t\t\t\t\t<strong>Store:</strong> %3$s\n"
+"\t\t\t\t\t\t\t</p>"
+msgstr ""
+"<p>أهلاً,</p>\n"
+"\t\t\t\t\t\t\t<p>تم تقديم قسيمة جديدة على موقع الويب الخاص بك عن طريق "
+"<strong>%1$s</strong>.</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>عنوان:</strong> %%2$s\n"
+"\t\t\t\t\t\t\t\t<br/>\n"
+"\t\t\t\t\t\t\t\t<strong>محل:</strong> %3$s\n"
+"\t\t\t\t\t\t\t</p>"
+
+#: inc/template-tags.php:178
+msgid ""
+"<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></span> "
+"Edit"
+msgstr ""
+"<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></span> "
+"تحرير"
+
+#: inc/customizer.php:1920
+msgid "@username for the admin of website"
+msgstr "@اسم المستخدم لمشرف الموقع"
+
+#: inc/customizer.php:1906
+msgid "@username for the website"
+msgstr "@اسم المستخدم للموقع"
+
+#. translators: 1:Blogname
+#: page-submit-coupons.php:111
+msgid "[%s] New Coupon Submitted"
+msgstr "تم إرسال قسيمة جديدة [%s]"
+
+#: inc/cmd_notification_logs.php:171
+msgid "Access Denied. Nonce could not be verified"
+msgstr "تم الرفض.Nonce لا يمكن التحقق من"
+
+#: inc/cmd_functions.php:4455 inc/cmd_subscriptions.php:209
+#: inc/cmd_tools.php:131 inc/cmd_tools.php:246 inc/cmd_tools.php:314
+#: inc/cmd_tools.php:371 inc/quick_setup.php:260 inc/quick_setup.php:520
+msgid "Access Denied. Nonce could not be verified."
+msgstr "تم الرفض.Nonce لا يمكن التحقق من."
+
+#: inc/cmd_functions.php:4352
+msgid "Account Number"
+msgstr "رقم حساب"
+
+#: inc/cmd_subscriptions.php:129
+msgid "Actions"
+msgstr "فعل"
+
+#: inc/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "تفعيل"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2707
+msgid "Activate %2$s"
+msgstr "تفعيل %2$s"
+
+#: inc/cmd_functions.php:2729
+msgid "Activate Code"
+msgstr "كود التنشيط"
+
+#: inc/cmd_functions.php:2728 template-parts/code.php:64
+#: template-parts/coupon-popup.php:91 template-parts/coupon-popup.php:161
+msgid "Activate Deal"
+msgstr "تفعيل الصفقة"
+
+#: inc/class-tgm-plugin-activation.php:2414 inc/cmd_functions.php:560
+#: inc/cmd_functions.php:612 inc/cmd_functions.php:768
+msgid "Active"
+msgstr "نشيط"
+
+#: inc/update.php:40
+msgid "Add Coupons"
+msgstr "أضف كوبونات"
+
+#: inc/cmd_functions.php:950 inc/cmd_functions.php:3692
+msgid "Add New"
+msgstr "اضف جديد"
+
+#: inc/cmd_functions.php:835
+msgid "Add New Brand"
+msgstr "إضافة علامة تجارية جديدة"
+
+#: inc/cmd_functions.php:949
+msgid "Add New Coupon"
+msgstr "إضافة قسيمة جديدة"
+
+#: inc/cmd_functions.php:419
+msgid "Add New Location"
+msgstr "إضافة موقع جديد"
+
+#: inc/cmd_functions.php:3691
+msgid "Add New Notification"
+msgstr "إضافة إشعار جديد"
+
+#: inc/cmd_functions.php:329
+msgid "Add New Offer Category"
+msgstr "إضافة فئة عرض جديدة"
+
+#: inc/cmd_functions.php:512
+msgid "Add New Store"
+msgstr "إضافة متجر جديد"
+
+#: inc/cmd_functions.php:838
+msgid "Add or remove brands"
+msgstr "إضافة أو إزالة العلامات التجارية"
+
+#: inc/cmd_functions.php:515
+msgid "Add or remove stores"
+msgstr "إضافة أو إزالة المتاجر"
+
+#: functions.php:109 functions.php:118 functions.php:127 functions.php:136
+#: inc/cmd_widgets.php:2228 inc/cmd_widgets.php:2238 inc/cmd_widgets.php:2248
+#: inc/cmd_widgets.php:2258 inc/cmd_widgets.php:2268
+msgid "Add widgets here."
+msgstr "إضافة الحاجيات هنا."
+
+#: inc/customizer.php:1929
+msgid "Additional HTML/Scripts"
+msgstr "HTML / نصوص إضافية"
+
+#: inc/cmd_functions.php:4369
+msgid "Address"
+msgstr "عنوان"
+
+#: inc/update.php:38
+msgid ""
+"After you save your key, you can start adding your coupons and customize the "
+"look &amp; feel of your website."
+msgstr ""
+"بعد حفظ المفتاح الخاص بك، يمكنك البدء في إضافة القسائم الخاصة بك وتخصيص "
+"الشكل والشكل. يشعر موقع الويب الخاص بك."
+
+#: inc/customizer.php:1094
+msgid "Ajax Search"
+msgstr "بحث اياكس"
+
+#: page-alpha-stores.php:40
+msgid "All"
+msgstr "الجميع"
+
+#: inc/cmd_functions.php:830
+msgid "All Brands"
+msgstr "جميع العلامات التجارية"
+
+#: inc/cmd_functions.php:947
+msgid "All Coupons"
+msgstr "جميع القسائم"
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "وقد تم الانتهاء من جميع المنشآت والتنشيط."
+
+#: inc/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "تم الانتهاء من جميع التركيبات."
+
+#: inc/cmd_functions.php:413
+msgid "All Locations"
+msgstr "جميع المواقع"
+
+#: inc/cmd_functions.php:3689
+msgid "All Notifications"
+msgstr "جميع الإخطارات"
+
+#: inc/cmd_functions.php:324
+msgid "All Offer Categories"
+msgstr "جميع فئات العروض"
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "تم تثبيت جميع المكونات الإضافية وتفعيلها بنجاح. %1$s"
+
+#: inc/linkmydeals.php:52
+msgid ""
+"All Sources: We source all offers from Store Website, Email Newsletters, "
+"Social Media Communications, Affiliate Network Coupons & all such official "
+"communications from each brand."
+msgstr ""
+"جميع المصادر: نحن نصدر جميع العروض من موقع المتجر الإلكتروني والنشرات "
+"الإخبارية عبر البريد الإلكتروني واتصالات وسائل التواصل الاجتماعي وكوبونات "
+"الشبكات التابعة وجميع الاتصالات الرسمية من كل علامة تجارية."
+
+#: inc/cmd_functions.php:507
+msgid "All Stores"
+msgstr "جميع المتاجر"
+
+#: inc/linkmydeals.php:51
+msgid ""
+"All Stores available: Even if we don't already collect coupons for a store, "
+"we'll add them to our database just for you. No problem at all."
+msgstr ""
+"جميع المتاجر المتاحة: حتى لو لم نقم بالفعل بجمع كوبونات لأحد المتاجر، "
+"فسنضيفها إلى قاعدة بياناتنا خصيصًا لك. لا مشكلة على الإطلاق."
+
+#: inc/customizer.php:1261
+msgid "Allow Coupons to have their own page?"
+msgstr "هل تريد السماح للكوبونات بأن يكون لها صفحتها الخاصة؟"
+
+#: inc/cmd_widgets.php:2183
+msgid "Alternative Text"
+msgstr "نص بديل"
+
+#: inc/customizer.php:1165
+msgid "Always Show"
+msgstr "اعرض دائمًا"
+
+#: inc/cmd_functions.php:4299
+msgid "Amazon Pay ID"
+msgstr "معرف Amazon Pay"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "حدث خطأ أثناء تثبيت %1$s: <strong>%2$s</strong>."
+
+#: inc/update.php:150
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"حدث خطأ HTTP غير متوقع أثناء طلب واجهة برمجة التطبيقات.</p> <p><a href=\"؟\" "
+"onclick=\"document.location.reload(); return false;\">حاول مرة أخرى</a>"
+
+#: inc/update.php:155
+msgid "An unknown error occurred"
+msgstr "حدث خطأ غير معروف"
+
+#: inc/customizer.php:1347
+msgid "Android App/Bundle ID"
+msgstr "معرف تطبيق Android/الحزمة"
+
+#: inc/cmd_widgets.php:1342 searchform.php:59 searchform.php:65
+msgid "Any Category"
+msgstr "أي فئة"
+
+#: inc/cmd_widgets.php:1363 searchform.php:83 searchform.php:89
+msgid "Any Location"
+msgstr "اي موقع"
+
+#: inc/cmd_widgets.php:1322 searchform.php:36 searchform.php:42
+msgid "Any Store"
+msgstr "أي متجر"
+
+#: inc/customizer.php:1296
+msgid "App Options"
+msgstr "خيارات التطبيق"
+
+#: inc/cmd_tools.php:48
+msgid "Are you sure you want to delete all offers from LinkMyDeals?"
+msgstr "هل أنت متأكد أنك تريد حذف كافة العروض من LinkMyDeals؟"
+
+#: inc/cmd_functions.php:3900
+msgid "Are you sure you want to delete your Account?"
+msgstr "هل انت متأكد انك تريد حذف حسابك؟"
+
+#: inc/demo_import.php:107
+msgid "Are you sure you want to reset your website?"
+msgstr "هل أنت متأكد أنك تريد إعادة تعيين موقع الويب الخاص بك؟"
+
+#: inc/cmd_functions.php:354 inc/cmd_functions.php:446
+#: inc/cmd_functions.php:687 inc/cmd_functions.php:864
+msgid "Article"
+msgstr "مقال"
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "مجهول"
+
+#: inc/customizer.php:1461
+msgid "Ask Notification Permission Onload?"
+msgstr "هل تطلب إذن الإخطار عند تحميل موقع الويب؟"
+
+#. translators: 1: variable with store count to be replaced
+#: inc/cmd_functions.php:2778
+msgid "Available on %1$s stores"
+msgstr "متوفر في متاجر %1$s"
+
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "النسخة المتاحة:"
+
+#: inc/cmd_functions.php:1081
+msgid "Badge Text"
+msgstr "نص الشارة"
+
+#: inc/cmd_functions.php:4347
+msgid "Bank Code"
+msgstr "رمز بنكي"
+
+#: inc/cmd_functions.php:4337
+msgid "Bank Details"
+msgstr "التفاصيل المصرفية"
+
+#: inc/customizer.php:319 inc/customizer.php:1850 inc/quick_setup.php:139
+msgid "Banner"
+msgstr "لافتة"
+
+#: inc/customizer.php:1051
+msgid "Banner Tagline"
+msgstr "خط علامة الشعار"
+
+#: inc/customizer.php:1063
+msgid "Banner Tagline Color"
+msgstr "البانر لون خط العلامة"
+
+#: inc/customizer.php:1028
+msgid "Banner Title"
+msgstr "عنوان البانر"
+
+#: inc/customizer.php:1040
+msgid "Banner Title Color"
+msgstr "لون عنوان البانر"
+
+#: inc/cmd_functions.php:700
+msgid "Banner URL"
+msgstr "البانر URL"
+
+#: inc/cmd_functions.php:4229
+msgid "Basic Details"
+msgstr "تفاصيل أساسية"
+
+#: inc/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "البدء في تفعيل البرنامج المساعد"
+msgstr[1] "البدء في تفعيل البرنامج المساعد"
+msgstr[2] "البدء في تفعيل المكونات الإضافية"
+msgstr[3] "البدء في تفعيل المكونات الإضافية"
+msgstr[4] "البدء في تفعيل المكونات الإضافية"
+msgstr[5] "البدء في تفعيل المكونات الإضافية"
+
+#: inc/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "البدء في تثبيت البرنامج المساعد"
+msgstr[1] "البدء في تثبيت البرنامج المساعد"
+msgstr[2] "البدء في تثبيت المكونات الإضافية"
+msgstr[3] "البدء في تثبيت المكونات الإضافية"
+msgstr[4] "البدء في تثبيت المكونات الإضافية"
+msgstr[5] "البدء في تثبيت المكونات الإضافية"
+
+#: inc/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "البدء في تحديث البرنامج المساعد"
+msgstr[1] "البدء في تحديث البرنامج المساعد"
+msgstr[2] "البدء في تحديث المكونات الإضافية"
+msgstr[3] "البدء في تحديث المكونات الإضافية"
+msgstr[4] "البدء في تحديث المكونات الإضافية"
+msgstr[5] "البدء في تحديث المكونات الإضافية"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Best Deal"
+msgstr "أفضل صفقة"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Best Offer"
+msgstr "أفضل عرض"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Best Value"
+msgstr "القيمة الأفضل"
+
+#. Template Name of the theme
+msgid "Blank with Container"
+msgstr "فارغة مع الحاوية"
+
+#. Template Name of the theme
+msgid "Blank with Transparent Container"
+msgstr "فارغة مع حاوية شفافة"
+
+#. Template Name of the theme
+msgid "Blank without Container"
+msgstr "فارغة بدون حاوية"
+
+#: inc/cmd_functions.php:896
+msgid "Brand Location (IFrame)"
+msgstr "ماركة موقع (IFrame)"
+
+#: inc/cmd_functions.php:905
+msgid "Brand Video (IFrame)"
+msgstr "فيديو العلامة التجارية (IFrame)"
+
+#: inc/cmd_functions.php:826 inc/cmd_functions.php:840
+#: page-submit-coupons.php:285
+msgid "Brands"
+msgstr "ماركات"
+
+#: inc/cmd_tools.php:80
+msgid "Bulk Import"
+msgstr "استيراد بالجملة"
+
+#: inc/cmd_functions.php:709
+msgid "Button Color"
+msgstr "لون الزر"
+
+#. translators: 1: variable with price to be replaced
+#: inc/cmd_functions.php:2777
+msgid "Buy For %1$s"
+msgstr "شراء من %1$s"
+
+#: inc/cmd_functions.php:2768
+msgid "Buy Now"
+msgstr "تسوق الآن"
+
+#: inc/cmd_functions.php:3916 inc/demo_import.php:113
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: comments.php:101
+msgid "Cancel Reply"
+msgstr "إلغاء الرد"
+
+#: inc/customizer.php:1471
+msgid "Card And Image Settings"
+msgstr "إعدادات البطاقة والصورة"
+
+#: inc/customizer.php:182
+msgid "Card Background Color"
+msgstr "لون خلفية البطاقة"
+
+#: inc/customizer.php:170
+msgid "Card Title Color"
+msgstr "لون عنوان البطاقة"
+
+#: inc/customizer.php:1561 inc/customizer.php:1682
+msgid "Carousel Card"
+msgstr "بطاقة دائري"
+
+#: inc/customizer.php:1547 inc/customizer.php:1668
+msgid "Carousel Image"
+msgstr "صورة دائري"
+
+#: inc/cmd_functions.php:2555
+msgid "Cashback Earned"
+msgstr "حصل استرداد النقود"
+
+#: inc/cmd_functions.php:839
+msgid "Choose from the most used brands"
+msgstr "اختر من العلامات التجارية الأكثر استخدامًا"
+
+#: inc/cmd_functions.php:516
+msgid "Choose from the most used stores"
+msgstr "اختر من المتاجر الأكثر استخداما"
+
+#: inc/cmd_notification_logs.php:75
+msgid "Clear All"
+msgstr "امسح الكل"
+
+#: inc/cmd_functions.php:3911
+msgid "Click <strong class=\"text-danger\">Stop using Apple ID</strong>"
+msgstr ""
+"انقر على <strong class=\"text-danger\">التوقف عن استخدام معرف Apple</strong>"
+
+#: template-parts/code.php:78 template-parts/code.php:105
+#: template-parts/coupon-popup.php:102 template-parts/coupon-popup.php:172
+msgid "Click to Copy"
+msgstr "انقر للنسخ"
+
+#: inc/demo_import.php:108
+msgid ""
+"Clicking \"<strong>Import</strong>\" will reset your website as per "
+"\"<strong id=\"demoImport-name\">[DEMO]</strong>\", and all your content & "
+"settings (Coupons, Products, Menu, Widgets, etc.) will be permanently lost. "
+"Please take a backup of your content if you need to add it again later."
+msgstr ""
+"سيؤدي النقر على \"<strong>استيراد</strong>\" إلى إعادة تعيين موقع الويب "
+"الخاص بك وفقًا لـ \"<strong id=\"demoImport-name\">[DEMO]</strong>\"، وجميع "
+"المحتوى والإعدادات (القسائم، المنتجات، القائمة، سيتم فقدان الأدوات، وما إلى "
+"ذلك) بشكل دائم. يرجى أخذ نسخة احتياطية من المحتوى الخاص بك إذا كنت بحاجة إلى "
+"إضافته مرة أخرى لاحقًا."
+
+#. Theme Name of the theme
+#. Author of the theme
+#: style.css inc/customizer.php:1024 inc/quick_setup.php:95 inc/update.php:23
+msgid "ClipMyDeals"
+msgstr "ClipMyDeals"
+
+#: inc/customizer.php:346
+msgid "clipmydeals"
+msgstr "clipmydeals"
+
+#: inc/demo_import.php:59
+msgid "ClipMyDeals - Demo Import"
+msgstr "ClipMyDeals - استيراد تجريبي"
+
+#: inc/update.php:51
+msgid "ClipMyDeals Demo Import"
+msgstr "استيراد العرض التجريبي لـ ClipMyDeals"
+
+#: inc/update.php:52
+msgid "ClipMyDeals Quick Setup"
+msgstr "ClipMyDeals الإعداد السريع"
+
+#: template-parts/coupon-popup.php:230
+msgid "Close"
+msgstr "يغلق"
+
+#: inc/cmd_functions.php:1128 page-submit-coupons.php:214
+msgid "Code"
+msgstr "شفرة"
+
+#: page-submit-coupons.php:44
+msgid "Code is required for Printable Vouchers"
+msgstr "الرمز مطلوب للقسائم القابلة للطباعة"
+
+#: page-submit-coupons.php:42
+msgid "Code should be minimum 2 characters"
+msgstr "يجب أن يتكون الرمز من حرفين على الأقل"
+
+#: inc/cmd_functions.php:1132
+msgid "Code:"
+msgstr "شفرة:"
+
+#: inc/cmd_widgets.php:1818
+msgid "Codes"
+msgstr "رموز"
+
+#: inc/customizer.php:1892
+msgid ""
+"Comma Separated list of Facebook Profile IDs that are Admin of your Facebook "
+"Page."
+msgstr ""
+"قائمة مفصولة بفواصل لمعرفات الملفات الشخصية على فيسبوك التي تشرف على صفحتك "
+"على فيسبوك."
+
+#: inc/customizer.php:1971
+msgid ""
+"Comma seperated names of javascript files that should not have defer "
+"attribute."
+msgstr ""
+"أسماء ملفات جافا سكريبت مفصولة بفواصل والتي لا ينبغي أن تحتوي على سمة "
+"التأجيل."
+
+#: comments.php:55 comments.php:73
+msgid "Comment navigation"
+msgstr "تصفح التعليقات"
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:38
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "فكرة %1$s عن &ldquo;%2$s&rdquo;"
+msgstr[1] "فكرة %1$s عن &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s أفكار حول &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s أفكار حول &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s أفكار حول &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s أفكار حول &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:34
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "فكرة واحدة عن &ldquo;%s&rdquo;"
+
+#: inc/cmd_functions.php:2770
+msgid "Compare Price"
+msgstr "قارن الأسعار"
+
+#: inc/cmd_functions.php:4255
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+#: inc/cmd_functions.php:4365
+msgid "Contact Information"
+msgstr "معلومات الاتصال"
+
+#: inc/customizer.php:1777
+msgid "Contain"
+msgstr "يحتو"
+
+#: inc/customizer.php:1373 inc/customizer.php:1415 inc/customizer.php:1429
+msgid "Container"
+msgstr "حاوية"
+
+#: inc/customizer.php:1478
+msgid "Content Length"
+msgstr "طول المحتوى"
+
+#: inc/cmd_widgets.php:1829
+msgid "Count:"
+msgstr "الكونت النبيل:"
+
+#: inc/customizer.php:1589 inc/customizer.php:1710
+msgid "Coupon Card"
+msgstr "بطاقة القسيمة"
+
+#: inc/cmd_functions.php:1033
+msgid "Coupon Code"
+msgstr "رمز الكوبون"
+
+#: inc/cmd_functions.php:960
+msgid "Coupon Codes and Deals"
+msgstr "رموز القسيمة والصفقات"
+
+#: inc/customizer.php:1575 inc/customizer.php:1696
+msgid "Coupon Image"
+msgstr "صورة القسيمة"
+
+#: inc/cmd_widgets.php:2246
+msgid "Coupon Popup"
+msgstr "قسيمة منبثقة"
+
+#: inc/customizer.php:1137
+msgid "Coupon Settings"
+msgstr "إعدادات القسيمة"
+
+#: inc/cmd_functions.php:1025
+msgid "Coupon Type"
+msgstr "نوع القسيمة"
+
+#: inc/cmd_functions.php:1041
+msgid "Coupon URL"
+msgstr "عنوان URL للقسيمة"
+
+#: inc/cmd_functions.php:1167
+msgid "Coupon will start appearing from this day onwards"
+msgstr "سوف تبدأ القسيمة في الظهور من هذا اليوم فصاعدا"
+
+#: archive-coupons.php:51 inc/cmd_functions.php:284 inc/cmd_functions.php:286
+#: inc/cmd_functions.php:945 inc/cmd_functions.php:3601 inc/quick_setup.php:193
+msgid "Coupons"
+msgstr "كوبونات"
+
+#: inc/cmd_functions.php:959
+msgid "coupons"
+msgstr "كوبونات"
+
+#: inc/cmd_functions.php:3601
+msgid "Coupons & Products"
+msgstr "القسائم والمنتجات"
+
+#: archive-coupons.php:50
+msgid "Coupons navigation"
+msgstr "كوبونات الملاحة"
+
+#: inc/cmd_functions.php:1207
+msgid "Coupons will be listed in descending order of display priority."
+msgstr "سيتم إدراج الكوبونات بترتيب تنازلي حسب أولوية العرض."
+
+#: inc/customizer.php:1778
+msgid "Cover"
+msgstr "غطاء"
+
+#: inc/wp_bootstrap_navwalker.php:229
+msgid "Create Menu Items"
+msgstr "إنشاء عناصر القائمة"
+
+#: inc/cmd_notification_logs.php:120 inc/cmd_subscriptions.php:128
+msgid "Created On"
+msgstr "تم إنشاؤها على"
+
+#: inc/customizer.php:1535 inc/customizer.php:1656
+msgid "Custom"
+msgstr "مخصص"
+
+#: inc/update.php:41
+msgid "Customize Website"
+msgstr "تخصيص الموقع"
+
+#: inc/cmd_functions.php:1129
+msgid "Deal"
+msgstr "صفقة"
+
+#: inc/cmd_functions.php:1133
+msgid "Deal:"
+msgstr "صفقة:"
+
+#: inc/cmd_widgets.php:1815
+msgid "Deals"
+msgstr "صفقات"
+
+#: inc/customizer.php:1429 inc/customizer.php:1534 inc/customizer.php:1655
+msgid "Default"
+msgstr "الافتراضية"
+
+#: inc/customizer.php:252
+msgid "default"
+msgstr "الافتراضي"
+
+#: inc/customizer.php:1289
+msgid "Default Coupon Description"
+msgstr "وصف القسيمة الافتراضية"
+
+#: inc/customizer.php:1790
+msgid "Default Coupon Image"
+msgstr "صورة الكوبون الافتراضية"
+
+#: inc/customizer.php:1803
+msgid "Default Store Image"
+msgstr "صورة المتجر الافتراضية"
+
+#: inc/cmd_functions.php:3915 inc/cmd_notification_logs.php:74
+msgid "Delete"
+msgstr "شطب"
+
+#: inc/cmd_functions.php:3888
+msgid "Delete Account"
+msgstr "حذف الحساب"
+
+#: inc/cmd_tools.php:116
+msgid "Delete Demo Import Coupons"
+msgstr "حذف كوبونات الاستيراد التجريبي"
+
+#: inc/cmd_tools.php:105
+msgid "Delete Expired Coupons"
+msgstr "حذف الكوبونات منتهية الصلاحية"
+
+#: inc/cmd_notification_logs.php:69
+msgid "Delete Notification Logs After %s Day(s)"
+msgstr "حذف سجلات الإعلامات بعد %s يوم (أيام)"
+
+#: inc/update.php:43 inc/update.php:51
+msgid "Demo Import"
+msgstr "استيراد تجريبي"
+
+#: inc/demo_import.php:65
+msgid "Demo Import is not available in Child Theme."
+msgstr "الاستيراد التجريبي غير متوفر في السمة الفرعية."
+
+#: inc/cmd_tools.php:396
+msgid "Demo Imported Content has been permanently deleted."
+msgstr "تم حذف المحتوى التجريبي المستورد نهائيًا."
+
+#: page-submit-coupons.php:206
+msgid "Description"
+msgstr "وصف"
+
+#: page-submit-coupons.php:40
+msgid "Description should be minimum 5 characters"
+msgstr "يجب ألا يقل الوصف عن 5 أحرف"
+
+#: inc/customizer.php:1641
+msgid "Desktop Card and Images"
+msgstr "بطاقة سطح المكتب والصور"
+
+#: inc/customizer.php:1179 inc/customizer.php:1455
+msgid "Disable"
+msgstr "تعطيل"
+
+#: inc/cmd_functions.php:1979 inc/cmd_functions.php:2036
+msgid "Disable Push Notifications"
+msgstr "تعطيل دفع الإخطارات"
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "تجاهل هذا الإشعار"
+
+#: inc/customizer.php:1306
+msgid "Display Get Android In Footer"
+msgstr "عرض الحصول على Android في التذييل"
+
+#: inc/customizer.php:1319
+msgid "Display Get IOS In Footer"
+msgstr "عرض الحصول على IOS في التذييل"
+
+#: inc/customizer.php:288
+msgid "Display Latest Coupons"
+msgstr "عرض أحدث الكوبونات"
+
+#: inc/customizer.php:299
+msgid "Display Latest Posts"
+msgstr "عرض أحدث المنتجات"
+
+#: inc/customizer.php:277
+msgid "Display Popular Stores"
+msgstr "عرض المتاجر الشعبية"
+
+#: inc/cmd_functions.php:1089
+msgid "Display Priority"
+msgstr "أولوية العرض"
+
+#: inc/customizer.php:1770
+msgid "Display Type"
+msgstr "نوع العرض"
+
+#. translators: %s: Results count
+#: inc/cmd_functions.php:3623
+msgid "Displaying %s results"
+msgstr "عرض %s النتائج"
+
+#: inc/customizer.php:1970
+msgid "Do not defer following script tags"
+msgstr "لا تؤجل علامات البرنامج النصي التالي"
+
+#: inc/cmd_tools.php:72
+msgid "Download All Coupons"
+msgstr "تحميل جميع الكوبونات"
+
+#: inc/cmd_tools.php:91
+msgid "Download Sample File"
+msgstr "تحميل ملف العينة"
+
+#: inc/template-tags.php:152
+msgid "Edit"
+msgstr "يحرر"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:86 page-all-brands.php:99 page-all-locations.php:129
+#: page-all-offer-categories.php:137 page-all-stores.php:102
+#: page-alpha-stores.php:105 page-blog.php:68 page-submit-coupons.php:362
+#: page-transparent.php:65 template-parts/content-page.php:37
+msgid "Edit %s"
+msgstr "تحرير %s"
+
+#: inc/cmd_functions.php:833
+msgid "Edit Brand"
+msgstr "تحرير العلامة التجارية"
+
+#: inc/cmd_functions.php:951
+msgid "Edit Coupon"
+msgstr "تحرير القسيمة"
+
+#: inc/cmd_functions.php:416
+msgid "Edit Location"
+msgstr "تعديل موقع"
+
+#: inc/cmd_functions.php:3693
+msgid "Edit Notification"
+msgstr "تحرير الإخطار"
+
+#: inc/cmd_functions.php:327
+msgid "Edit Offer Category"
+msgstr "تحرير فئة العرض"
+
+#: inc/cmd_functions.php:510
+msgid "Edit Store"
+msgstr "تحرير المتجر"
+
+#: inc/cmd_functions.php:4247
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#: inc/customizer.php:1179 inc/customizer.php:1455
+msgid "Enable"
+msgstr "تمكين"
+
+#: inc/customizer.php:1101
+msgid "Enable Ajax Search"
+msgstr "تمكين بحث اياكس"
+
+#: inc/cmd_functions.php:1979 inc/cmd_functions.php:2004
+#: inc/cmd_functions.php:2013 inc/cmd_functions.php:2358
+msgid "Enable Push Notifications"
+msgstr "تمكين دفع الإشعارات"
+
+#: inc/customizer.php:1823
+msgid "Enable Social Media Optimization"
+msgstr "تمكين تحسين وسائل التواصل الاجتماعي"
+
+#: inc/customizer.php:1283
+msgid ""
+"Enjoy big savings with this voucher. Don’t miss out, valid for limited "
+"period only."
+msgstr ""
+"استمتع بتوفير كبير مع هذه القسيمة. لا تفوت الفرصة، صالحة لفترة محدودة فقط."
+
+#: inc/customizer.php:1234 inc/customizer.php:1248
+msgid "Enter -1 to display all"
+msgstr "أدخل -1 لعرض الكل"
+
+#: inc/customizer.php:1491 inc/customizer.php:1508
+msgid "Enter 0 for no limit"
+msgstr "أدخل الرقم 0 لـ بدون حد"
+
+#: inc/cmd_functions.php:371 inc/cmd_functions.php:682
+#: inc/cmd_functions.php:704 inc/cmd_functions.php:882
+msgid "Enter a valid image URL here"
+msgstr "أدخل عنوان URL صالح للصورة هنا"
+
+#: inc/cmd_functions.php:673
+msgid "Enter each subdomain on new line."
+msgstr "أدخل كل مجال فرعي في السطر الجديد."
+
+#: inc/cmd_functions.php:750
+msgid "Enter store Categories (Comma separated list)"
+msgstr "أدخل فئات المتجر (قائمة مفصولة بفواصل)"
+
+#: inc/cmd_functions.php:759
+msgid ""
+"Enter store Display Priority (Stores will be listed in descending order of "
+"display priority.)"
+msgstr ""
+"أدخل أولوية عرض المتجر (سيتم إدراج المتاجر بترتيب تنازلي حسب أولوية العرض.)"
+
+#: inc/cmd_functions.php:664
+msgid "Enter store's default Affiliate URL here."
+msgstr "أدخل عنوان URL الافتراضي للمتجر التابع هنا."
+
+#: inc/cmd_functions.php:380 inc/cmd_functions.php:473
+#: inc/cmd_functions.php:741 inc/cmd_functions.php:891
+msgid ""
+"Enter title you want to display (leave empty to display default page title)"
+msgstr "أدخل العنوان الذي تريد عرضه (اتركه فارغًا لعرض عنوان الصفحة الافتراضي)"
+
+#: inc/customizer.php:1519 inc/customizer.php:1640
+msgid "Enter values in pixels for custom height and 0 for defualt values"
+msgstr "أدخل القيم بالبكسل للارتفاع المخصص و0 للقيم الافتراضية"
+
+#: inc/cmd_functions.php:655
+msgid "Enter website URL here."
+msgstr "أدخل عنوان URL لموقع الويب هنا."
+
+#: inc/update.php:72
+msgid "Enter your 16 Digit License Key : "
+msgstr "أدخل مفتاح الترخيص المكون من 16 رقمًا: "
+
+#: inc/cmd_tools.php:142
+msgid "Error during File Upload : %s"
+msgstr "خطأ أثناء تحميل الملف: %s"
+
+#: inc/cmd_tools.php:175
+msgid "Error on Row %s: Coupon [ID] does not Exist"
+msgstr "خطأ في الصف %s: القسيمة [المعرف] غير موجودة"
+
+#: inc/cmd_tools.php:172
+msgid "Error on Row %s: Empty coupon [title]"
+msgstr "خطأ في الصف %s: قسيمة فارغة [العنوان]"
+
+#: inc/customizer.php:1348
+msgid "Example: com.google.android"
+msgstr "مثال: com.google.android"
+
+#: inc/customizer.php:1334
+msgid "Example: url-friendly-app-name/id123456"
+msgstr "مثال: اسم التطبيق الصديق لعنوان url/id123456"
+
+#. translators: 1: validity
+#: inc/cmd_functions.php:2733
+msgid "Expired"
+msgstr "منتهي الصلاحية"
+
+#: template-parts/coupon-grid.php:122 template-parts/coupon-list.php:188
+#: template-parts/coupon-popup.php:216 template-parts/coupon-print.php:59
+#: template-parts/single-coupon.php:196
+msgid "Expired On"
+msgstr "تاريخ الانتهاء"
+
+#: inc/cmd_tools.php:69
+msgid "Export"
+msgstr "يصدّر"
+
+#: inc/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "مصدر خارجي"
+
+#: inc/customizer.php:1891
+msgid "Facebook Admins"
+msgstr "مدراء Facebook"
+
+#: inc/customizer.php:1864
+msgid "Facebook App ID"
+msgstr "معرف تطبيق Facebook"
+
+#: inc/customizer.php:1877
+msgid "Facebook Page URL"
+msgstr "عنوان URL لصفحة Facebook"
+
+#: inc/cmd_notification_logs.php:108
+msgid "Failed"
+msgstr "فشل"
+
+#: inc/cmd_functions.php:1985 inc/cmd_functions.php:2039
+msgid "Failed to enable notifications."
+msgstr "فشل في تمكين الإخطارات."
+
+#: inc/cmd_tools.php:231
+msgid "File uploaded. %s offers processed successfully."
+msgstr "ملف مرفوع. تمت معالجة عروض %s بنجاح."
+
+#: inc/customizer.php:1779
+msgid "Fill"
+msgstr "ملأ"
+
+#: inc/cmd_functions.php:4237
+msgid "First Name"
+msgstr "الاسم الأول"
+
+#: inc/customizer.php:1956
+msgid "Footer"
+msgstr "تذييل"
+
+#: functions.php:116
+msgid "Footer 1"
+msgstr "تذييل 1"
+
+#: functions.php:125
+msgid "Footer 2"
+msgstr "تذييل 2"
+
+#: functions.php:134
+msgid "Footer 3"
+msgstr "تذييل 3"
+
+#: inc/cmd_widgets.php:2226
+msgid "Footer 4"
+msgstr "تذييل 4"
+
+#: inc/customizer.php:202
+msgid "Footer Color"
+msgstr "لون التذييل"
+
+#: inc/customizer.php:213
+msgid "Footer Text Left"
+msgstr "نص التذييل لليسار"
+
+#: inc/customizer.php:224
+msgid "Footer Text Right"
+msgstr "نص التذييل في اليمين"
+
+#. translators: 1: Update Link 2: Minimum required version 2: template name
+#: inc/cmd_functions.php:176
+msgid ""
+"For the cashback pages to function correctly, please update your <strong>"
+"%3$s</strong> plugin to atleast <strong>%2$s</strong>. <a href=\"%1$s\">"
+"Click here to update.</a>"
+msgstr ""
+"لكي تعمل صفحات استرداد النقود بشكل صحيح، يرجى تحديث المكون الإضافي <strong>"
+"%3$s</strong> إلى <strong>%2$s</strong> على الأقل. <a href=\"%1$s\">انقر هنا "
+"للتحديث.</a>"
+
+#. translators: 1: Update Link 2: Minimum required version 2: template name
+#: inc/cmd_functions.php:189
+msgid ""
+"For the comparison pages to function correctly, please update your <strong>"
+"%3$s</strong> plugin to atleast <strong>%2$s</strong>. <a href=\"%1$s\">"
+"Click here to update.</a>"
+msgstr ""
+"لكي تعمل صفحات المقارنة بشكل صحيح، يرجى تحديث المكون الإضافي <strong>"
+"%3$s</strong> إلى <strong>%2$s</strong> على الأقل. <a href=\"%1$s\">انقر هنا "
+"للتحديث.</a>"
+
+#: inc/customizer.php:238
+msgid "Frontpage Settings"
+msgstr "الصفحة الأمامية إعدادات"
+
+#: inc/customizer.php:1878
+msgid "Full URL of website's Facebook Page"
+msgstr "عنوان URL الكامل لصفحة Facebook الخاصة بالموقع"
+
+#. Template Name of the theme
+#: inc/customizer.php:1373
+msgid "Full Width"
+msgstr "العرض الكامل"
+
+#: inc/customizer.php:1415 inc/customizer.php:1429
+msgid "Full width"
+msgstr "العرض الكامل"
+
+#: template-parts/code.php:72 template-parts/code.php:125
+msgid "Get Code"
+msgstr "الحصول على رمز"
+
+#: inc/linkmydeals.php:46
+msgid "Get Coupon Feeds from 4000+ Online Stores around the world"
+msgstr "احصل على خلاصات القسيمة من أكثر من 4000 متجر عبر الإنترنت حول العالم"
+
+#: inc/cmd_functions.php:1424 inc/customizer.php:1832
+msgid "Get Latest Coupons and Deals for your Online Shopping"
+msgstr "احصل على أحدث الكوبونات والصفقات للتسوق عبر الإنترنت"
+
+#: inc/cmd_functions.php:3906
+msgid "Go to iPhone <strong>Settings</strong>"
+msgstr "انتقل إلى <strong>الإعدادات</strong> على iPhone"
+
+#: inc/cmd_functions.php:732 inc/cmd_functions.php:909
+msgid ""
+"Go to Youtube video, click on Share > Embed. Copy the HTML and paste in the "
+"above box."
+msgstr ""
+"انتقل إلى فيديو Youtube، وانقر على مشاركة > تضمين. انسخ HTML والصقه في "
+"المربع أعلاه."
+
+#: inc/cmd_functions.php:4292
+msgid "Google Pay ID"
+msgstr "معرف Google Pay"
+
+#: inc/customizer.php:1151 inc/quick_setup.php:125
+msgid "Grid (2 in a row)"
+msgstr "الشبكة (2 على التوالي)"
+
+#: inc/customizer.php:1151 inc/quick_setup.php:126
+msgid "Grid (3 in a row)"
+msgstr "الشبكة (3 على التوالي)"
+
+#: inc/customizer.php:1151 inc/quick_setup.php:127
+msgid "Grid (4 in a row)"
+msgstr "الشبكة (4 على التوالي)"
+
+#: inc/customizer.php:1941
+msgid "Header"
+msgstr "رأس الموقع"
+
+#: inc/customizer.php:109
+msgid "Header Background Color"
+msgstr "لون خلفية الرأس"
+
+#: inc/customizer.php:120
+msgid "Header Background Gradient"
+msgstr "تدرج خلفية الرأس"
+
+#: inc/customizer.php:1371
+msgid "Header Width"
+msgstr "عرضرأس"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "أخفالتفاصيل"
+
+#: inc/wp_bootstrap_navwalker.php:228
+msgid "Home"
+msgstr "بيت"
+
+#: inc/customizer.php:247
+msgid "Homepage Coupon Layout"
+msgstr "تخطيط قسيمة الصفحة الرئيسية"
+
+#: inc/customizer.php:1427
+msgid "Homepage Layout Type"
+msgstr "نوع تخطيط الصفحة الرئيسية"
+
+#: inc/cmd_widgets.php:2236
+msgid "Homepage Widget"
+msgstr "القطعة الصفحة الرئيسية"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Hot Deal"
+msgstr "صفقة حاسمة"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Hot Offer"
+msgstr "عرض مغري"
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://clipmydeals.com"
+msgstr "https://clipmydeals.com"
+
+#: inc/cmd_notification_logs.php:116 inc/cmd_subscriptions.php:125
+msgid "ID"
+msgstr "الهوية"
+
+#: inc/cmd_functions.php:1143
+msgid ""
+"If you want to show \"Get Coupon Code\" button even for deals, then you can "
+"set \"Coupon Type\" as \"code\" and write something like \"No Coupon Code "
+"Required\" here."
+msgstr ""
+"إذا كنت تريد إظهار زر \"الحصول على رمز القسيمة\" حتى للصفقات، فيمكنك تعيين "
+"\"نوع القسيمة\" كـ \"رمز\" وكتابة شيء مثل \"لا يلزم وجود رمز قسيمة\" هنا."
+
+#: inc/customizer.php:1761
+msgid "Image Preferences"
+msgstr "تفضيلات الصورة"
+
+#: inc/cmd_functions.php:367 inc/cmd_functions.php:878
+#: inc/cmd_functions.php:1049 inc/cmd_widgets.php:2177
+msgid "Image URL"
+msgstr "رابط الصورة"
+
+#: page-submit-coupons.php:329
+msgid "Image/Banner URL"
+msgstr "عنوان URL للصورة / الشعار"
+
+#: inc/cmd_widgets.php:2175
+msgid "Image:"
+msgstr "صورة:"
+
+#: inc/customizer.php:666
+msgid "Images per slide"
+msgstr "الصور لكل شريحة"
+
+#: inc/demo_import.php:112 inc/demo_import.php:158
+msgid "Import"
+msgstr "يستورد"
+
+#: inc/demo_import.php:82
+msgid "Import Demo"
+msgstr "استيراد تجريبي"
+
+#: inc/cmd_tools.php:89
+msgid "Import File"
+msgstr "استيراد ملف"
+
+#: inc/cmd_functions.php:564 inc/cmd_functions.php:612
+#: inc/cmd_functions.php:769
+msgid "Inactive"
+msgstr "غير نشط"
+
+#: inc/cmd_widgets.php:1867
+msgid "INCLUDE BRAND (comma-separated list of brand slug)"
+msgstr ""
+"تضمين العلامة التجارية (قائمة مفصولة بفواصل من سبيكة العلامة التجارslug)"
+
+#: inc/cmd_widgets.php:1861
+msgid "INCLUDE CATEGORY (comma-separated list of category slug)"
+msgstr "تضمين الفئة (قائمة مفصولة بفواصل Slug للفئة )"
+
+#: inc/cmd_widgets.php:1864
+msgid "INCLUDE LOCATION (comma-separated list of location slug)"
+msgstr "تضمين الموقع (قائمة مفصولة بفواصل للموقع SLUG)"
+
+#: inc/cmd_widgets.php:1858
+msgid "INCLUDE STORE(comma-separated list of store slug)"
+msgstr "تضمين المتجر (قائمة مفصولة بفواصل من سبيكة المتجر)"
+
+#: inc/customizer.php:1165
+msgid "Inline"
+msgstr "مضمنة"
+
+#: inc/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "قم بتثبيت"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2696
+msgid "Install %2$s"
+msgstr "قم بتثبيت %2$s"
+
+#: inc/linkmydeals.php:47
+msgid "Install LinkMyDeals Plugin"
+msgstr "قم بتثبيت البرنامج المساعد LinkMyDeals"
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "تثبيت ملحق"
+
+#: inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "تثبيت مطلوب الإضافات"
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2435
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s، %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "تم تثبيته ولكن غير نشط"
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "النسخة المثبتة:"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت وتنشيط المكون الإضافي %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت البرنامج الإضافي %1$s (%2$d/%3$d)"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "تثبيت البرنامج المساعد: %s"
+
+#: page-submit-coupons.php:30
+msgid "Invalid Captcha"
+msgstr "كلمة التحقق غير صالحة"
+
+#: page-submit-coupons.php:50
+msgid "Invalid Image URL"
+msgstr "عنوان URL للصورة غير صالح"
+
+#: page-submit-coupons.php:48
+msgid "Invalid Landing Page URL"
+msgstr "عنوان URL غير صالح للصفحة المقصودة"
+
+#: inc/customizer.php:1333
+msgid "IOS App/Bundle ID"
+msgstr "معرف تطبيق/حزمة IOS"
+
+#: inc/customizer.php:1262
+msgid ""
+"Is set to \"No\", comments & sharing of individual coupons will get disabled"
+msgstr "تم تعيينه على \"لا\"، وسيتم تعطيل التعليقات ومشاركة القسائم الفردية"
+
+#: 404.php:31
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"يبدو أنه لم يتم العثور على أي شيء في هذا الموقع. ربما جرب أحد الروابط أدناه "
+"أو ابحث؟"
+
+#: template-parts/content-none.php:38
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "يبدو أننا لا نستطيع العثور على ما تبحث عنه. ربما يمكن أن يساعد البحث."
+
+#: template-parts/content-nocoupons.php:41
+msgid ""
+"It seems we don&rsquo;t have any coupons for this category. Try searching "
+"for something else."
+msgstr "يبدو أنه ليس لدينا أي كوبونات لهذه الفئة. حاول البحث عن شيء آخر."
+
+#: inc/cmd_widgets.php:2180 inc/customizer.php:408 inc/customizer.php:435
+#: inc/customizer.php:462 inc/customizer.php:489 inc/customizer.php:516
+#: inc/customizer.php:543 inc/customizer.php:570 inc/customizer.php:597
+#: inc/customizer.php:624 inc/customizer.php:651 inc/customizer.php:695
+#: inc/customizer.php:722 inc/customizer.php:749 inc/customizer.php:776
+#: inc/customizer.php:803 inc/customizer.php:830 inc/customizer.php:857
+#: inc/customizer.php:884 inc/customizer.php:911 inc/customizer.php:938
+#: inc/customizer.php:965 inc/customizer.php:992 page-submit-coupons.php:237
+msgid "Landing Page URL"
+msgstr "عنوان URL للصفحة المقصودة"
+
+#: page-submit-coupons.php:46
+msgid "Landing Page URL is required for Online Offers"
+msgstr "مطلوب عنوان URL للصفحة المقصودة للعروض عبر الإنترنت"
+
+#: inc/cmd_functions.php:4241
+msgid "Last Name"
+msgstr "اسم العائلة"
+
+#: index.php:160
+msgid "Latest Offers"
+msgstr "آخر العروض"
+
+#: inc/customizer.php:1413
+msgid "Layout Type"
+msgstr "تَخطِيط نوع"
+
+#. translators: %s: post title
+#: inc/template-tags.php:44
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "اترك تعليقًا<span class=\"screen-reader-text\"> على %s</span>"
+
+#: comments.php:97
+msgid "Leave a Reply"
+msgstr "اترك رد"
+
+#. translators: 1:reply
+#: comments.php:98
+msgid "Leave a Reply to %s"
+msgstr "ترك الرد إلى٪ s"
+
+#: inc/customizer.php:1401
+msgid "Left"
+msgstr "يساري"
+
+#. Template Name of the theme
+msgid "Left Sidebar"
+msgstr "الشريط الجانبي الأيسر"
+
+#: inc/update.php:50 inc/update.php:71
+msgid "License Key"
+msgstr "مفتاح الترخيص"
+
+#: inc/cmd_functions.php:1105
+msgid "LinkMyDeals ID"
+msgstr "LinkMyDeals الهوية"
+
+#: inc/customizer.php:253
+msgid "List"
+msgstr "قائمة"
+
+#: inc/customizer.php:1151 inc/quick_setup.php:124
+msgid "List (1 per row)"
+msgstr "القائمة (1 لكل صف)"
+
+#: inc/cmd_functions.php:1758
+msgid "Loading"
+msgstr "جاري تحميل"
+
+#: inc/customizer.php:1177 inc/quick_setup.php:177
+msgid "Location Taxonomy"
+msgstr "تصنيف الموقع"
+
+#: inc/cmd_functions.php:306 inc/cmd_functions.php:308
+#: inc/cmd_functions.php:410 inc/cmd_functions.php:421
+#: page-submit-coupons.php:305
+msgid "Locations"
+msgstr "المواقع"
+
+#: inc/cmd_functions.php:4209 inc/cmd_functions.php:4211
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: inc/cmd_widgets.php:2256
+msgid "Login Popup - Above Form"
+msgstr "نافذة منبثقة لتسجيل الدخول - فوق النموذج"
+
+#: inc/cmd_widgets.php:2266
+msgid "Login Popup - Below Form"
+msgstr "نافذة منبثقة لتسجيل الدخول - أسفل النموذج"
+
+#: inc/cmd_functions.php:2542 inc/cmd_functions.php:2544
+msgid "Login/Register"
+msgstr "دخولتسجيل"
+
+#: inc/cmd_functions.php:678
+msgid "Logo URL"
+msgstr "عنوان URL للشعار"
+
+#: inc/cmd_functions.php:2556
+msgid "Logout"
+msgstr "تسجيل خروج"
+
+#: inc/cmd_functions.php:460
+msgid "Map IFrame"
+msgstr "خريطة IFrame"
+
+#: inc/customizer.php:1507
+msgid "Max. characters for coupon description"
+msgstr "الأعلى. أحرف وصف القسيمة"
+
+#: inc/customizer.php:1490
+msgid "Max. characters for coupon title"
+msgstr "الحد الأقصى لعدد الأحرف لعنوان القسيمة"
+
+#: inc/quick_setup.php:202
+msgid "Menu"
+msgstr "قائمة طعام"
+
+#: inc/cmd_notification_logs.php:119
+msgid "Message"
+msgstr "رسالة"
+
+#: inc/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "الحد الأدنى للإصدار المطلوب:"
+
+#: inc/customizer.php:1520
+msgid "Mobile Card and Images"
+msgstr "بطاقة الجوال والصور"
+
+#: inc/customizer.php:680
+msgid "Multi Slide #1"
+msgstr "شرائح متعددة #قم 1"
+
+#: inc/customizer.php:923
+msgid "Multi Slide #10"
+msgstr "شرائح متعددة #قم 10"
+
+#: inc/customizer.php:950
+msgid "Multi Slide #11"
+msgstr "شرائح متعددة #قم 11"
+
+#: inc/customizer.php:977
+msgid "Multi Slide #12"
+msgstr "شرائح متعددة #قم 13"
+
+#: inc/customizer.php:707
+msgid "Multi Slide #2"
+msgstr "شرائح متعددة #قم 2"
+
+#: inc/customizer.php:734
+msgid "Multi Slide #3"
+msgstr "شرائح متعددة #قم3"
+
+#: inc/customizer.php:761
+msgid "Multi Slide #4"
+msgstr "شرائح متعددة #قم 4"
+
+#: inc/customizer.php:788
+msgid "Multi Slide #5"
+msgstr "شرائح متعددة #قم 5"
+
+#: inc/customizer.php:815
+msgid "Multi Slide #6"
+msgstr "شرائح متعددة #قم 6"
+
+#: inc/customizer.php:842
+msgid "Multi Slide #7"
+msgstr "شرائح متعددة #قم 7"
+
+#: inc/customizer.php:869
+msgid "Multi Slide #8"
+msgstr "شرائح متعددة #قم 8"
+
+#: inc/customizer.php:896
+msgid "Multi Slide #9"
+msgstr "شرائح متعددة #قم 9"
+
+#: inc/customizer.php:318 inc/quick_setup.php:142
+msgid "Multi Slides"
+msgstr "الشرائح متعددة"
+
+#: inc/cmd_functions.php:2554
+msgid "My Profile"
+msgstr "معلوماتي"
+
+#: inc/cmd_functions.php:4357
+msgid "Name of Account"
+msgstr "اسم الحساب"
+
+#: inc/cmd_functions.php:4342
+msgid "Name of Bank"
+msgstr "اسم البنك"
+
+#: inc/customizer.php:134
+msgid "Navbar Inactive Text Color"
+msgstr "لون النص غير النشط في شريط التنقل"
+
+#: inc/customizer.php:145
+msgid "Navbar Search Button Color"
+msgstr "لون زر البحث في شريط التنقل"
+
+#: inc/customizer.php:1441
+msgid "Navbar Type"
+msgstr "نوع شريط التنقل"
+
+#: inc/cmd_functions.php:836
+msgid "New Brand Name"
+msgstr "اسم العلامة التجارية الجديدة"
+
+#: inc/cmd_functions.php:420
+msgid "New Location Name"
+msgstr "اسم موقع جديد"
+
+#: inc/cmd_functions.php:330
+msgid "New Offer Category Name"
+msgstr "اسم فئة العرض الجديد"
+
+#: inc/cmd_functions.php:513
+msgid "New Store Name"
+msgstr "اسم المتجر الجديد"
+
+#: comments.php:59 comments.php:77
+msgid "Newer Comments"
+msgstr "أحدث التعليقات"
+
+#: archive-coupons.php:48
+msgid "Next Coupons"
+msgstr "القسائم التالية"
+
+#: page-blog.php:57 search.php:155 taxonomy-brands.php:123
+#: taxonomy-locations.php:117 taxonomy-offer_categories.php:124
+#: taxonomy-stores.php:175
+msgid "Next Page"
+msgstr "الصفحة التالية"
+
+#: inc/customizer.php:1106 inc/customizer.php:1193 inc/customizer.php:1206
+#: inc/customizer.php:1221 inc/customizer.php:1264 inc/customizer.php:1278
+#: inc/customizer.php:1387 inc/customizer.php:1990
+msgid "No"
+msgstr "لا"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "لم يتم اتخاذ أي إجراء. كان المكون الإضافي %1$s نشطًا بالفعل."
+
+#: template-parts/content-nocoupons.php:14
+msgid "No Coupons Found"
+msgstr "لم يتم العثور على قسائم"
+
+#: inc/linkmydeals.php:55
+msgid ""
+"No outdated offers: When a store does not communicate offer validity, We "
+"check it as frequently as twice a day. As soon as the offer expires, we "
+"suspend it in our database."
+msgstr ""
+"لا توجد عروض قديمة: عندما لا يقوم المتجر بإبلاغ صلاحية العرض، فإننا نتحقق "
+"منه بشكل متكرر مرتين في اليوم. بمجرد انتهاء العرض، نقوم بتعليقه في قاعدة "
+"البيانات الخاصة بنا."
+
+#: inc/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "لا توجد مكونات إضافية متاحة للتنشيط في هذا الوقت."
+
+#: inc/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "لا توجد مكونات إضافية متاحة للتثبيت في هذا الوقت."
+
+#: inc/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "لا توجد مكونات إضافية متاحة للتحديث في هذا الوقت."
+
+#: inc/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "لا توجد مكونات إضافية ملحق أو التحديث أو التنشيط."
+
+#: inc/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "لم يتم اختيار أي مكونات إضافية ليتم تفعيلها. لم يتم اتخاذ أي إجراء."
+
+#: inc/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "لم تحديد أي ملحق للتثبيت. لم يتم اتخاذ أي إجراء."
+
+#: inc/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "لم يتم تحديد أي مكونات إضافية ليتم تحديثها. لم يتم اتخاذ أي إجراء."
+
+#: inc/cmd_functions.php:2775
+msgid "No reveiws"
+msgstr "لا المراجعات"
+
+#: inc/linkmydeals.php:54
+msgid ""
+"No vague & useless sentences: Our Offer Titles & Descriptions have a pretty "
+"standard length, unlike all our competitors who give junk lines."
+msgstr ""
+"لا توجد جمل غامضة وغير مجدية: تتميز عناوين وأوصاف عروضنا بطول قياسي جدًا، "
+"على عكس جميع منافسينا الذين يقدمون سطورًا غير مهمة."
+
+#: inc/customizer.php:1233
+msgid "No. of Active Coupons on Store/Category/Brand page"
+msgstr "ماركة موقع"
+
+#: inc/customizer.php:267
+msgid "No. of Coupons on Homepage"
+msgstr "عدد القسائم على الصفحة الرئيسية"
+
+#: inc/customizer.php:1247
+msgid "No. of Expired Coupons on Store/Category/Brand page"
+msgstr "عدد الكوبونات منتهية الصلاحية في صفحة المتجر/الفئة/العلامة التجارية"
+
+#: inc/cmd_functions.php:4384 inc/customizer.php:315 inc/quick_setup.php:138
+msgid "None"
+msgstr "لا أحد"
+
+#: inc/customizer.php:1443
+msgid "Normal"
+msgstr "طبيعي"
+
+#: inc/cmd_functions.php:954 inc/cmd_functions.php:3696
+msgid "Not Found"
+msgstr "غير معثور عليه"
+
+#: inc/cmd_functions.php:955 inc/cmd_functions.php:3697
+msgid "Not found in Trash"
+msgstr "لم يتم العثور عليه في سلة المهملات"
+
+#: inc/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "غير مثبت"
+
+#: inc/customizer.php:1387
+msgid "Not on Homepage"
+msgstr "ليس على الصفحة الرئيسية"
+
+#: inc/cmd_functions.php:1175
+msgid "Note:"
+msgstr "نوتة:"
+
+#: inc/cmd_functions.php:1097
+msgid "Notes"
+msgstr "ملحوظات"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: inc/cmd_functions.php:3701
+msgid "notification"
+msgstr "إعلام"
+
+#: inc/customizer.php:1450
+msgid "Notification Requests"
+msgstr "طلبات الإخطار"
+
+#: inc/cmd_functions.php:3742
+msgid "Notification URL"
+msgstr "عنوان URL للإشعار"
+
+#: inc/cmd_functions.php:3688 inc/cmd_functions.php:3702
+msgid "Notifications"
+msgstr "إشعارات"
+
+#: inc/cmd_functions.php:1984 inc/cmd_functions.php:2038
+#: inc/cmd_functions.php:2089
+msgid "Notifications denied by user."
+msgstr "تم رفض الإخطارات من قبل المستخدم."
+
+#: inc/cmd_notification_logs.php:25 inc/cmd_notification_logs.php:61
+msgid "Notifications Log"
+msgstr "المواقعسجل الإخطار"
+
+#: inc/cmd_notification_logs.php:175
+msgid "Notifications log cleared successfully."
+msgstr "تم مسح سجل الإخطارات بنجاح."
+
+#: inc/customizer.php:1149 inc/quick_setup.php:120
+msgid "Number of Coupons on single row"
+msgstr "عدد القسائم في صف واحد"
+
+#: inc/customizer.php:667
+msgid ""
+"Number of images to show per slide on multi slides.<br> Recommended Three "
+"Images per Slide"
+msgstr ""
+"عدد الصور التي سيتم عرضها لكل شريحة على شرائح متعددة.<br> يوصى بثلاث صور لكل "
+"شريحة"
+
+#: inc/customizer.php:1119
+msgid "Number of results to show in Ajax search"
+msgstr "عدد النتائج التي سيتم عرضها في بحث Ajax"
+
+#: inc/customizer.php:1465
+msgid "Off"
+msgstr "عن"
+
+#: inc/cmd_functions.php:2240 inc/cmd_functions.php:2340
+#: inc/cmd_widgets.php:114 inc/cmd_widgets.php:290 inc/cmd_widgets.php:487
+#: index.php:85 page-all-brands.php:81 page-all-locations.php:109
+#: page-all-offer-categories.php:113 page-alpha-stores.php:72
+msgid "Offer"
+msgstr "عرو"
+
+#: inc/cmd_functions.php:298 inc/cmd_functions.php:300
+#: inc/cmd_functions.php:321 inc/cmd_functions.php:331
+#: page-submit-coupons.php:267
+msgid "Offer Categories"
+msgstr "فئات العرض"
+
+#: page-submit-coupons.php:195
+msgid "Offer Details"
+msgstr "تفاصيل العرض"
+
+#: page-submit-coupons.php:219
+msgid "Offer Type"
+msgstr "نوع العرض"
+
+#: inc/cmd_functions.php:2240 inc/cmd_functions.php:2340
+#: inc/cmd_widgets.php:114 inc/cmd_widgets.php:290 inc/cmd_widgets.php:487
+#: inc/cmd_widgets.php:1987 index.php:85 page-all-brands.php:81
+#: page-all-locations.php:68 page-all-locations.php:109
+#: page-all-offer-categories.php:70 page-all-offer-categories.php:113
+#: page-all-stores.php:84 page-alpha-stores.php:72
+msgid "Offers"
+msgstr "عروض"
+
+#: comments.php:58 comments.php:76
+msgid "Older Comments"
+msgstr "تعليقات أقدم"
+
+#: inc/customizer.php:1465
+msgid "On"
+msgstr "على"
+
+#: inc/customizer.php:1387
+msgid "On all pages"
+msgstr "في جميع الصفحات"
+
+#: inc/cmd_functions.php:3903
+msgid ""
+"Once your <strong>%s</strong> account is deleted, you will also have to "
+"manually revoke this App's Permissions in your iPhone Settings by following "
+"the below steps:"
+msgstr ""
+"بمجرد حذف حساب <strong>%s</strong> الخاص بك، سيتعين عليك أيضًا إلغاء أذونات "
+"هذا التطبيق يدويًا في إعدادات iPhone باتباع الخطوات التالية:"
+
+#: page-submit-coupons.php:221
+msgid "Online"
+msgstr "يحرر"
+
+#: inc/customizer.php:1387
+msgid "Only on homepage"
+msgstr "فقط على الصفحة الرئيسية"
+
+#: 404.php:27
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عفوا! هذه الصفحة لا يمكن ايجادها."
+
+#. translators: %s: Alphabet filter on Store Page
+#: page-alpha-stores.php:86
+msgid "Oops! We do not have any store starting with %s"
+msgstr "وجه الفتاة! ليس لدينا أي متجر يبدأ بـ %s"
+
+#: inc/cmd_widgets.php:158 inc/cmd_widgets.php:337 inc/cmd_widgets.php:561
+#: inc/cmd_widgets.php:726 inc/cmd_widgets.php:899 inc/cmd_widgets.php:1052
+#: inc/cmd_widgets.php:1214 inc/cmd_widgets.php:1834 inc/cmd_widgets.php:2038
+msgid "Order By:"
+msgstr "ترتيب حسب:"
+
+#: inc/customizer.php:1985
+msgid "Orderby Display Priority"
+msgstr "ترتيب حسب أولوية العرض"
+
+#: inc/customizer.php:1358
+msgid "Other Customizations"
+msgstr "تخصيصات أخرى"
+
+#: inc/cmd_functions.php:376 inc/cmd_functions.php:469
+#: inc/cmd_functions.php:737 inc/cmd_functions.php:887
+msgid "Page Title"
+msgstr "عنوان الصفحة"
+
+#: inc/quick_setup.php:199
+msgid "Pages"
+msgstr "الصفحات"
+
+#: page-transparent.php:51 template-parts/content-notitle.php:18
+#: template-parts/content-page.php:23 template-parts/content.php:40
+#: template-parts/post.php:34
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: inc/cmd_functions.php:946
+msgid "Parent Coupon"
+msgstr "قسيمة البحث"
+
+#: inc/cmd_functions.php:414
+msgid "Parent Location"
+msgstr "موقع الوالدين"
+
+#: inc/cmd_functions.php:415
+msgid "Parent Location:"
+msgstr "موقع الوالدين:"
+
+#: inc/cmd_functions.php:325
+msgid "Parent Offer Category"
+msgstr "الأبوين عرض فئة"
+
+#: inc/cmd_functions.php:326
+msgid "Parent Offer Category:"
+msgstr "الأبوين عرض فئة:"
+
+#: inc/cmd_functions.php:4251
+msgid "Password"
+msgstr "كلمه السر"
+
+#: functions.php:208
+msgid "Password:"
+msgstr "كلمة المرور:"
+
+#: inc/cmd_functions.php:4424
+msgid "Passwords do not match"
+msgstr "كلمة المرور غير مطابقة"
+
+#: inc/cmd_functions.php:4306
+msgid "Paym Phone Number (UK)"
+msgstr "رقم هاتف الدفع (المملكة المتحدة)"
+
+#: inc/cmd_functions.php:4265
+msgid "Payment Details"
+msgstr "تفاصيل الدفع"
+
+#: inc/cmd_functions.php:4285
+msgid "PayPal Email Address"
+msgstr "عنوان البريد الإلكتروني Paypal"
+
+#: inc/cmd_functions.php:4313
+msgid "PayTM ID (India)"
+msgstr "معرف PayTM (الهند)"
+
+#: inc/cmd_functions.php:4373
+msgid "Phone Number"
+msgstr "رقم التليفون"
+
+#: inc/template-tags.php:152
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "الرجاء الاتصال بمسؤول هذا الموقع للحصول على المساعدة."
+
+#: inc/class-tgm-plugin-activation.php:1027
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"برجاء الاتصال بموفر المكونات الإضافية واطلب منهم حزم المكونات الإضافية "
+"الخاصة بهم وفقًا لإرشادات WordPress."
+
+#: inc/demo_import.php:121
+msgid "Please do not click back or refresh button till the page is loading."
+msgstr "من فضلك لا تنقر على زر الرجوع أو التحديث حتى يتم تحميل الصفحة."
+
+#: page-submit-coupons.php:36
+msgid "Please enter a valid Email address"
+msgstr "يرجى إدخال عنوان بريد إلكتروني صالح"
+
+#: page-submit-coupons.php:34
+msgid "Please enter a valid name"
+msgstr "رجاء ادخل اسما صحيحا"
+
+#: page-submit-coupons.php:32
+msgid "Please enter your name"
+msgstr "يرجى إدخال اسمك"
+
+#: inc/demo_import.php:144 inc/quick_setup.php:65
+msgid "Please Wait %s"
+msgstr " الرجاء الانتظار %s"
+
+#: inc/demo_import.php:120
+msgid "Please Wait. This may take several minutes.</strong>"
+msgstr "انتظر من فضلك. قد يستغرق هذا عدة دقائق.</strong>"
+
+#: inc/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "ملحق"
+
+#: inc/class-tgm-plugin-activation.php:1214
+#: inc/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "و"
+
+#: inc/class-tgm-plugin-activation.php:394
+msgid "Plugin activated successfully."
+msgstr "تم تفعيل البرنامج المساعد بنجاح."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"لم يتم تفعيل البرنامج المساعد. هناك حاجة إلى إصدار أعلى من %s لهذا الموضوع. "
+"يرجى تحديث البرنامج المساعد."
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2481
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "الكل <span class=\"count\">(%s)</span>"
+msgstr[1] "الكل <span class=\"count\">(%s)</span>"
+msgstr[2] "الكل <span class=\"count\">(%s)</span>"
+msgstr[3] "الكل <span class=\"count\">(%s)</span>"
+msgstr[4] "الكل <span class=\"count\">(%s)</span>"
+msgstr[5] "الكل <span class=\"count\">(%s)</span>"
+
+#: inc/cmd_functions.php:829
+msgid "Popular Brands"
+msgstr "العلامات التجارية الشعبية"
+
+#: inc/cmd_functions.php:643
+msgid "Popular Store"
+msgstr "متجر شعبي"
+
+#: inc/cmd_functions.php:506 index.php:35
+msgid "Popular Stores"
+msgstr "المتاجر الشعبية"
+
+#: inc/customizer.php:1165
+msgid "Popup"
+msgstr "يظهر فجأة"
+
+#: inc/quick_setup.php:196
+msgid "Post"
+msgstr "ما بعد"
+
+#. translators: 1: Author of the post
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid "by %s"
+msgstr "بواسطة %s"
+
+#: comments.php:102
+msgid "Post Comment"
+msgstr "اضف تعليق"
+
+#. translators: 1: coupon was posted on
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "تم النشر في ٪s"
+
+#: inc/cmd_functions.php:943
+msgctxt "Post Type General Name"
+msgid "Coupons"
+msgstr "كوبونات"
+
+#: inc/cmd_functions.php:3686
+msgctxt "Post Type General Name"
+msgid "Notifications"
+msgstr "إشعارات"
+
+#: inc/cmd_functions.php:944
+msgctxt "Post Type Singular Name"
+msgid "Coupon"
+msgstr "قسيمة"
+
+#: inc/cmd_functions.php:3687
+msgctxt "Post Type Singular Name"
+msgid "Notification"
+msgstr "إشعار"
+
+#. translators: 1: List of Categories
+#: inc/template-tags.php:65
+msgid "Posted in %1$s"
+msgstr "تم النشر في %1$s"
+
+#: inc/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "معبأة مسبقًا"
+
+#: inc/customizer.php:42 inc/quick_setup.php:149
+msgid "Preset Styles"
+msgstr "مُعدَّل مُسَبَّقًا الأنماط"
+
+#: archive-coupons.php:47
+msgid "Previous Coupons"
+msgstr "القسائم السابقة"
+
+#: page-blog.php:54 search.php:152 taxonomy-brands.php:120
+#: taxonomy-locations.php:114 taxonomy-offer_categories.php:121
+#: taxonomy-stores.php:172
+msgid "Previous Page"
+msgstr "الصفحة السابقة"
+
+#: inc/cmd_functions.php:2772
+msgid "Price Comparison"
+msgstr "مقارنة الأسعار"
+
+#: functions.php:40
+msgid "Primary"
+msgstr "أساسي"
+
+#: inc/customizer.php:158
+msgid "Primary Color"
+msgstr "لون أصلي"
+
+#: template-parts/code.php:56 template-parts/coupon-popup.php:96
+#: template-parts/coupon-popup.php:166
+msgid "Print Coupon"
+msgstr "طباعة الكوبون"
+
+#: inc/cmd_functions.php:1130
+msgid "Printable Coupon"
+msgstr "قسيمة قابلة للطباعة"
+
+#: inc/cmd_functions.php:1134
+msgid "Printable Coupon:"
+msgstr "قسيمة قابلة للطباعة:"
+
+#: page-submit-coupons.php:222
+msgid "Printable Voucher"
+msgstr "قسيمة قابلة للطباعة"
+
+#: inc/cmd_widgets.php:1821
+msgid "Printable Vouchers"
+msgstr "قسائم قابلة للطباعة"
+
+#: inc/cmd_functions.php:1143
+msgid "Pro Tip:"
+msgstr "نصيحة محترف:"
+
+#: inc/customizer.php:1617 inc/customizer.php:1738
+msgid "Product Card"
+msgstr "بطاقة المنتج"
+
+#: inc/cmd_functions.php:2771
+msgid "Product Description"
+msgstr "وصف المنتج"
+
+#: inc/customizer.php:1603 inc/customizer.php:1724
+msgid "Product Image"
+msgstr "صورة المنتج"
+
+#: inc/cmd_functions.php:2769
+msgid "Product Summary"
+msgstr "ملخص المنتج"
+
+#: inc/cmd_widgets.php:1824 inc/quick_setup.php:206
+msgid "Products"
+msgstr "منتجات"
+
+#: inc/cmd_functions.php:1270
+msgid "Publish on Social Media"
+msgstr "نشر على وسائل التواصل الاجتماعي"
+
+#: inc/demo_import.php:110
+msgid "purchase the license."
+msgstr "شراء الترخيص."
+
+#: inc/cmd_tools.php:99
+msgid "Purge"
+msgstr "تسهيل المعدة"
+
+#: inc/cmd_functions.php:4399
+msgid "Push Notification"
+msgstr "دفع الإخطار"
+
+#. translators: Push Notification from ClipMyDeals
+#: inc/cmd_functions.php:4046
+msgid "Push Notification from %s"
+msgstr "دفع الإخطار من %s"
+
+#: inc/cmd_functions.php:3844
+msgid "Push Notifications"
+msgstr "دفع الإخطارات"
+
+#: inc/cmd_functions.php:2087
+msgid "Push notifications are not compatible with this browser."
+msgstr "إشعارات الدفع غير متوافقة مع هذا المتصفح."
+
+#: inc/quick_setup.php:110 inc/update.php:42 inc/update.php:52
+msgid "Quick Setup"
+msgstr "الإعداد السريع"
+
+#: inc/quick_setup.php:102
+msgid "Quick Setup is not available in Child Theme."
+msgstr "الإعداد السريع غير متوفر في السمة التابعة."
+
+#: template-parts/post.php:39
+msgid "Read More"
+msgstr "اقرأ أكثر"
+
+#. translators: 1: New post
+#: template-parts/content-nocoupons.php:30 template-parts/content-none.php:28
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "جاهز لنشر أول منشوراتك؟ <a href=\"%1$s\">ابدأ هنا</a>."
+
+#: index.php:179
+msgid "Recent Posts"
+msgstr "المشاركات الاخيرة"
+
+#: taxonomy-brands.php:156 taxonomy-locations.php:150
+#: taxonomy-offer_categories.php:157 taxonomy-stores.php:208
+msgid "Recently Expired Offers"
+msgstr "عروض منتهية الصلاحية مؤخرًا"
+
+#: inc/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "مُستَحسَن"
+
+#: inc/cmd_widgets.php:548 inc/cmd_widgets.php:2034
+msgid "Redirect to Store Website"
+msgstr "إعادة التوجيه إلى موقع المتجر"
+
+#: inc/cmd_functions.php:4380
+msgid "Referrer"
+msgstr "المُحيل"
+
+#: inc/customizer.php:1451
+msgid "Request access for sending \"Push Notifications\""
+msgstr "طلب الوصول إلى دفع الإخطارات"
+
+#: inc/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "مطلوب"
+
+#: inc/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "التحديث المطلوب غير متوفر"
+
+#: inc/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "يتطلب التحديث"
+
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "ارجع الى مثبت الاضافات المطلوب"
+
+#: inc/class-tgm-plugin-activation.php:393
+#: inc/class-tgm-plugin-activation.php:920
+#: inc/class-tgm-plugin-activation.php:2626
+#: inc/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "العودة لوحة القيادة الرئيسية"
+
+#: inc/cmd_functions.php:2774
+msgid "Reviews"
+msgstr "المراجعات"
+
+#: inc/customizer.php:1401
+msgid "Right"
+msgstr "اليمين"
+
+#: inc/update.php:34
+msgid "Save"
+msgstr "يحفظ"
+
+#: inc/customizer.php:1780
+msgid "Scale"
+msgstr "مقياس"
+
+#: header.php:56 header.php:87 inc/cmd_subscriptions.php:71
+#: inc/cmd_widgets.php:1302 inc/cmd_widgets.php:1373 searchform.php:11
+#: searchform.php:96
+msgid "Search"
+msgstr "يبحث"
+
+#: inc/cmd_functions.php:828
+msgid "Search Brands"
+msgstr "بحث عن العلامات التجارية"
+
+#: inc/cmd_functions.php:953
+msgid "Search Coupon"
+msgstr "قسيمة البحث"
+
+#: inc/cmd_functions.php:412
+msgid "Search Locations"
+msgstr "مواقع البحث"
+
+#: inc/cmd_functions.php:3695
+msgid "Search Notification"
+msgstr "البحث إعلام"
+
+#: inc/cmd_functions.php:323
+msgid "Search Offer Categories"
+msgstr "فئات عروض البحث"
+
+#. translators: 1:Search query
+#: search.php:64
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#. translators: 1:Search query
+#: search.php:57
+msgid "Search Results for: %s"
+msgstr "نتائج البحث ل: %s"
+
+#: inc/cmd_functions.php:505
+msgid "Search Stores"
+msgstr "البحث في المتاجر"
+
+#: template-parts/code.php:86 template-parts/code.php:115
+#: template-parts/coupon-popup.php:234
+msgid "See Applicable Products"
+msgstr "انظر المنتجات القابلة للتطبيق"
+
+#. translators: %s: Search Keyword
+#: inc/cmd_functions.php:3621
+msgid "See more results for \"%s\""
+msgstr "رؤية المزيد من النتائج لـ \"%s\""
+
+#: inc/cmd_functions.php:208 inc/cmd_functions.php:210
+msgid "See Video."
+msgstr "شاهد الفيديو."
+
+#: inc/cmd_functions.php:1127
+msgid "Select"
+msgstr "اختار"
+
+#: inc/cmd_functions.php:3910
+msgid "Select <strong>%s</strong>"
+msgstr "حدد <strong>%s</strong>"
+
+#: inc/cmd_functions.php:3909
+msgid "Select <strong>Apps Using Your Apple ID</strong>"
+msgstr "حدد <strong>التطبيقات التي تستخدم معرف Apple الخاص بك</strong>"
+
+#: inc/cmd_functions.php:3908
+msgid "Select <strong>Password & Security</strong>"
+msgstr "حدد <strong>كلمة المرور والأمان</strong>"
+
+#: inc/cmd_functions.php:714
+msgid "Select a dark shade so that white text will appear clearly on buttons"
+msgstr "حدد ظلًا داكنًا حتى يظهر النص الأبيض بوضوح على الأزرار"
+
+#: inc/quick_setup.php:186
+msgid "Select quick data that you want to import"
+msgstr "حدد البيانات السريعة التي تريد استيرادها"
+
+#: inc/cmd_functions.php:464 inc/cmd_functions.php:723
+#: inc/cmd_functions.php:900
+msgid ""
+"Select the place in Google Map and go to Share > Embed a Map. Copy the HTML "
+"and paste in the above box."
+msgstr ""
+"حدد المكان في خريطة Google وانتقل إلى مشاركة > تضمين خريطة. انسخ HTML والصقه "
+"في المربع أعلاه."
+
+#: inc/cmd_functions.php:3907
+msgid "Select your Apple account."
+msgstr "حدد حساب أبل الخاص بك."
+
+#: inc/cmd_functions.php:3734
+msgid "Send to Users"
+msgstr "إرسال إلى المستخدمين"
+
+#: inc/cmd_notification_logs.php:108
+msgid "Sent"
+msgstr "مرسل"
+
+#: inc/cmd_functions.php:837
+msgid "Separate brands with commas"
+msgstr "افصل بين العلامات التجارية بفواصل"
+
+#: inc/cmd_functions.php:514
+msgid "Separate stores with commas"
+msgstr "مخازن منفصلة مع فاصلة"
+
+#: inc/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "قم بتعيين متغير التكوينparent_slug بدلاً من ذلك."
+
+#: inc/customizer.php:1120
+msgid "Set to 0 for all results."
+msgstr "اضبط على 0 لجميع النتائج."
+
+#: inc/customizer.php:1129
+msgid "Set to 0 to start immediately"
+msgstr "اضبط على 0 للبدء فورًا"
+
+#: inc/quick_setup.php:518
+msgid "Settings applied successfully."
+msgstr "تم تطبيق الإعدادات بنجاح."
+
+#: inc/customizer.php:1102
+msgid "Show ajax results for search box in header."
+msgstr "عرض نتائج اياكس لمربع البحث في الرأس."
+
+#: inc/customizer.php:1206
+msgid "Show All Brands"
+msgstr "عرض جميع الماركات"
+
+#: inc/customizer.php:1193
+msgid "Show All Categories"
+msgstr "عرض كافة الفئات"
+
+#: inc/customizer.php:1221
+msgid "Show All Locations"
+msgstr "عرض كافة المواقع"
+
+#: inc/customizer.php:1276
+msgid "Show article on Store/Category/Location/Brand pages?"
+msgstr "هل تريد عرض المقالة على صفحات المتجر/الفئة/الموقع/العلامة التجارية؟"
+
+#: inc/cmd_widgets.php:2160
+msgid "Show Banner on :"
+msgstr "عرض اللافتة على:"
+
+#: inc/customizer.php:1204
+msgid "Show brands on Coupons?"
+msgstr "عرض العلامات التجارية على كوبونات؟"
+
+#: inc/cmd_widgets.php:551
+msgid "Show Cashback Message"
+msgstr "يعرض سالة استرداد النقود"
+
+#: inc/customizer.php:1191
+msgid "Show Category list on Coupons?"
+msgstr "هل تريد إظهار قائمة الفئات على القسائم؟"
+
+#: inc/customizer.php:1163
+msgid "Show Coupon"
+msgstr "إظهار القسيمة"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "اظهر التفاصيل"
+
+#: inc/cmd_widgets.php:154 inc/cmd_widgets.php:333 inc/cmd_widgets.php:557
+#: inc/cmd_widgets.php:722 inc/cmd_widgets.php:895 inc/cmd_widgets.php:1048
+#: inc/cmd_widgets.php:1210 inc/cmd_widgets.php:2031
+msgid "Show Empty Terms"
+msgstr "عرض الشروط الفارغة"
+
+#: inc/customizer.php:1111
+msgid "Show Images for Ajax Search"
+msgstr "عرض الصور لبحث اياكس"
+
+#: inc/customizer.php:1219
+msgid "Show Location on Coupons?"
+msgstr "إظهار الموقع على الكوبونات؟"
+
+#: inc/cmd_widgets.php:151 inc/cmd_widgets.php:330 inc/cmd_widgets.php:554
+#: inc/cmd_widgets.php:719 inc/cmd_widgets.php:889 inc/cmd_widgets.php:1045
+#: inc/cmd_widgets.php:1204
+msgid "Show Offer Counts"
+msgstr "إظهار أعداد العروض"
+
+#: inc/cmd_widgets.php:2028
+msgid "Show Offer Counts/ Cashback Message"
+msgstr "إظهار أعداد العروض/رسالة الاسترداد النقدي"
+
+#: inc/customizer.php:1193
+msgid "Show only Parent Categories"
+msgstr "إظهار فئة الوالدين فقط"
+
+#: inc/customizer.php:1221
+msgid "Show only Parent Locations"
+msgstr "إظهار مواقع الوالدين فقط"
+
+#: inc/cmd_widgets.php:544
+msgid "Show Only Popular Stores"
+msgstr "عرض المتاجر المشهورة فقط"
+
+#: inc/customizer.php:339 inc/customizer.php:1016
+msgid "Show Search Form"
+msgstr "إظهار نموذج البحث"
+
+#: inc/customizer.php:1385
+msgid "Show sidebar"
+msgstr "إظهار الشريط الجانبي"
+
+#: inc/customizer.php:1986
+msgid "Show stores orderby Store display Priority."
+msgstr "إظهار ترتيب المتاجر حسب أولوية عرض المتجر."
+
+#: inc/cmd_widgets.php:892
+msgid "Show Sub-Categories"
+msgstr "إظهار الفئات الفرعية"
+
+#: inc/cmd_widgets.php:1207
+msgid "Show Sub-Locations"
+msgstr "إظهار المواقع الفرعية"
+
+#: template-parts/code.php:48
+msgid ""
+"Show this barcode at the checkout counter to avail this offer. You can scan "
+"it directly from your phone, or from a Printed copy."
+msgstr ""
+"أظهر هذا الباركود عند طاولة الخروج للاستفادة من هذا العرض. يمكنك مسحه ضوئيًا "
+"مباشرةً من هاتفك، أو من نسخة مطبوعة."
+
+#: functions.php:107
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: inc/customizer.php:1399
+msgid "Sidebar position"
+msgstr "موقف الشريط الجانبي"
+
+#: inc/customizer.php:1837
+msgid "Site Description"
+msgstr "وصف الموقع"
+
+#: inc/cmd_tools.php:109
+msgid "Skip \"Trash\" and force delete."
+msgstr "تخطي \"سلة المهملات\" وفرض الحذف."
+
+#: header.php:29
+msgid "Skip to content"
+msgstr "تخطى الى المحتوى"
+
+#: inc/customizer.php:393
+msgid "Slide #1"
+msgstr "شريحة 1#"
+
+#: inc/customizer.php:636
+msgid "Slide #10"
+msgstr "شريحة #10"
+
+#: inc/customizer.php:420
+msgid "Slide #2"
+msgstr "شريحة #2"
+
+#: inc/customizer.php:447
+msgid "Slide #3"
+msgstr "شريحة #3"
+
+#: inc/customizer.php:474
+msgid "Slide #4"
+msgstr "شريحة #4"
+
+#: inc/customizer.php:501
+msgid "Slide #5"
+msgstr "شريحة #5"
+
+#: inc/customizer.php:528
+msgid "Slide #6"
+msgstr "شريحة #6"
+
+#: inc/customizer.php:555
+msgid "Slide #7"
+msgstr "شريحة #7"
+
+#: inc/customizer.php:582
+msgid "Slide #8"
+msgstr "شريحة #8"
+
+#: inc/customizer.php:609
+msgid "Slide #9"
+msgstr "شريحة #9"
+
+#: inc/customizer.php:317 inc/quick_setup.php:141
+msgid "Slides"
+msgstr "الشرائح"
+
+#: inc/linkmydeals.php:57
+msgid ""
+"Smartlinks: Just set your Affiliate Networks in the order you like. And "
+"we'll make sure all offers use the best available network from your priority "
+"list."
+msgstr ""
+"الروابط الذكية: فقط قم بتعيين الشبكات التابعة الخاصة بك بالترتيب الذي تريده. "
+"وسوف نتأكد من أن جميع العروض تستخدم أفضل شبكة متاحة من قائمة أولوياتك."
+
+#: inc/customizer.php:1813
+msgid "Social Media Optimization"
+msgstr "تحسين وسائل التواصل الاجتماعية"
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "حدث خطأ APIملحق المساعد."
+
+#: template-parts/content-nocoupons.php:35 template-parts/content-none.php:32
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"آسف ، ولكن لا شيء يطابق شروط البحث الخاصة بك. أرجو المحاولة مرة أخرى "
+"بإستخدام كلمات أخرى."
+
+#: inc/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "مصدر"
+
+#: inc/cmd_functions.php:1057 page-submit-coupons.php:227
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#: inc/customizer.php:1128
+msgid "Start searching after \"N\" characters"
+msgstr "ابدأ بالبحث بعد الأحرف \"N\""
+
+#: comments.php:104
+msgid "Start typing"
+msgstr "ابدأ الطباعة"
+
+#: inc/class-tgm-plugin-activation.php:2647 inc/cmd_functions.php:623
+#: inc/cmd_functions.php:764 inc/cmd_notification_logs.php:118
+msgid "Status"
+msgstr "حالة"
+
+#: inc/customizer.php:1443
+msgid "Sticky Top"
+msgstr "أعلى لزجة"
+
+#: page-submit-coupons.php:246
+msgid "Store"
+msgstr "محل"
+
+#: inc/cmd_functions.php:1314
+msgid "store"
+msgstr "محل"
+
+#: inc/cmd_functions.php:660
+msgid "Store Affiliate URL"
+msgstr "عنوان URL للمتجر التابع"
+
+#: inc/cmd_functions.php:746
+msgid "Store Category"
+msgstr "فئة المتجر"
+
+#: inc/cmd_widgets.php:538
+msgid "Store Category (comma-separated list of store categories):"
+msgstr "فئة المتجر (قائمة فئات المتجر مفصولة بفواصل):"
+
+#: inc/cmd_functions.php:755
+msgid "Store Display Priority"
+msgstr "أولوية عرض المتجر"
+
+#: inc/cmd_functions.php:719
+msgid "Store Location (IFrame)"
+msgstr "موقع المتجر (IFrame)"
+
+#: inc/customizer.php:1631 inc/customizer.php:1752
+msgid "Store Logos in store listings"
+msgstr "شعارات المتجر في قوائم المتجر"
+
+#: inc/cmd_functions.php:669
+msgid "Store Subdomains"
+msgstr "تخزين النطاقات الفرعية"
+
+#: inc/cmd_functions.php:728
+msgid "Store Video (IFrame)"
+msgstr "تسوق فيديو (IFrame)"
+
+#: inc/cmd_functions.php:651
+msgid "Store Website URL"
+msgstr "عنوان URL لموقع المتجر"
+
+#: inc/cmd_functions.php:291 inc/cmd_functions.php:293
+#: inc/cmd_functions.php:503 inc/cmd_functions.php:517
+msgid "Stores"
+msgstr "اسم المتجر الجديد"
+
+#: functions.php:208 inc/cmd_functions.php:4409 inc/quick_setup.php:221
+#: page-submit-coupons.php:350
+msgid "Submit"
+msgstr "إرسال"
+
+#: inc/cmd_functions.php:2358
+msgid "Subscribe to Push Notifications"
+msgstr "الاشتراك في دفع الإخطارات"
+
+#: inc/cmd_functions.php:1963
+msgid "Subscribing..."
+msgstr "الاشتراك..."
+
+#: inc/cmd_notification_logs.php:117 inc/cmd_subscriptions.php:126
+msgid "Subscription"
+msgstr "الاشتراك"
+
+#: inc/cmd_subscriptions.php:215
+msgid "Subscription removed successfully."
+msgstr "تمت إزالة الاشتراك بنجاح."
+
+#: inc/cmd_subscriptions.php:26 inc/cmd_subscriptions.php:64
+msgid "Subscriptions"
+msgstr "الاشتراكات"
+
+#: inc/cmd_functions.php:2773
+msgid "Suggested for you"
+msgstr "مقترحة لك"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Super Deal"
+msgstr "صفقة هائلة"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Super Offer"
+msgstr "عرض سوبر"
+
+#: inc/cmd_functions.php:2731
+msgid "Tags"
+msgstr "العلامات"
+
+#. translators: 1: List of tags
+#: inc/template-tags.php:77
+msgid "Tags: %1$s"
+msgstr "العلامات: %1$s"
+
+#: inc/cmd_functions.php:4269
+msgid "Tax ID"
+msgstr "الضريبي  الهوية"
+
+#. Description of the theme
+#: style.css
+msgid ""
+"The best WordPress Coupon theme for Affiliate Marketers. We built this theme "
+"after 6 years of experience with running a coupon and deal website. Hence we "
+"have added all important features that really matter, and left out all the "
+"useless features that would have only made it complicated. It is based on "
+"the most powerful frameworks in the world: \"_s\" (by Automattic, the main "
+"people behind WordPress development), Twitter Bootstrap (the most popular "
+"HTML, CSS, and JS framework for developing responsive, mobile first projects "
+"on the web) and Font Awesome (or Fontawesome, a full suite of 675+ "
+"pictographic icons for easy scalable vector graphics on websites). It has a "
+"Widgetized sidebar and footer area, and it is WooCommerce ready, Compatible "
+"with Contact Form 7, Compatible with Visual Composer, Compatible with "
+"Elementor Page Builder. This theme will be an active project which we will "
+"update from time to time. Check this page regularly for the updates. Your "
+"feedback on how we can continuously improve this Theme will be highly "
+"appreciated."
+msgstr ""
+"أفضل قالب قسيمة WordPress للمسوقين المنتسبين. قمنا ببناء هذا الموضوع بعد 6 "
+"سنوات من الخبرة في إدارة موقع القسيمة والصفقات. ومن ثم فقد أضفنا جميع "
+"الميزات المهمة التي تهم حقًا ، واستبعدنا جميع الميزات غير المجدية التي كانت "
+"ستجعل الأمر معقدًا. يعتمد على أقوى أطر العمل في العالم: \"_s\" (بواسطة "
+"Automattic ، الأشخاص الرئيسيون وراء تطوير WordPress) ، Twitter Bootstrap "
+"(إطار عمل HTML و CSS و JS الأكثر شيوعًا لتطوير المشاريع المتنقلة سريعة "
+"الاستجابة على الويب ) و Font Awesome (أو Fontawesome ، مجموعة كاملة من 675+ "
+"رمزًا تصويريًا لرسومات موجهة سهلة قابلة للتطوير على مواقع الويب). يحتوي على "
+"شريط جانبي Widgetized ومنطقة تذييل ، وهو جاهز لـ WooCommerce ، متوافق مع "
+"نموذج الاتصال 7 ، متوافق مع Visual Composer ، متوافق مع Elementor Page "
+"Builder. سيكون هذا الموضوع مشروعًا نشطًا سنقوم بتحديثه من وقت لآخر. تحقق من "
+"هذه الصفحة بانتظام للحصول على التحديثات. ستكون ملاحظاتك حول كيفية تحسين هذا "
+"الموضوع بشكل مستمر موضع تقدير كبير."
+
+#: inc/cmd_functions.php:1175
+msgid "The coupon will be active till 23:59 hrs on this day."
+msgstr "ستكون القسيمة نشطة حتى الساعة 23:59 من هذا اليوم."
+
+#: inc/customizer.php:1804
+msgid ""
+"The default image will be seen on the store listing section only in case a "
+"store does not have an image associated with it.\n"
+"        "
+msgstr ""
+"لن تظهر الصورة الافتراضية في قسم قائمة المتجر إلا في حالة عدم وجود صورة "
+"مرتبطة بالمتجر..\n"
+"        "
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:353
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"يجب تحديث المكون الإضافي التالي إلى أحدث إصدار له لضمان أقصى قدر من التوافق "
+"مع هذا المظهر: %1$s."
+msgstr[1] ""
+"يجب تحديث المكون الإضافي التالي إلى أحدث إصدار له لضمان أقصى قدر من التوافق "
+"مع هذا المظهر: %1$s."
+msgstr[2] ""
+"يجب تحديث المكونات الإضافية التالية إلى أحدث إصدار لها لضمان أقصى قدر من "
+"التوافق مع هذا المظهر: %1$s."
+msgstr[3] ""
+"يجب تحديث المكونات الإضافية التالية إلى أحدث إصدار لها لضمان أقصى قدر من "
+"التوافق مع هذا المظهر: %1$s."
+msgstr[4] ""
+"يجب تحديث المكونات الإضافية التالية إلى أحدث إصدار لها لضمان أقصى قدر من "
+"التوافق مع هذا المظهر: %1$s."
+msgstr[5] ""
+"يجب تحديث المكونات الإضافية التالية إلى أحدث إصدار لها لضمان أقصى قدر من "
+"التوافق مع هذا المظهر: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:395
+#: inc/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "تم تفعيل الإضافة التالية بنجاح:"
+msgstr[1] "تم تفعيل الإضافة التالية بنجاح:"
+msgstr[2] "تم تفعيل الإضافات التالية بنجاح:"
+msgstr[3] "تم تفعيل الإضافات التالية بنجاح:"
+msgstr[4] "تم تفعيل الإضافات التالية بنجاح:"
+msgstr[5] "تم تفعيل الإضافات التالية بنجاح:"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "المكون الإضافي الموصى به غير نشط حاليًا: %1$s."
+msgstr[1] "المكون الإضافي الموصى به غير نشط حاليًا: %1$s."
+msgstr[2] "المكونات الإضافية الموصى بها التالية غير نشطة حاليًا: %1$s."
+msgstr[3] "المكونات الإضافية الموصى بها التالية غير نشطة حاليًا: %1$s."
+msgstr[4] "المكونات الإضافية الموصى بها التالية غير نشطة حاليًا: %1$s."
+msgstr[5] "المكونات الإضافية الموصى بها التالية غير نشطة حاليًا: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "المكون الإضافي المطلوب التالي غير نشط حاليًا: %1$s."
+msgstr[1] "المكون الإضافي المطلوب التالي غير نشط حاليًا: %1$s."
+msgstr[2] "المكونات الإضافية المطلوبة التالية غير نشطة حاليًا: %1$s."
+msgstr[3] "المكونات الإضافية المطلوبة التالية غير نشطة حاليًا: %1$s."
+msgstr[4] "المكونات الإضافية المطلوبة التالية غير نشطة حاليًا: %1$s."
+msgstr[5] "المكونات الإضافية المطلوبة التالية غير نشطة حاليًا: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"بدأت عملية التثبيت والتنشيط. قد تستغرق هذه العملية بعض الوقت بالنسبة لبعض "
+"المضيفين، لذا يرجى التحلي بالصبر."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3596
+msgid "The installation of %1$s failed."
+msgstr "فشل تثبيت %1$s."
+
+#: inc/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"بدأت عملية التثبيت. قد تستغرق هذه العملية بعض الوقت بالنسبة لبعض المضيفين، "
+"لذا يرجى التحلي بالصبر."
+
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"تتكون حزمة البرنامج المساعد عن بعد من أكثر من ملف، ولكن لا يتم تجميع الملفات "
+"في مجلد."
+
+#: inc/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"لا تحتوي حزمة البرنامج المساعد البعيد على مجلد بالحلقة الثابتة المطلوبة ولم "
+"تنجح عملية إعادة التسمية."
+
+#: inc/customizer.php:43
+msgid "Theme Option"
+msgstr "موضوع خيار"
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"هناك واحد أو أكثر من المكونات الإضافية المطلوبة أو الموصى بها للتثبيت أو "
+"التحديث أو التنشيط."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "يوجد تحديث متاح لـ: %1$s."
+msgstr[1] "يوجد تحديث متاح لـ: %1$s."
+msgstr[2] "هناك تحديثات متاحة للمكونات الإضافية التالية: %1$s."
+msgstr[3] "هناك تحديثات متاحة للمكونات الإضافية التالية: %1$s."
+msgstr[4] "هناك تحديثات متاحة للمكونات الإضافية التالية: %1$s."
+msgstr[5] "هناك تحديثات متاحة للمكونات الإضافية التالية: %1$s."
+
+#: inc/cmd_functions.php:1190
+msgid ""
+"This appears on top-right of coupon in grid layout, and on left-side of "
+"coupon in list layout."
+msgstr ""
+"يظهر هذا في أعلى يمين القسيمة في تخطيط الشبكة، وعلى الجانب الأيسر من القسيمة "
+"في تخطيط القائمة."
+
+#: inc/cmd_functions.php:1151
+msgid ""
+"This is the Affiliate URL which will be opened after user clicks on the "
+"button"
+msgstr "هذا هو عنوان URL التابع الذي سيتم فتحه بعد أن ينقر المستخدم على الزر"
+
+#: inc/cmd_functions.php:872
+msgid "This is the article that will be placed on the brand page"
+msgstr "هذه هي المقالة التي سيتم وضعها على صفحة العلامة التجارية"
+
+#: inc/cmd_functions.php:362
+msgid "This is the article that will be placed on the category page"
+msgstr "هذه هي المقالة التي سيتم وضعها على صفحة الفئة"
+
+#: inc/cmd_functions.php:454
+msgid "This is the article that will be placed on the location page"
+msgstr "هذه هي المقالة التي سيتم وضعها على صفحة الموقع"
+
+#: inc/cmd_functions.php:695
+msgid "This is the article that will be placed on the store page"
+msgstr "هذه هي المقالة التي سيتم وضعها على صفحة المتجر"
+
+#: inc/cmd_functions.php:1159
+msgid "This is the Image URL which will be shown in Grid View"
+msgstr "هذا هو عنوان URL للصورة الذي سيتم عرضه في عرض الشبكة"
+
+#: inc/cmd_functions.php:3775
+msgid ""
+"This is the URL which will be opened after user clicks on the notification"
+msgstr "هذا هو عنوان URL الذي سيتم فتحه بعد أن ينقر المستخدم على الإشعار"
+
+#: inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"يحتاج هذا البرنامج المساعد إلى التحديث ليكون متوافقًا مع المظهر الخاص بك."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "يوصي هذا الموضوع بالمكون الإضافي التالي: %1$s."
+msgstr[1] "يوصي هذا الموضوع بالمكون الإضافي التالي: %1$s."
+msgstr[2] "يوصي هذا الموضوع بالمكونات الإضافية التالية: %1$s."
+msgstr[3] "يوصي هذا الموضوع بالمكونات الإضافية التالية: %1$s."
+msgstr[4] "يوصي هذا الموضوع بالمكونات الإضافية التالية: %1$s."
+msgstr[5] "يوصي هذا الموضوع بالمكونات الإضافية التالية: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "يتطلب هذا المظهر المكوّن الإضافي التالي: %1$s."
+msgstr[1] "يتطلب هذا المظهر المكوّن الإضافي التالي: %1$s."
+msgstr[2] "يتطلب هذا المظهر المكونات الإضافية التالية: %1$s."
+msgstr[3] "يتطلب هذا المظهر المكونات الإضافية التالية: %1$s."
+msgstr[4] "يتطلب هذا المظهر المكونات الإضافية التالية: %1$s."
+msgstr[5] "يتطلب هذا المظهر المكونات الإضافية التالية: %1$s."
+
+#: inc/customizer.php:1957
+msgid "This will be added before <code>&lt;/body\t&gt;</code> tag"
+msgstr "ستتم إضافة هذا قبل علامة <code>&lt;/body &gt;</code>"
+
+#: inc/customizer.php:1942
+msgid "This will be added in the <code>&lt;head&gt;</code> section"
+msgstr "ستتم إضافة هذا في قسم <code>&lt;head&gt;</code>"
+
+#: inc/customizer.php:1838
+msgid ""
+"This will be the default description in case no content is available on the "
+"page being shared. Example: Home or Contact-Us page."
+msgstr ""
+"سيكون هذا هو الوصف الافتراضي في حالة عدم توفر محتوى على الصفحة التي تتم "
+"مشاركتها. مثال: الصفحة الرئيسية أو صفحة اتصل بنا."
+
+#: inc/customizer.php:1851
+msgid ""
+"This will be the default image in case no image is available on the page "
+"being shared."
+msgstr ""
+"ستكون هذه هي الصورة الافتراضية في حالة عدم توفر صورة على الصفحة التي تتم "
+"مشاركتها."
+
+#: inc/customizer.php:1791
+msgid ""
+"This will be used as a default image in case a coupon does not have an image "
+"associated with it\n"
+"        ."
+msgstr ""
+"سيتم استخدام هذه كصورة افتراضية في حالة عدم احتواء القسيمة على صورة مرتبطة "
+"بها\n"
+"        ."
+
+#: inc/cmd_tools.php:55
+msgid ""
+"This will drop current offers and pull everything again. Do you want to "
+"proceed?"
+msgstr "سيتم إلغاء العروض الحالية وسحب كل شيء مرة أخرى. هل ترغب في المتابعة؟"
+
+#: inc/customizer.php:670
+msgid "Three"
+msgstr "ثلاثة"
+
+#: page-submit-coupons.php:201
+msgid "Title"
+msgstr "لقب"
+
+#: page-submit-coupons.php:38
+msgid "Title should be minimum 5 characters"
+msgstr "يجب أن يكون العنوان 5 أحرف على الأقل"
+
+#: inc/cmd_widgets.php:145 inc/cmd_widgets.php:324 inc/cmd_widgets.php:533
+#: inc/cmd_widgets.php:713 inc/cmd_widgets.php:883 inc/cmd_widgets.php:1039
+#: inc/cmd_widgets.php:1198 inc/cmd_widgets.php:1393 inc/cmd_widgets.php:1458
+#: inc/cmd_widgets.php:1522 inc/cmd_widgets.php:1584 inc/cmd_widgets.php:1647
+#: inc/cmd_widgets.php:1809 inc/cmd_widgets.php:2022 inc/cmd_widgets.php:2156
+msgid "Title:"
+msgstr "لقب:"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2493
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "لتنشيط <span class=\"count\">(%s)</span>"
+msgstr[1] "لتنشيط <span class=\"count\">(%s)</span>"
+msgstr[2] "لتنشيط <span class=\"count\">(%s)</span>"
+msgstr[3] "لتنشيط <span class=\"count\">(%s)</span>"
+msgstr[4] "لتنشيط <span class=\"count\">(%s)</span>"
+msgstr[5] "لتنشيط <span class=\"count\">(%s)</span>"
+
+#: inc/customizer.php:1047
+msgid ""
+"To customize the contents of this header banner and other elements of your "
+"site go to Dashboard > Appearance > Customize"
+msgstr ""
+"لتخصيص محتويات شعار الرأس هذا والعناصر الأخرى لموقعك، انتقل إلى لوحة التحكم >"
+" المظهر > تخصيص"
+
+#: inc/customizer.php:367
+msgid ""
+"To customize the contents on this video and other elements of your site go "
+"to Dashboard > Appearance > Customize"
+msgstr ""
+"لتخصيص محتويات هذا الفيديو والعناصر الأخرى في موقعك، انتقل إلى لوحة التحكم > "
+"المظهر > تخصيص"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2485
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "لتثبيت <span class=\"count\">(%s)</span>"
+msgstr[1] "لتثبيت <span class=\"count\">(%s)</span>"
+msgstr[2] "لتثبيت <span class=\"count\">(%s)</span>"
+msgstr[3] "لتثبيت <span class=\"count\">(%s)</span>"
+msgstr[4] "لتثبيت <span class=\"count\">(%s)</span>"
+msgstr[5] "لتثبيت <span class=\"count\">(%s)</span>"
+
+#: functions.php:207
+msgid "To view this protected post, enter the password below:"
+msgstr "لعرض هذا المنشور المحمي ، أدخل كلمة المرور أدناه:"
+
+#: inc/cmd_tools.php:20 inc/cmd_tools.php:42
+msgid "Toolbox"
+msgstr "صندوق الأدوات"
+
+#: inc/customizer.php:1919
+msgid "Twitter Author"
+msgstr "Twitter المؤلف"
+
+#: inc/customizer.php:1905
+msgid "Twitter Page"
+msgstr "صفحة Twitter"
+
+#: inc/customizer.php:669
+msgid "Two"
+msgstr "اثنين"
+
+#: inc/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "نوع"
+
+#: inc/customizer.php:85
+msgid "Typography"
+msgstr "التضاريس"
+
+#: inc/customizer.php:1824
+msgid ""
+"Uncheck this if you are using a separate plugin for SEO and Social Media "
+"Optimization"
+msgstr ""
+"قم بإلغاء تحديد هذا إذا كنت تستخدم مكونًا إضافيًا منفصلاً لتحسين محركات "
+"البحث والوسائط الاجتماعية"
+
+#: inc/customizer.php:1307
+msgid "Uncheck this if you do not want show get android in footer"
+msgstr ""
+"قم بإلغاء تحديد هذا إذا كنت لا تريد إظهار الحصول على android في التذييل"
+
+#: inc/customizer.php:1320
+msgid "Uncheck this if you do not want show get ios in footer"
+msgstr "قم بإلغاء تحديد هذا إذا كنت لا تريد إظهار الحصول على ios في التذييل"
+
+#: inc/linkmydeals.php:53
+msgid "Unique Data: Offer Titles & Descriptions are unique for each subscriber"
+msgstr "البيانات الفريدة: عناوين العروض وأوصافها فريدة لكل مشترك"
+
+#: inc/cmd_functions.php:1963
+msgid "Unsubscribing..."
+msgstr "جارٍ إلغاء الاشتراك..."
+
+#: inc/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "تحديث"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2701
+msgid "Update %2$s"
+msgstr "تحديث %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2489
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "التحديث متاح <span class=\"count\">(%s)</span>"
+msgstr[1] "التحديث متاح <span class=\"count\">(%s)</span>"
+msgstr[2] "التحديث متاح <span class=\"count\">(%s)</span>"
+msgstr[3] "التحديث متاح <span class=\"count\">(%s)</span>"
+msgstr[4] "التحديث متاح <span class=\"count\">(%s)</span>"
+msgstr[5] "التحديث متاح <span class=\"count\">(%s)</span>"
+
+#: inc/cmd_functions.php:834
+msgid "Update Brand"
+msgstr "تحديث ماركة"
+
+#: inc/cmd_functions.php:952
+msgid "Update Coupon"
+msgstr "تحديث القسيمة"
+
+#: inc/cmd_functions.php:418
+msgid "Update Location"
+msgstr "تحديث موقع"
+
+#: inc/cmd_functions.php:3694
+msgid "Update Notification"
+msgstr "تحديث الاشعارات"
+
+#: inc/cmd_functions.php:328
+msgid "Update Offer Category"
+msgstr "تحديث فئة العرض"
+
+#: inc/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "تحديث ماركةيوصى بالتحديث"
+
+#: inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "مطلوب التحديث"
+
+#: inc/cmd_functions.php:511
+msgid "Update Store"
+msgstr "تحديث محل"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3591
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "تحديث البرنامج الإضافي %1$s (%2$d/%3$d)"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr "تحديث الملحق: %s"
+
+#: inc/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "ترقية الرسالة من مؤلف البرنامج المساعد:"
+
+#: inc/customizer.php:1529 inc/customizer.php:1650
+msgid "Use Values"
+msgstr "استخدام القيم"
+
+#: inc/cmd_subscriptions.php:127
+msgid "User"
+msgstr "مستخدم"
+
+#: inc/cmd_functions.php:4438
+msgid "User Data not updated."
+msgstr "لم يتم تحديث بيانات المستخدم."
+
+#: inc/cmd_functions.php:4448
+msgid "User Data updated Successfully."
+msgstr "تم تحديث بيانات المستخدم بنجاح."
+
+#: inc/cmd_functions.php:4233
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: inc/cmd_functions.php:1065 inc/cmd_functions.php:1268
+#: page-submit-coupons.php:232 template-parts/coupon-grid.php:122
+#: template-parts/coupon-list.php:188 template-parts/coupon-popup.php:216
+#: template-parts/coupon-print.php:59 template-parts/single-coupon.php:196
+msgid "Valid Till"
+msgstr "صالح حتى"
+
+#. translators: 1: validity
+#: inc/cmd_functions.php:2732
+msgid "Valid till: %1$s"
+msgstr "صالح حتى: %1$s"
+
+#: inc/cmd_functions.php:1313
+msgid "valid_till"
+msgstr "سارية حتى"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Value for Money"
+msgstr "قيمة مقابل المال"
+
+#: inc/cmd_functions.php:1073 template-parts/coupon-grid.php:190
+#: template-parts/coupon-list.php:202 template-parts/single-coupon.php:210
+msgid "Verified On"
+msgstr "التحقق من"
+
+#: inc/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "الإصدار"
+
+#: inc/customizer.php:316 inc/quick_setup.php:140
+msgid "Video (Full Screen)"
+msgstr "فيديو (ملء الشاشة)"
+
+#: inc/customizer.php:371
+msgid "Video Tagline"
+msgstr "سطر علامة الفيديو"
+
+#: inc/customizer.php:382
+msgid "Video Tagline Color"
+msgstr "لون سطر الوصف للفيديو"
+
+#: inc/customizer.php:350
+msgid "Video Title"
+msgstr "عنوان مقطع الفيديو"
+
+#: inc/customizer.php:361
+msgid "Video Title Color"
+msgstr "لون عنوان الفيديو"
+
+#: inc/customizer.php:328
+msgid "Video URL"
+msgstr "رابط الفيديو"
+
+#: inc/cmd_functions.php:948
+msgid "View Coupon"
+msgstr "عرض القسيمة"
+
+#: inc/demo_import.php:83
+msgid "View Demo"
+msgstr "انظر العرض التوضيحي"
+
+#: template-parts/coupon-grid.php:105 template-parts/coupon-list.php:96
+#: template-parts/single-coupon.php:105
+msgid "View Details"
+msgstr "عرض التفاصيل"
+
+#: inc/cmd_functions.php:417
+msgid "View Location"
+msgstr "عرض موقع"
+
+#: inc/cmd_functions.php:2776
+msgid "View More"
+msgstr "عرض المزيد"
+
+#: inc/cmd_functions.php:3690
+msgid "View Notification"
+msgstr "انظر الإخطار"
+
+#: header.php:267 taxonomy-stores.php:43 taxonomy-stores.php:90
+msgid "Visit Website"
+msgstr "زيارة الموقع"
+
+#: inc/cmd_functions.php:4279
+msgid "Wallet Details"
+msgstr "تفاصيل المحفظة"
+
+#: inc/customizer.php:310 inc/quick_setup.php:134
+msgid "Welcome Type"
+msgstr "نوع مرحباً"
+
+#: inc/customizer.php:1771
+msgid ""
+"When incorporating Image Preference for Display Type setting, ensure that a "
+"custom height is set for card, carousal, coupon/product image and store logo "
+"images under Desktop/Mobile Card and Image Settings. \n"
+"        "
+msgstr ""
+"عند دمج تفضيلات الصورة لإعداد نوع العرض، تأكد من تعيين ارتفاع مخصص للبطاقة "
+"والعرض الدائري وصورة القسيمة/المنتج وصور شعار المتجر ضمن بطاقة سطح "
+"المكتب/الهاتف المحمول وإعدادات الصورة.\n"
+"        "
+
+#: inc/linkmydeals.php:49
+msgid "Why LinkMyDeals?"
+msgstr "لماذا LinkMyDeals؟"
+
+#: inc/cmd_functions.php:1133
+msgid "Will have \"Activate Deal\" button"
+msgstr "سيكون لديه زر \"تفعيل الصفقة\""
+
+#: inc/cmd_functions.php:1132
+msgid "Will have \"Get Coupon Code\" button"
+msgstr "سيكون هناك زر \"الحصول على رمز القسيمة\""
+
+#: inc/cmd_functions.php:1134
+msgid "Will have \"Print\" button"
+msgstr "سيكون هناك زر \"طباعة\""
+
+#: inc/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "مستودع WordPress"
+
+#: inc/cmd_functions.php:1215
+msgid "Write whatever you want. This does not show anywhere on the website."
+msgstr "اكتب ما تريد. هذا لا يظهر في أي مكان على الموقع."
+
+#: inc/customizer.php:1106 inc/customizer.php:1264 inc/customizer.php:1990
+msgid "Yes"
+msgstr "نعم"
+
+#: inc/customizer.php:1278
+msgid "Yes - Show above the Coupons"
+msgstr "نعم - تظهر فوق الكوبونات"
+
+#: inc/customizer.php:1278
+msgid "Yes - Show below the Coupons"
+msgstr "نعم - اعرض أدناه القسائم"
+
+#: page-submit-coupons.php:209
+msgid "You can use HTML markup here"
+msgstr "يمكنك استخدام ترميز HTML هنا"
+
+#: inc/demo_import.php:109
+msgid ""
+"You cannot undo this operation after this step. Click \"<strong class=\"\">"
+"Cancel</strong>\" to abort."
+msgstr ""
+"لا يمكنك التراجع عن هذه العملية بعد هذه الخطوة. انقر على \"<strong "
+"class=\"\">إلغاء</strong>\" للإجهاض."
+
+#: inc/cmd_functions.php:3901
+msgid ""
+"You cannot undo this operation after this step. Click\"<strong>"
+"Cancel</strong>\" to abort.</p>"
+msgstr ""
+"لا يمكنك التراجع عن هذه العملية بعد هذه الخطوة. انقر على \"<strong>"
+"إلغاء</strong>\" للإلغاء.</p>"
+
+#: index.php:170
+msgid "You have not added any Coupon so far."
+msgstr "لم تقم بإضافة أي قسيمة حتى الآن."
+
+#: inc/cmd_functions.php:208
+msgid "You have not added license key."
+msgstr "لم تقم بإضافة مفتاح الترخيص."
+
+#: inc/cmd_functions.php:4209 inc/cmd_functions.php:4211
+msgid "You need to be logged in to access this page"
+msgstr "يجب عليك تسجيل الدخول للوصول إلى هذه الصفحة"
+
+#: inc/demo_import.php:110
+msgid ""
+"Your access to admin demo is a view only access to help you experience our "
+"array of functionalities. This functionality is restricted for you to "
+"safeguard the working of our admin demo. This restriction will be removed "
+"when you"
+msgstr ""
+"إن وصولك إلى العرض التوضيحي للمسؤول هو وصول للعرض فقط لمساعدتك في تجربة "
+"مجموعة الوظائف لدينا. هذه الوظيفة مقيدة عليك لحماية عمل العرض التوضيحي "
+"الإداري الخاص بنا. ستتم إزالة هذا القيد عندما تقوم بذلك"
+
+#: inc/cmd_functions.php:3865
+msgid "Your app/app bundle ID"
+msgstr "معرف تطبيقك / حزمة التطبيق"
+
+#: inc/template-tags.php:183
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك ينتظر الموافقة عليه."
+
+#: page-submit-coupons.php:129
+msgid "Your Coupon has been submitted for approval."
+msgstr "تم تقديم قسيمتك للموافقة عليها."
+
+#: page-submit-coupons.php:176
+msgid "Your Details"
+msgstr "تفاصيلك"
+
+#: page-submit-coupons.php:186
+msgid "Your Email"
+msgstr "بريدك الالكتروني"
+
+#: inc/cmd_functions.php:210
+msgid "Your key/domain is incorrect."
+msgstr "مفتاحك/نطاقك غير صحيح."
+
+#: page-submit-coupons.php:181
+msgid "Your Name"
+msgstr "اسمك"

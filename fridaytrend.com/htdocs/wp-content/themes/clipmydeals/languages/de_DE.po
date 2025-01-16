@@ -1,0 +1,3458 @@
+# Copyright (C) 2021 ClipMyDeals
+# This file is distributed under the .
+msgid ""
+msgstr ""
+"Project-Id-Version: ClipMyDeals 5.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/clipmydeals\n"
+"POT-Creation-Date: 2024-06-03T10:41:48+05:30\n"
+"PO-Revision-Date: 2024-10-30 05:14+0000\n"
+"Last-Translator: Admin\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: clipmydeals\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+
+#: inc/cmd_functions.php:2730
+msgid "\"[code]\" copied!"
+msgstr "„[Code]“ kopiert!"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s wurde erfolgreich installiert und aktiviert."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "%1$s installed successfully."
+msgstr "%1$s wurde erfolgreich installiert."
+
+#. translators: 1: Link to comment author's page
+#: inc/template-tags.php:169
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">sagt:</span>"
+
+#: inc/cmd_tools.php:359
+msgid "%s Expired Coupons have been moved to trash."
+msgstr "%s Abgelaufene Gutscheine wurden in den Papierkorb verschoben."
+
+#: inc/cmd_tools.php:357
+msgid "%s Expired Coupons have been permanently deleted."
+msgstr "%s Abgelaufene Gutscheine wurden endgültig gelöscht."
+
+#: inc/cmd_subscriptions.php:200
+msgid "%s subscriptions deleted successfully."
+msgstr "%s Abonnements erfolgreich gelöscht."
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:60 inc/template-tags.php:70
+msgid ", "
+msgstr ", "
+
+#: inc/linkmydeals.php:56
+msgid ""
+"100% Commission to you: Just enter your affiliate IDs for each network in "
+"your account. All affiliate links contain your ID, so you get 100% "
+"commission. We're only interested in the monthly subscription amount, "
+"nothing else."
+msgstr ""
+"100 % Provision für Sie: Geben Sie einfach Ihre Affiliate-IDs für jedes "
+"Netzwerk in Ihrem Konto ein. Alle Affiliate-Links enthalten Ihre ID, sodass "
+"Sie 100 % Provision erhalten. Uns interessiert nur der monatliche "
+"Abonnementbetrag, sonst nichts."
+
+#. translators: 1: Date of comment, 2: Timeof comment
+#: inc/template-tags.php:175
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s in %2$s"
+
+#: inc/customizer.php:254
+msgid "2-Column Grid"
+msgstr "2-Spalten-Raster"
+
+#: inc/customizer.php:255
+msgid "3-Column Grid"
+msgstr "3-Spalten-Raster"
+
+#: inc/customizer.php:256
+msgid "4-Column Grid"
+msgstr "4-Spalten-Raster"
+
+#: inc/cmd_tools.php:191
+msgid "<br/>Error on Row %s: %s"
+msgstr "<br/>Fehler in Zeile %s: %s"
+
+#: inc/demo_import.php:68 inc/demo_import.php:95
+msgid ""
+"<div class=\"alert alert-danger\">Clicking \"<strong>Import Demo</strong>\" "
+"will reset your website as per selected demo. Third-party plugins & related "
+"data will NOT be imported. All your existing content & settings will be "
+"permanently deleted. Please take a backup of your content if you need to add "
+"it again later.</div>"
+msgstr ""
+"<div class=\"alert alarm-danger\">Wenn Sie auf „<strong>Demo "
+"importieren</strong>“ klicken, wird Ihre Website auf die ausgewählte Demo "
+"zurückgesetzt. Plugins und zugehörige Daten von Drittanbietern werden NICHT "
+"importiert. Alle Ihre vorhandenen Inhalte und Einstellungen werden dauerhaft "
+"gelöscht. Bitte erstellen Sie eine Sicherungskopie Ihrer Inhalte, falls Sie "
+"diese später erneut hinzufügen müssen.</div>"
+
+#: inc/quick_setup.php:105 inc/quick_setup.php:235
+msgid ""
+"<div class=\"alert alert-warning\">These are just basic settings for quick "
+"start. For more customization options you should go to <strong>"
+"Appearance</strong> > <a href=\"customize.php\"><strong>Customize</strong>"
+"</a></div>"
+msgstr ""
+"<div class=\"alert alarm-warning\">Dies sind nur Grundeinstellungen für den "
+"Schnellstart. Weitere Anpassungsoptionen finden Sie unter <strong>"
+"Aussehen</strong> > <a href=\"customize.php\"><strong>Anpassen</strong></a>"
+"</div>"
+
+#: functions.php:72
+msgid ""
+"<h2 style=\"color:#ffffff;\">IMPORTANT</h2><p>Please follow the <a "
+"style=\"color: #fff; text-decoration:underline;\" href=\"%1$s\" "
+"target=\"_blank\">Theme Activation steps</a> to enable all ClipMyDeals "
+"features.</p><p>We also recommend that you through complete <a style=\"color:"
+" #fff; text-decoration:underline;\" href=\"%2$s\" target=\"_blank\">"
+"ClipMyDeals Documentation</a> for in-depth understanding of theme features & "
+"options.</p>"
+msgstr ""
+"<h2 style=\"color:#ffffff;\">WICHTIG</h2><p>Bitte befolgen Sie die <a "
+"style=\"color: #fff; text-decoration:underline;\" href=\"%1$s\" "
+"target=\"_blank\">Theme-Aktivierungsschritte</a>, um alle ClipMyDeals-"
+"Funktionen zu aktivieren.</p><p>Wir empfehlen Ihnen außerdem, dass Sie <a "
+"style=\"color: #fff\" vollständig durchgehen ; text-decoration:underline;\" "
+"href=\"%2$s\" target=\"_blank\">ClipMyDeals-Dokumentation</a> für ein "
+"detailliertes Verständnis der Theme-Funktionen und -Optionen.</p>"
+
+#. translators: 1:Name 2:Title 3:Stores
+#: page-submit-coupons.php:116
+msgid ""
+"<p>Hi,</p>\n"
+"\t\t\t\t\t\t\t<p>A new coupon has been submitted on your website by <strong>"
+"%1$s</strong>.</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>Title:</strong> %%2$s\n"
+"\t\t\t\t\t\t\t\t<br/>\n"
+"\t\t\t\t\t\t\t\t<strong>Store:</strong> %3$s\n"
+"\t\t\t\t\t\t\t</p>"
+msgstr ""
+"<p>Hallo,</p>\n"
+"\t\t\t\t\t\t\t<p>Ein neuer Coupon wurde von <strong>%1$s</strong>auf Ihrer "
+"Website eingereicht.</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>Titel:</strong> %%2$s\n"
+"\t\t\t\t\t\t\t\t<br/>\n"
+"\t\t\t\t\t\t\t\t<strong>Geschäft:</strong> %3$s\n"
+"\t\t\t\t\t\t\t</p>"
+
+#: inc/template-tags.php:178
+msgid ""
+"<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></span> "
+"Edit"
+msgstr ""
+"<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></span> "
+"Bearbeiten"
+
+#: inc/customizer.php:1920
+msgid "@username for the admin of website"
+msgstr "@Benutzername für den Administrator der Website"
+
+#: inc/customizer.php:1906
+msgid "@username for the website"
+msgstr "@Benutzername für die Website"
+
+#. translators: 1:Blogname
+#: page-submit-coupons.php:111
+msgid "[%s] New Coupon Submitted"
+msgstr "[%s] Neuer Coupon Abgegeben"
+
+#: inc/cmd_notification_logs.php:171
+msgid "Access Denied. Nonce could not be verified"
+msgstr "Zugriff abgelehnt. Nonce konnte nicht verifiziert warden"
+
+#: inc/cmd_functions.php:4455 inc/cmd_subscriptions.php:209
+#: inc/cmd_tools.php:131 inc/cmd_tools.php:246 inc/cmd_tools.php:314
+#: inc/cmd_tools.php:371 inc/quick_setup.php:260 inc/quick_setup.php:520
+msgid "Access Denied. Nonce could not be verified."
+msgstr "Zugriff Verweigert. Nonce konnte nicht verifiziert werden."
+
+#: inc/cmd_functions.php:4352
+msgid "Account Number"
+msgstr "Accountnummer"
+
+#: inc/cmd_subscriptions.php:129
+msgid "Actions"
+msgstr "Aktionen"
+
+#: inc/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Aktivieren Sie"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2707
+msgid "Activate %2$s"
+msgstr "Aktivieren Sie %2$s"
+
+#: inc/cmd_functions.php:2729
+msgid "Activate Code"
+msgstr "Aktiviere Code"
+
+#: inc/cmd_functions.php:2728 template-parts/code.php:64
+#: template-parts/coupon-popup.php:91 template-parts/coupon-popup.php:161
+msgid "Activate Deal"
+msgstr "Zum Deal"
+
+#: inc/class-tgm-plugin-activation.php:2414 inc/cmd_functions.php:560
+#: inc/cmd_functions.php:612 inc/cmd_functions.php:768
+msgid "Active"
+msgstr "Aktiv"
+
+#: inc/update.php:40
+msgid "Add Coupons"
+msgstr "Gutscheine Hinzufügen"
+
+#: inc/cmd_functions.php:950 inc/cmd_functions.php:3692
+msgid "Add New"
+msgstr "Add New"
+
+#: inc/cmd_functions.php:835
+msgid "Add New Brand"
+msgstr "Neue Marke hinzufügen"
+
+#: inc/cmd_functions.php:949
+msgid "Add New Coupon"
+msgstr "Hinzufügen Neuer Gutschein"
+
+#: inc/cmd_functions.php:419
+msgid "Add New Location"
+msgstr "Sie Neuen Ort Hinzufügen"
+
+#: inc/cmd_functions.php:3691
+msgid "Add New Notification"
+msgstr "Neue Benachrichtigung hinzufügen"
+
+#: inc/cmd_functions.php:329
+msgid "Add New Offer Category"
+msgstr "Fügen Sie Neue Angebot Kategorie"
+
+#: inc/cmd_functions.php:512
+msgid "Add New Store"
+msgstr "Add New Store"
+
+#: inc/cmd_functions.php:838
+msgid "Add or remove brands"
+msgstr "Marken hinzufügen oder entfernen"
+
+#: inc/cmd_functions.php:515
+msgid "Add or remove stores"
+msgstr "Hinzufügen oder entfernen, speichert"
+
+#: functions.php:109 functions.php:118 functions.php:127 functions.php:136
+#: inc/cmd_widgets.php:2228 inc/cmd_widgets.php:2238 inc/cmd_widgets.php:2248
+#: inc/cmd_widgets.php:2258 inc/cmd_widgets.php:2268
+msgid "Add widgets here."
+msgstr "Add widgets here."
+
+#: inc/customizer.php:1929
+msgid "Additional HTML/Scripts"
+msgstr "Zusätzliche HTML/Skripte"
+
+#: inc/cmd_functions.php:4369
+msgid "Address"
+msgstr "Adresse"
+
+#: inc/update.php:38
+msgid ""
+"After you save your key, you can start adding your coupons and customize the "
+"look &amp; feel of your website."
+msgstr ""
+"Nachdem Sie Ihren Schlüssel gespeichert haben, können Sie mit dem Hinzufügen "
+"Ihrer Gutscheine beginnen und das Erscheinungsbild anpassen. Gefühl Ihrer "
+"Website."
+
+#: inc/customizer.php:1094
+msgid "Ajax Search"
+msgstr "Ajax Suche"
+
+#: page-alpha-stores.php:40
+msgid "All"
+msgstr "Alle"
+
+#: inc/cmd_functions.php:830
+msgid "All Brands"
+msgstr "Alle Marken"
+
+#: inc/cmd_functions.php:947
+msgid "All Coupons"
+msgstr "Alle Gutscheine"
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen sind abgeschlossen."
+
+#: inc/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Alle Installationen sind abgeschlossen."
+
+#: inc/cmd_functions.php:413
+msgid "All Locations"
+msgstr "Alle Standorte"
+
+#: inc/cmd_functions.php:3689
+msgid "All Notifications"
+msgstr "Alle Benachrichtigungen"
+
+#: inc/cmd_functions.php:324
+msgid "All Offer Categories"
+msgstr "Alle Bieten Kategorien"
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle plugins erfolgreich installiert und aktiviert. %1$s"
+
+#: inc/linkmydeals.php:52
+msgid ""
+"All Sources: We source all offers from Store Website, Email Newsletters, "
+"Social Media Communications, Affiliate Network Coupons & all such official "
+"communications from each brand."
+msgstr ""
+"Alle Quellen: Wir beziehen alle Angebote von der Shop-Website, E-Mail-"
+"Newslettern, Social-Media-Kommunikation, Affiliate-Netzwerk-Gutscheinen und "
+"allen offiziellen Mitteilungen jeder Marke."
+
+#: inc/cmd_functions.php:507
+msgid "All Stores"
+msgstr "Alle Filialen"
+
+#: inc/linkmydeals.php:51
+msgid ""
+"All Stores available: Even if we don't already collect coupons for a store, "
+"we'll add them to our database just for you. No problem at all."
+msgstr ""
+"Alle Stores verfügbar: Auch wenn wir noch keine Coupons für einen Store "
+"sammeln, fügen wir diese nur für Sie zu unserer Datenbank hinzu. Überhaupt "
+"kein Problem."
+
+#: inc/customizer.php:1261
+msgid "Allow Coupons to have their own page?"
+msgstr "Erlauben Sie Coupons für Ihre eigene Seite?"
+
+#: inc/cmd_widgets.php:2183
+msgid "Alternative Text"
+msgstr "Alternative Text"
+
+#: inc/customizer.php:1165
+msgid "Always Show"
+msgstr "Immer Anzeigen"
+
+#: inc/cmd_functions.php:4299
+msgid "Amazon Pay ID"
+msgstr "Amazon Pay-ID"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Bei der Installation von %1$s ist ein Fehler aufgetreten: <strong>"
+"%2$s</strong>."
+
+#: inc/update.php:150
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Während der API-Anfrage ist ein unerwarteter HTTP-Fehler aufgetreten.</p> <p>"
+"<a href=\"?\" onclick=\"document.location.reload(); return false;\">"
+"Versuchen Sie es erneut</a>"
+
+#: inc/update.php:155
+msgid "An unknown error occurred"
+msgstr "Ein unbekannter Fehler ist aufgetreten"
+
+#: inc/customizer.php:1347
+msgid "Android App/Bundle ID"
+msgstr "Android App/Bundle ID"
+
+#: inc/cmd_widgets.php:1342 searchform.php:59 searchform.php:65
+msgid "Any Category"
+msgstr "Jede Kategorie"
+
+#: inc/cmd_widgets.php:1363 searchform.php:83 searchform.php:89
+msgid "Any Location"
+msgstr "Jedem Ort"
+
+#: inc/cmd_widgets.php:1322 searchform.php:36 searchform.php:42
+msgid "Any Store"
+msgstr "Beliebiger Laden"
+
+#: inc/customizer.php:1296
+msgid "App Options"
+msgstr "App Optionen"
+
+#: inc/cmd_tools.php:48
+msgid "Are you sure you want to delete all offers from LinkMyDeals?"
+msgstr ""
+"Sind Sie sicher, dass Sie alle Angebote von LinkMyDeals löschen möchten?"
+
+#: inc/cmd_functions.php:3900
+msgid "Are you sure you want to delete your Account?"
+msgstr "Sind Sie sicher, dass Sie Ihr Konto löschen möchten?"
+
+#: inc/demo_import.php:107
+msgid "Are you sure you want to reset your website?"
+msgstr "Sind Sie sicher, dass Sie Ihre Website zurücksetzen möchten?"
+
+#: inc/cmd_functions.php:354 inc/cmd_functions.php:446
+#: inc/cmd_functions.php:687 inc/cmd_functions.php:864
+msgid "Article"
+msgstr "Artikel"
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "Unbekannt"
+
+#: inc/customizer.php:1461
+msgid "Ask Notification Permission Onload?"
+msgstr "Fragen Sie beim Benachrichtigungsberechtigung onload?"
+
+#. translators: 1: variable with store count to be replaced
+#: inc/cmd_functions.php:2778
+msgid "Available on %1$s stores"
+msgstr "Verfügbar in %1$s Geschäften"
+
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Verfügbare version:"
+
+#: inc/cmd_functions.php:1081
+msgid "Badge Text"
+msgstr "Abzeichentext"
+
+#: inc/cmd_functions.php:4347
+msgid "Bank Code"
+msgstr "Bankleitzahl"
+
+#: inc/cmd_functions.php:4337
+msgid "Bank Details"
+msgstr "Bankdaten"
+
+#: inc/customizer.php:319 inc/customizer.php:1850 inc/quick_setup.php:139
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/customizer.php:1051
+msgid "Banner Tagline"
+msgstr "Banner Mit Dem Slogan"
+
+#: inc/customizer.php:1063
+msgid "Banner Tagline Color"
+msgstr "Banner Mit Dem Slogan Farbe"
+
+#: inc/customizer.php:1028
+msgid "Banner Title"
+msgstr "Banner-Titel"
+
+#: inc/customizer.php:1040
+msgid "Banner Title Color"
+msgstr "Banner-Titel-Farbe"
+
+#: inc/cmd_functions.php:700
+msgid "Banner URL"
+msgstr "Banner URL"
+
+#: inc/cmd_functions.php:4229
+msgid "Basic Details"
+msgstr "Grundlegende Details"
+
+#: inc/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Beginnen Sie mit der Aktivierung des plugin"
+msgstr[1] "Beginnen Sie mit der Aktivierung von plugins"
+
+#: inc/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Beginnen Sie mit der Installation des plugin"
+msgstr[1] "Beginnen Sie mit der Installation von plugins"
+
+#: inc/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Beginnen Sie mit der Aktualisierung des plugin"
+msgstr[1] "Beginnen Sie mit der Aktualisierung der plugins"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Best Deal"
+msgstr "Beste Angebot"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Best Offer"
+msgstr "Beste Angebot"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Best Value"
+msgstr "Best Value"
+
+#. Template Name of the theme
+msgid "Blank with Container"
+msgstr "Leere Container"
+
+#. Template Name of the theme
+msgid "Blank with Transparent Container"
+msgstr "Blanko mit transparentem Behälter"
+
+#. Template Name of the theme
+msgid "Blank without Container"
+msgstr "Leer ohne Container"
+
+#: inc/cmd_functions.php:896
+msgid "Brand Location (IFrame)"
+msgstr "Markenstandort (IFrame)"
+
+#: inc/cmd_functions.php:905
+msgid "Brand Video (IFrame)"
+msgstr "Markenvideo (IFrame)"
+
+#: inc/cmd_functions.php:826 inc/cmd_functions.php:840
+#: page-submit-coupons.php:285
+msgid "Brands"
+msgstr "Marken"
+
+#: inc/cmd_tools.php:80
+msgid "Bulk Import"
+msgstr "Massenimport"
+
+#: inc/cmd_functions.php:709
+msgid "Button Color"
+msgstr "Taste Farbe"
+
+#. translators: 1: variable with price to be replaced
+#: inc/cmd_functions.php:2777
+msgid "Buy For %1$s"
+msgstr "Kaufen Von %1$s"
+
+#: inc/cmd_functions.php:2768
+msgid "Buy Now"
+msgstr "Jetzt Kaufen"
+
+#: inc/cmd_functions.php:3916 inc/demo_import.php:113
+msgid "Cancel"
+msgstr "Stornieren"
+
+#: comments.php:101
+msgid "Cancel Reply"
+msgstr "Antworten Abbrechen"
+
+#: inc/customizer.php:1471
+msgid "Card And Image Settings"
+msgstr "Einstellungen für Karte und Bild"
+
+#: inc/customizer.php:182
+msgid "Card Background Color"
+msgstr "Hintergrundfarbe der karte"
+
+#: inc/customizer.php:170
+msgid "Card Title Color"
+msgstr "Farbe des Kartentitels"
+
+#: inc/customizer.php:1561 inc/customizer.php:1682
+msgid "Carousel Card"
+msgstr "Karussellkarte"
+
+#: inc/customizer.php:1547 inc/customizer.php:1668
+msgid "Carousel Image"
+msgstr "Karussellbild"
+
+#: inc/cmd_functions.php:2555
+msgid "Cashback Earned"
+msgstr "Cashback Verdient"
+
+#: inc/cmd_functions.php:839
+msgid "Choose from the most used brands"
+msgstr "Wählen Sie aus den am häufigsten verwendeten Marken"
+
+#: inc/cmd_functions.php:516
+msgid "Choose from the most used stores"
+msgstr "Wählen Sie aus den am meisten verwendeten stores"
+
+#: inc/cmd_notification_logs.php:75
+msgid "Clear All"
+msgstr "Alles löschen"
+
+#: inc/cmd_functions.php:3911
+msgid "Click <strong class=\"text-danger\">Stop using Apple ID</strong>"
+msgstr ""
+"Klicken Sie auf <strong class=\"text-danger\">Verwendung der Apple-ID "
+"beenden</strong>"
+
+#: template-parts/code.php:78 template-parts/code.php:105
+#: template-parts/coupon-popup.php:102 template-parts/coupon-popup.php:172
+msgid "Click to Copy"
+msgstr "Klicken Sie, um zu Kopieren"
+
+#: inc/demo_import.php:108
+msgid ""
+"Clicking \"<strong>Import</strong>\" will reset your website as per "
+"\"<strong id=\"demoImport-name\">[DEMO]</strong>\", and all your content & "
+"settings (Coupons, Products, Menu, Widgets, etc.) will be permanently lost. "
+"Please take a backup of your content if you need to add it again later."
+msgstr ""
+"Wenn Sie auf „<strong>Importieren</strong>“ klicken, wird Ihre Website gemäß "
+"„<strong id=\"demoImport-name\">[DEMO]</strong>“ sowie alle Ihre Inhalte und "
+"Einstellungen (Gutscheine, Produkte, Menü usw.) zurückgesetzt. Widgets usw.) "
+"gehen dauerhaft verloren. Bitte erstellen Sie eine Sicherungskopie Ihrer "
+"Inhalte, falls Sie diese später erneut hinzufügen müssen."
+
+#. Theme Name of the theme
+#. Author of the theme
+#: style.css inc/customizer.php:1024 inc/quick_setup.php:95 inc/update.php:23
+msgid "ClipMyDeals"
+msgstr "ClipMyDeals"
+
+#: inc/customizer.php:346
+msgid "clipmydeals"
+msgstr "clipmydeals"
+
+#: inc/demo_import.php:59
+msgid "ClipMyDeals - Demo Import"
+msgstr "ClipMyDeals – Demo Import"
+
+#: inc/update.php:51
+msgid "ClipMyDeals Demo Import"
+msgstr "ClipMyDeals Demo Import"
+
+#: inc/update.php:52
+msgid "ClipMyDeals Quick Setup"
+msgstr "ClipMyDeals-Schnelleinrichtung"
+
+#: template-parts/coupon-popup.php:230
+msgid "Close"
+msgstr "Schließen"
+
+#: inc/cmd_functions.php:1128 page-submit-coupons.php:214
+msgid "Code"
+msgstr "Code"
+
+#: page-submit-coupons.php:44
+msgid "Code is required for Printable Vouchers"
+msgstr "Code ist erforderlich für eine Druckbare Gutscheine"
+
+#: page-submit-coupons.php:42
+msgid "Code should be minimum 2 characters"
+msgstr "Code sollte mindestens 2 Zeichen"
+
+#: inc/cmd_functions.php:1132
+msgid "Code:"
+msgstr "Code:"
+
+#: inc/cmd_widgets.php:1818
+msgid "Codes"
+msgstr "Codes"
+
+#: inc/customizer.php:1892
+msgid ""
+"Comma Separated list of Facebook Profile IDs that are Admin of your Facebook "
+"Page."
+msgstr ""
+"Durch Komma Getrennte Liste von Facebook-Profil-IDs, Admin von Ihrer "
+"Facebook-Seite."
+
+#: inc/customizer.php:1971
+msgid ""
+"Comma seperated names of javascript files that should not have defer "
+"attribute."
+msgstr ""
+"Durch Kommas getrennte namen von Javascript-Dateien, die kein Defer-Attribut "
+"haben sollten."
+
+#: comments.php:55 comments.php:73
+msgid "Comment navigation"
+msgstr "Kommentar-navigation"
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:38
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:34
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Ein Gedanke zu &ldquo;%s&rdquo;"
+
+#: inc/cmd_functions.php:2770
+msgid "Compare Price"
+msgstr "Vergleiche Preise"
+
+#: inc/cmd_functions.php:4255
+msgid "Confirm Password"
+msgstr "Bestätige das Passwort"
+
+#: inc/cmd_functions.php:4365
+msgid "Contact Information"
+msgstr "Kontaktinformationen"
+
+#: inc/customizer.php:1777
+msgid "Contain"
+msgstr "Enthalten"
+
+#: inc/customizer.php:1373 inc/customizer.php:1415 inc/customizer.php:1429
+msgid "Container"
+msgstr "Container"
+
+#: inc/customizer.php:1478
+msgid "Content Length"
+msgstr "Inhaltslänge"
+
+#: inc/cmd_widgets.php:1829
+msgid "Count:"
+msgstr "Anzahl:"
+
+#: inc/customizer.php:1589 inc/customizer.php:1710
+msgid "Coupon Card"
+msgstr "Gutscheinkarte"
+
+#: inc/cmd_functions.php:1033
+msgid "Coupon Code"
+msgstr "Gutscheincode"
+
+#: inc/cmd_functions.php:960
+msgid "Coupon Codes and Deals"
+msgstr "Gutschein-Codes und Deals"
+
+#: inc/customizer.php:1575 inc/customizer.php:1696
+msgid "Coupon Image"
+msgstr "Gutscheinbild"
+
+#: inc/cmd_widgets.php:2246
+msgid "Coupon Popup"
+msgstr "Gutschein-Popup"
+
+#: inc/customizer.php:1137
+msgid "Coupon Settings"
+msgstr "Gutschein Einstellungen"
+
+#: inc/cmd_functions.php:1025
+msgid "Coupon Type"
+msgstr "Coupontyp"
+
+#: inc/cmd_functions.php:1041
+msgid "Coupon URL"
+msgstr "Gutschein URL"
+
+#: inc/cmd_functions.php:1167
+msgid "Coupon will start appearing from this day onwards"
+msgstr "Der Coupon wird ab diesem Tag angezeigt"
+
+#: archive-coupons.php:51 inc/cmd_functions.php:284 inc/cmd_functions.php:286
+#: inc/cmd_functions.php:945 inc/cmd_functions.php:3601 inc/quick_setup.php:193
+msgid "Coupons"
+msgstr "Gutscheine"
+
+#: inc/cmd_functions.php:959
+msgid "coupons"
+msgstr "Gutscheine"
+
+#: inc/cmd_functions.php:3601
+msgid "Coupons & Products"
+msgstr "Gutscheine & Produkte"
+
+#: archive-coupons.php:50
+msgid "Coupons navigation"
+msgstr "Coupons navigation"
+
+#: inc/cmd_functions.php:1207
+msgid "Coupons will be listed in descending order of display priority."
+msgstr ""
+"Gutscheine werden in absteigender Reihenfolge der Anzeigepriorität "
+"aufgelistet."
+
+#: inc/customizer.php:1778
+msgid "Cover"
+msgstr "Abdeckung"
+
+#: inc/wp_bootstrap_navwalker.php:229
+msgid "Create Menu Items"
+msgstr "Erstellen Sie Menüelemente"
+
+#: inc/cmd_notification_logs.php:120 inc/cmd_subscriptions.php:128
+msgid "Created On"
+msgstr "Erstellt am"
+
+#: inc/customizer.php:1535 inc/customizer.php:1656
+msgid "Custom"
+msgstr "Brauch"
+
+#: inc/update.php:41
+msgid "Customize Website"
+msgstr "Website Anpassen"
+
+#: inc/cmd_functions.php:1129
+msgid "Deal"
+msgstr "Deal"
+
+#: inc/cmd_functions.php:1133
+msgid "Deal:"
+msgstr "Deal:"
+
+#: inc/cmd_widgets.php:1815
+msgid "Deals"
+msgstr "Deal"
+
+#: inc/customizer.php:1429 inc/customizer.php:1534 inc/customizer.php:1655
+msgid "Default"
+msgstr "Standard"
+
+#: inc/customizer.php:252
+msgid "default"
+msgstr "standard"
+
+#: inc/customizer.php:1289
+msgid "Default Coupon Description"
+msgstr "Voreinstellung Gutscheinbeschreibung"
+
+#: inc/customizer.php:1790
+msgid "Default Coupon Image"
+msgstr "Standard Gutscheinbild"
+
+#: inc/customizer.php:1803
+msgid "Default Store Image"
+msgstr "Standard Store Bild"
+
+#: inc/cmd_functions.php:3915 inc/cmd_notification_logs.php:74
+msgid "Delete"
+msgstr "Löschen"
+
+#: inc/cmd_functions.php:3888
+msgid "Delete Account"
+msgstr "Konto Löschen"
+
+#: inc/cmd_tools.php:116
+msgid "Delete Demo Import Coupons"
+msgstr "Demo-Importgutscheine löschen"
+
+#: inc/cmd_tools.php:105
+msgid "Delete Expired Coupons"
+msgstr "Abgelaufene Gutscheine löschen"
+
+#: inc/cmd_notification_logs.php:69
+msgid "Delete Notification Logs After %s Day(s)"
+msgstr "Benachrichtigungsprotokolle nach %s Tag(en) löschen"
+
+#: inc/update.php:43 inc/update.php:51
+msgid "Demo Import"
+msgstr "Demo Import"
+
+#: inc/demo_import.php:65
+msgid "Demo Import is not available in Child Theme."
+msgstr "Der Demo-Import ist im Child-Theme nicht verfügbar."
+
+#: inc/cmd_tools.php:396
+msgid "Demo Imported Content has been permanently deleted."
+msgstr "Demo-importierte Inhalte wurden dauerhaft gelöscht."
+
+#: page-submit-coupons.php:206
+msgid "Description"
+msgstr "Beschreibung"
+
+#: page-submit-coupons.php:40
+msgid "Description should be minimum 5 characters"
+msgstr "Beschreibung sollte mindestens 5 Zeichen"
+
+#: inc/customizer.php:1641
+msgid "Desktop Card and Images"
+msgstr "Desktop Karte und Bilder"
+
+#: inc/customizer.php:1179 inc/customizer.php:1455
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: inc/cmd_functions.php:1979 inc/cmd_functions.php:2036
+msgid "Disable Push Notifications"
+msgstr "Deaktivieren Sie Push-Benachrichtigungen"
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Diese Meldung schließen"
+
+#: inc/customizer.php:1306
+msgid "Display Get Android In Footer"
+msgstr "Zeigen Sie Get Android in der Fußzeile an"
+
+#: inc/customizer.php:1319
+msgid "Display Get IOS In Footer"
+msgstr "Zeigen Sie Get IOS in der Fußzeile an"
+
+#: inc/customizer.php:288
+msgid "Display Latest Coupons"
+msgstr "Anzeige Neusten Gutscheine"
+
+#: inc/customizer.php:299
+msgid "Display Latest Posts"
+msgstr "Display Neuesten Beiträge"
+
+#: inc/customizer.php:277
+msgid "Display Popular Stores"
+msgstr "Anzeige Popular Stores"
+
+#: inc/cmd_functions.php:1089
+msgid "Display Priority"
+msgstr "Anzeige Priorität"
+
+#: inc/customizer.php:1770
+msgid "Display Type"
+msgstr "Anzeigetyp"
+
+#. translators: %s: Results count
+#: inc/cmd_functions.php:3623
+msgid "Displaying %s results"
+msgstr "Die Anzeige von %s Ergebnisse"
+
+#: inc/customizer.php:1970
+msgid "Do not defer following script tags"
+msgstr "Verschieben Sie die folgenden Skript-Tags nicht"
+
+#: inc/cmd_tools.php:72
+msgid "Download All Coupons"
+msgstr "Laden Sie alle Gutscheine herunter"
+
+#: inc/cmd_tools.php:91
+msgid "Download Sample File"
+msgstr "Beispieldatei herunterladen"
+
+#: inc/template-tags.php:152
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:86 page-all-brands.php:99 page-all-locations.php:129
+#: page-all-offer-categories.php:137 page-all-stores.php:102
+#: page-alpha-stores.php:105 page-blog.php:68 page-submit-coupons.php:362
+#: page-transparent.php:65 template-parts/content-page.php:37
+msgid "Edit %s"
+msgstr "Bearbeiten Sie %s"
+
+#: inc/cmd_functions.php:833
+msgid "Edit Brand"
+msgstr "Marke bearbeiten"
+
+#: inc/cmd_functions.php:951
+msgid "Edit Coupon"
+msgstr "Bearbeiten Gutschein"
+
+#: inc/cmd_functions.php:416
+msgid "Edit Location"
+msgstr "Standorte Bearbeiten"
+
+#: inc/cmd_functions.php:3693
+msgid "Edit Notification"
+msgstr "Benachrichtigung bearbeiten"
+
+#: inc/cmd_functions.php:327
+msgid "Edit Offer Category"
+msgstr "Angebot Bearbeiten Kategorie"
+
+#: inc/cmd_functions.php:510
+msgid "Edit Store"
+msgstr "Bearbeiten Speichern"
+
+#: inc/cmd_functions.php:4247
+msgid "Email"
+msgstr "Email"
+
+#: inc/customizer.php:1179 inc/customizer.php:1455
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: inc/customizer.php:1101
+msgid "Enable Ajax Search"
+msgstr "Aktivieren Ajax Suche"
+
+#: inc/cmd_functions.php:1979 inc/cmd_functions.php:2004
+#: inc/cmd_functions.php:2013 inc/cmd_functions.php:2358
+msgid "Enable Push Notifications"
+msgstr "Aktivieren Sie Push-Benachrichtigungen"
+
+#: inc/customizer.php:1823
+msgid "Enable Social Media Optimization"
+msgstr "Aktivieren Sie Social-Media-Optimierung"
+
+#: inc/customizer.php:1283
+msgid ""
+"Enjoy big savings with this voucher. Don’t miss out, valid for limited "
+"period only."
+msgstr ""
+"Genießen Sie große Ersparnisse mit diesem Gutschein. Lassen Sie sich das "
+"nicht entgehen, nur für einen begrenzten Zeitraum gültig."
+
+#: inc/customizer.php:1234 inc/customizer.php:1248
+msgid "Enter -1 to display all"
+msgstr "Geben Sie -1 an, um alle anzeigen"
+
+#: inc/customizer.php:1491 inc/customizer.php:1508
+msgid "Enter 0 for no limit"
+msgstr "Geben Sie 0 für keine Grenze"
+
+#: inc/cmd_functions.php:371 inc/cmd_functions.php:682
+#: inc/cmd_functions.php:704 inc/cmd_functions.php:882
+msgid "Enter a valid image URL here"
+msgstr "Geben Sie eine gültige Bild-URL hier"
+
+#: inc/cmd_functions.php:673
+msgid "Enter each subdomain on new line."
+msgstr "Geben Sie jede Subdomain in einer neuen Zeile ein."
+
+#: inc/cmd_functions.php:750
+msgid "Enter store Categories (Comma separated list)"
+msgstr "Geben Sie die Shop-Kategorien ein (durch Kommas getrennte Liste)"
+
+#: inc/cmd_functions.php:759
+msgid ""
+"Enter store Display Priority (Stores will be listed in descending order of "
+"display priority.)"
+msgstr ""
+"Geben Sie die Anzeigepriorität des Geschäfts ein (Geschäfte werden in "
+"absteigender Reihenfolge der Anzeigepriorität aufgelistet.)"
+
+#: inc/cmd_functions.php:664
+msgid "Enter store's default Affiliate URL here."
+msgstr "Enter store die Standard-Affiliate-URL hier."
+
+#: inc/cmd_functions.php:380 inc/cmd_functions.php:473
+#: inc/cmd_functions.php:741 inc/cmd_functions.php:891
+msgid ""
+"Enter title you want to display (leave empty to display default page title)"
+msgstr ""
+"Geben Sie den gewünschten Titel zur Anzeige (leer lassen für Standard-"
+"display Seite Titel)"
+
+#: inc/customizer.php:1519 inc/customizer.php:1640
+msgid "Enter values in pixels for custom height and 0 for defualt values"
+msgstr ""
+"Geben Sie Werte in Pixel für die benutzerdefinierte Höhe und 0 für "
+"Standardwerte ein"
+
+#: inc/cmd_functions.php:655
+msgid "Enter website URL here."
+msgstr "Geben Sie die website-URL hier."
+
+#: inc/update.php:72
+msgid "Enter your 16 Digit License Key : "
+msgstr "Geben Sie Ihren 16-stelligen Lizenzschlüssel ein: "
+
+#: inc/cmd_tools.php:142
+msgid "Error during File Upload : %s"
+msgstr "Fehler beim Datei-Upload: %s"
+
+#: inc/cmd_tools.php:175
+msgid "Error on Row %s: Coupon [ID] does not Exist"
+msgstr "Fehler in Zeile %s: Coupon [ID] existiert nicht"
+
+#: inc/cmd_tools.php:172
+msgid "Error on Row %s: Empty coupon [title]"
+msgstr "Fehler in Zeile %s: Leerer Gutschein [Titel]"
+
+#: inc/customizer.php:1348
+msgid "Example: com.google.android"
+msgstr "Beispiel: com.google.android"
+
+#: inc/customizer.php:1334
+msgid "Example: url-friendly-app-name/id123456"
+msgstr "Beispiel: URL-freundlicher-App-Name/id123456"
+
+#. translators: 1: validity
+#: inc/cmd_functions.php:2733
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#: template-parts/coupon-grid.php:122 template-parts/coupon-list.php:188
+#: template-parts/coupon-popup.php:216 template-parts/coupon-print.php:59
+#: template-parts/single-coupon.php:196
+msgid "Expired On"
+msgstr "Abgelaufen Am"
+
+#: inc/cmd_tools.php:69
+msgid "Export"
+msgstr "Export"
+
+#: inc/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Externe Quelle"
+
+#: inc/customizer.php:1891
+msgid "Facebook Admins"
+msgstr "Facebook-Admins"
+
+#: inc/customizer.php:1864
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: inc/customizer.php:1877
+msgid "Facebook Page URL"
+msgstr "Facebook Seite URL"
+
+#: inc/cmd_notification_logs.php:108
+msgid "Failed"
+msgstr "fehlgeschlagen"
+
+#: inc/cmd_functions.php:1985 inc/cmd_functions.php:2039
+msgid "Failed to enable notifications."
+msgstr "Benachrichtigungen konnten nicht aktiviert werden."
+
+#: inc/cmd_tools.php:231
+msgid "File uploaded. %s offers processed successfully."
+msgstr "Datei hochgeladen. %s Angebote erfolgreich verarbeitet."
+
+#: inc/customizer.php:1779
+msgid "Fill"
+msgstr "Füllen"
+
+#: inc/cmd_functions.php:4237
+msgid "First Name"
+msgstr "Vorname"
+
+#: inc/customizer.php:1956
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: functions.php:116
+msgid "Footer 1"
+msgstr "Footer 1"
+
+#: functions.php:125
+msgid "Footer 2"
+msgstr "Footer 2"
+
+#: functions.php:134
+msgid "Footer 3"
+msgstr "Footer 3"
+
+#: inc/cmd_widgets.php:2226
+msgid "Footer 4"
+msgstr "Footer 4"
+
+#: inc/customizer.php:202
+msgid "Footer Color"
+msgstr "Fußzeile Farbe"
+
+#: inc/customizer.php:213
+msgid "Footer Text Left"
+msgstr "Fußzeilentext links"
+
+#: inc/customizer.php:224
+msgid "Footer Text Right"
+msgstr "Fußzeilentext rechts"
+
+#. translators: 1: Update Link 2: Minimum required version 2: template name
+#: inc/cmd_functions.php:176
+msgid ""
+"For the cashback pages to function correctly, please update your <strong>"
+"%3$s</strong> plugin to atleast <strong>%2$s</strong>. <a href=\"%1$s\">"
+"Click here to update.</a>"
+msgstr ""
+"Damit die Cashback-Seiten ordnungsgemäß funktionieren, aktualisieren Sie "
+"bitte Ihr <strong>%3$s</strong>-Plugin auf mindestens <strong>%2$s</strong>. "
+"<a href=\"%1$s\">Klicken Sie hier, um zu aktualisieren.</a>"
+
+#. translators: 1: Update Link 2: Minimum required version 2: template name
+#: inc/cmd_functions.php:189
+msgid ""
+"For the comparison pages to function correctly, please update your <strong>"
+"%3$s</strong> plugin to atleast <strong>%2$s</strong>. <a href=\"%1$s\">"
+"Click here to update.</a>"
+msgstr ""
+"For the comparison pages to function correctly, please update your <strong>"
+"%3$s</strong> plugin to atleast <strong>%2$s</strong>. <a href=\"%1$s\">"
+"Click here to update.</a>"
+
+#: inc/customizer.php:238
+msgid "Frontpage Settings"
+msgstr "Frontpage-Einstellungen"
+
+#: inc/customizer.php:1878
+msgid "Full URL of website's Facebook Page"
+msgstr "Vollständige URL der website, die Facebook-Seite"
+
+#. Template Name of the theme
+#: inc/customizer.php:1373
+msgid "Full Width"
+msgstr "Volle Breite"
+
+#: inc/customizer.php:1415 inc/customizer.php:1429
+msgid "Full width"
+msgstr "Volle Breite"
+
+#: template-parts/code.php:72 template-parts/code.php:125
+msgid "Get Code"
+msgstr "Code Abrufen"
+
+#: inc/linkmydeals.php:46
+msgid "Get Coupon Feeds from 4000+ Online Stores around the world"
+msgstr ""
+"Erhalten Sie Coupon-Feeds von über 4000 Online-Shops auf der ganzen Welt"
+
+#: inc/cmd_functions.php:1424 inc/customizer.php:1832
+msgid "Get Latest Coupons and Deals for your Online Shopping"
+msgstr ""
+"Erhalten Sie die Neuesten Gutscheine und Rabatte für deinen Online-Shopping"
+
+#: inc/cmd_functions.php:3906
+msgid "Go to iPhone <strong>Settings</strong>"
+msgstr "Gehen Sie zu den iPhone-<strong>Einstellungen</strong>"
+
+#: inc/cmd_functions.php:732 inc/cmd_functions.php:909
+msgid ""
+"Go to Youtube video, click on Share > Embed. Copy the HTML and paste in the "
+"above box."
+msgstr ""
+"Gehen Sie zum YouTube-Video und klicken Sie auf „Teilen“ > „Einbetten“. "
+"Kopieren Sie den HTML-Code und fügen Sie ihn in das obige Feld ein."
+
+#: inc/cmd_functions.php:4292
+msgid "Google Pay ID"
+msgstr "Google Pay-ID"
+
+#: inc/customizer.php:1151 inc/quick_setup.php:125
+msgid "Grid (2 in a row)"
+msgstr "Raster (2 in einer Reihe)"
+
+#: inc/customizer.php:1151 inc/quick_setup.php:126
+msgid "Grid (3 in a row)"
+msgstr "Grid (3 in einer Reihe)"
+
+#: inc/customizer.php:1151 inc/quick_setup.php:127
+msgid "Grid (4 in a row)"
+msgstr "Grid (4 in einer Reihe)"
+
+#: inc/customizer.php:1941
+msgid "Header"
+msgstr "Header"
+
+#: inc/customizer.php:109
+msgid "Header Background Color"
+msgstr "Hintergrundfarbe der Kopfzeile"
+
+#: inc/customizer.php:120
+msgid "Header Background Gradient"
+msgstr "Header-Hintergrundverlauf"
+
+#: inc/customizer.php:1371
+msgid "Header Width"
+msgstr "Header-Breite"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Details Ausblenden"
+
+#: inc/wp_bootstrap_navwalker.php:228
+msgid "Home"
+msgstr "Heim"
+
+#: inc/customizer.php:247
+msgid "Homepage Coupon Layout"
+msgstr "Homepage Gutschein-Layout"
+
+#: inc/customizer.php:1427
+msgid "Homepage Layout Type"
+msgstr "Homepage-Layout, Typ"
+
+#: inc/cmd_widgets.php:2236
+msgid "Homepage Widget"
+msgstr "Homepage Widget"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Hot Deal"
+msgstr "Hot Deal"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Hot Offer"
+msgstr "Heißes Angebot"
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://clipmydeals.com"
+msgstr "https://clipmydeals.com"
+
+#: inc/cmd_notification_logs.php:116 inc/cmd_subscriptions.php:125
+msgid "ID"
+msgstr "ID"
+
+#: inc/cmd_functions.php:1143
+msgid ""
+"If you want to show \"Get Coupon Code\" button even for deals, then you can "
+"set \"Coupon Type\" as \"code\" and write something like \"No Coupon Code "
+"Required\" here."
+msgstr ""
+"Wenn Sie die Schaltfläche „Gutscheincode abrufen“ auch für Angebote anzeigen "
+"möchten, können Sie „Gutscheintyp“ als „Code“ festlegen und hier etwas wie "
+"„Kein Gutscheincode erforderlich“ eingeben."
+
+#: inc/customizer.php:1761
+msgid "Image Preferences"
+msgstr "Bildeinstellungen"
+
+#: inc/cmd_functions.php:367 inc/cmd_functions.php:878
+#: inc/cmd_functions.php:1049 inc/cmd_widgets.php:2177
+msgid "Image URL"
+msgstr "Bild-URL"
+
+#: page-submit-coupons.php:329
+msgid "Image/Banner URL"
+msgstr "Bild/Banner-URL"
+
+#: inc/cmd_widgets.php:2175
+msgid "Image:"
+msgstr "Bild:"
+
+#: inc/customizer.php:666
+msgid "Images per slide"
+msgstr "Bilder pro Folie"
+
+#: inc/demo_import.php:112 inc/demo_import.php:158
+msgid "Import"
+msgstr "Importieren"
+
+#: inc/demo_import.php:82
+msgid "Import Demo"
+msgstr "Demo importieren"
+
+#: inc/cmd_tools.php:89
+msgid "Import File"
+msgstr "Datei importieren"
+
+#: inc/cmd_functions.php:564 inc/cmd_functions.php:612
+#: inc/cmd_functions.php:769
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: inc/cmd_widgets.php:1867
+msgid "INCLUDE BRAND (comma-separated list of brand slug)"
+msgstr "INCLUDE BRAND (durch Kommas getrennte Liste der Marken-Slugs)"
+
+#: inc/cmd_widgets.php:1861
+msgid "INCLUDE CATEGORY (comma-separated list of category slug)"
+msgstr "GEHÖREN KATEGORIE (Komma-getrennte Liste von Kategorie-slug)"
+
+#: inc/cmd_widgets.php:1864
+msgid "INCLUDE LOCATION (comma-separated list of location slug)"
+msgstr "SPEICHERORT (Komma-getrennte Liste von Lage slug)"
+
+#: inc/cmd_widgets.php:1858
+msgid "INCLUDE STORE(comma-separated list of store slug)"
+msgstr "ENTHALTEN SPEICHERN(Komma-getrennte Liste speichern slug)"
+
+#: inc/customizer.php:1165
+msgid "Inline"
+msgstr "Im Einklang"
+
+#: inc/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Installieren"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2696
+msgid "Install %2$s"
+msgstr "Installieren Sie %2$s"
+
+#: inc/linkmydeals.php:47
+msgid "Install LinkMyDeals Plugin"
+msgstr "Installieren Sie das LinkMyDeals Plugin"
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Plugins Installieren"
+
+#: inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Installieren Sie die erforderlichen Plugins"
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2435
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Installiert Aber Nicht Aktiviert"
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Installierte version:"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin Installieren und Aktivieren %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin Installieren %1$s (%2$d/%3$d)"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "Plugin wird Installiert: %s"
+
+#: page-submit-coupons.php:30
+msgid "Invalid Captcha"
+msgstr "Ungültiges Captcha"
+
+#: page-submit-coupons.php:50
+msgid "Invalid Image URL"
+msgstr "Ungültiges Bild-URL"
+
+#: page-submit-coupons.php:48
+msgid "Invalid Landing Page URL"
+msgstr "Ungültige Zielseiten-URL"
+
+#: inc/customizer.php:1333
+msgid "IOS App/Bundle ID"
+msgstr "IOS App/Bundle ID"
+
+#: inc/customizer.php:1262
+msgid ""
+"Is set to \"No\", comments & sharing of individual coupons will get disabled"
+msgstr ""
+"Ist auf \"No\" gesetzt, Kommentare & teilen von individuellen coupons "
+"erhalten deaktiviert"
+
+#: 404.php:31
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Es sieht aus wie nichts gefunden wurde an dieser Stelle. Vielleicht "
+"versuchen Sie einen der links unten oder eine Suche?"
+
+#: template-parts/content-none.php:38
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Es scheint, wir können nicht finden, was Sie suchen. Vielleicht kann eine "
+"Suche helfen."
+
+#: template-parts/content-nocoupons.php:41
+msgid ""
+"It seems we don&rsquo;t have any coupons for this category. Try searching "
+"for something else."
+msgstr ""
+"Es scheint, wir haben noch keine Gutscheine für diese Kategorie. Versuchen "
+"Sie die Suche für etwas anderes."
+
+#: inc/cmd_widgets.php:2180 inc/customizer.php:408 inc/customizer.php:435
+#: inc/customizer.php:462 inc/customizer.php:489 inc/customizer.php:516
+#: inc/customizer.php:543 inc/customizer.php:570 inc/customizer.php:597
+#: inc/customizer.php:624 inc/customizer.php:651 inc/customizer.php:695
+#: inc/customizer.php:722 inc/customizer.php:749 inc/customizer.php:776
+#: inc/customizer.php:803 inc/customizer.php:830 inc/customizer.php:857
+#: inc/customizer.php:884 inc/customizer.php:911 inc/customizer.php:938
+#: inc/customizer.php:965 inc/customizer.php:992 page-submit-coupons.php:237
+msgid "Landing Page URL"
+msgstr "Zielseiten-URL"
+
+#: page-submit-coupons.php:46
+msgid "Landing Page URL is required for Online Offers"
+msgstr "Landing-Page-URL ist erforderlich für Online-Angebote"
+
+#: inc/cmd_functions.php:4241
+msgid "Last Name"
+msgstr "Nachname"
+
+#: index.php:160
+msgid "Latest Offers"
+msgstr "Aktuelle Angebote"
+
+#: inc/customizer.php:1413
+msgid "Layout Type"
+msgstr "Layout-Typ"
+
+#. translators: %s: post title
+#: inc/template-tags.php:44
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Hinterlassen Sie einen Kommentar<span class=\"screen-reader-text\">zu "
+"%s</span>"
+
+#: comments.php:97
+msgid "Leave a Reply"
+msgstr "Lassen Sie eine Antwort"
+
+#. translators: 1:reply
+#: comments.php:98
+msgid "Leave a Reply to %s"
+msgstr "Hinterlassen Sie eine Antwort auf %s"
+
+#: inc/customizer.php:1401
+msgid "Left"
+msgstr "links"
+
+#. Template Name of the theme
+msgid "Left Sidebar"
+msgstr "Linke Seitenleiste"
+
+#: inc/update.php:50 inc/update.php:71
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: inc/cmd_functions.php:1105
+msgid "LinkMyDeals ID"
+msgstr "LinkMyDeals ID"
+
+#: inc/customizer.php:253
+msgid "List"
+msgstr "Aufführen"
+
+#: inc/customizer.php:1151 inc/quick_setup.php:124
+msgid "List (1 per row)"
+msgstr "Liste (1 pro Zeile)"
+
+#: inc/cmd_functions.php:1758
+msgid "Loading"
+msgstr "Laden"
+
+#: inc/customizer.php:1177 inc/quick_setup.php:177
+msgid "Location Taxonomy"
+msgstr "Lage Taxonomie"
+
+#: inc/cmd_functions.php:306 inc/cmd_functions.php:308
+#: inc/cmd_functions.php:410 inc/cmd_functions.php:421
+#: page-submit-coupons.php:305
+msgid "Locations"
+msgstr "Standorte"
+
+#: inc/cmd_functions.php:4209 inc/cmd_functions.php:4211
+msgid "Login"
+msgstr "Anmelden"
+
+#: inc/cmd_widgets.php:2256
+msgid "Login Popup - Above Form"
+msgstr "- Login-Popup - Formular Oben"
+
+#: inc/cmd_widgets.php:2266
+msgid "Login Popup - Below Form"
+msgstr "- Login-Popup - Formular Unten"
+
+#: inc/cmd_functions.php:2542 inc/cmd_functions.php:2544
+msgid "Login/Register"
+msgstr "Anmelden/Eintragen"
+
+#: inc/cmd_functions.php:678
+msgid "Logo URL"
+msgstr "Logo URL"
+
+#: inc/cmd_functions.php:2556
+msgid "Logout"
+msgstr "Ausloggen"
+
+#: inc/cmd_functions.php:460
+msgid "Map IFrame"
+msgstr "Karte IFrame"
+
+#: inc/customizer.php:1507
+msgid "Max. characters for coupon description"
+msgstr "Max. Zeichen für Gutschein Beschreibung"
+
+#: inc/customizer.php:1490
+msgid "Max. characters for coupon title"
+msgstr "Max. Zeichen für den Gutscheintitel"
+
+#: inc/quick_setup.php:202
+msgid "Menu"
+msgstr "Menü"
+
+#: inc/cmd_notification_logs.php:119
+msgid "Message"
+msgstr "Nachricht"
+
+#: inc/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Mindestens erforderliche Version:"
+
+#: inc/customizer.php:1520
+msgid "Mobile Card and Images"
+msgstr "Mobile Karte und Bilder"
+
+#: inc/customizer.php:680
+msgid "Multi Slide #1"
+msgstr "Multi Folie #1"
+
+#: inc/customizer.php:923
+msgid "Multi Slide #10"
+msgstr "Multi Folie #10"
+
+#: inc/customizer.php:950
+msgid "Multi Slide #11"
+msgstr "Multi Folie #11"
+
+#: inc/customizer.php:977
+msgid "Multi Slide #12"
+msgstr "Multi Folie #12"
+
+#: inc/customizer.php:707
+msgid "Multi Slide #2"
+msgstr "Multi Folie #2"
+
+#: inc/customizer.php:734
+msgid "Multi Slide #3"
+msgstr "Multi Folie #3"
+
+#: inc/customizer.php:761
+msgid "Multi Slide #4"
+msgstr "Multi Folie #4"
+
+#: inc/customizer.php:788
+msgid "Multi Slide #5"
+msgstr "Multi Folie #5"
+
+#: inc/customizer.php:815
+msgid "Multi Slide #6"
+msgstr "Multi Folie #6"
+
+#: inc/customizer.php:842
+msgid "Multi Slide #7"
+msgstr "Multi Folie #7"
+
+#: inc/customizer.php:869
+msgid "Multi Slide #8"
+msgstr "Multi Folie #8"
+
+#: inc/customizer.php:896
+msgid "Multi Slide #9"
+msgstr "Multi Folie #9"
+
+#: inc/customizer.php:318 inc/quick_setup.php:142
+msgid "Multi Slides"
+msgstr "Multi-Folien"
+
+#: inc/cmd_functions.php:2554
+msgid "My Profile"
+msgstr "Mein Profil"
+
+#: inc/cmd_functions.php:4357
+msgid "Name of Account"
+msgstr "Kontoname"
+
+#: inc/cmd_functions.php:4342
+msgid "Name of Bank"
+msgstr "Name der Bank"
+
+#: inc/customizer.php:134
+msgid "Navbar Inactive Text Color"
+msgstr "Farbe des inaktiven Textes der Navigationsleiste"
+
+#: inc/customizer.php:145
+msgid "Navbar Search Button Color"
+msgstr "Farbe der Suchschaltfläche in der Navigationsleiste"
+
+#: inc/customizer.php:1441
+msgid "Navbar Type"
+msgstr "Navbar-Typ"
+
+#: inc/cmd_functions.php:836
+msgid "New Brand Name"
+msgstr "Neuer Markenname"
+
+#: inc/cmd_functions.php:420
+msgid "New Location Name"
+msgstr "Neue Location Name"
+
+#: inc/cmd_functions.php:330
+msgid "New Offer Category Name"
+msgstr "Neues Angebot Category Name"
+
+#: inc/cmd_functions.php:513
+msgid "New Store Name"
+msgstr "Neuen Namen Speichern"
+
+#: comments.php:59 comments.php:77
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: archive-coupons.php:48
+msgid "Next Coupons"
+msgstr "Nächste Coupons"
+
+#: page-blog.php:57 search.php:155 taxonomy-brands.php:123
+#: taxonomy-locations.php:117 taxonomy-offer_categories.php:124
+#: taxonomy-stores.php:175
+msgid "Next Page"
+msgstr "Nächste Seite"
+
+#: inc/customizer.php:1106 inc/customizer.php:1193 inc/customizer.php:1206
+#: inc/customizer.php:1221 inc/customizer.php:1264 inc/customizer.php:1278
+#: inc/customizer.php:1387 inc/customizer.php:1990
+msgid "No"
+msgstr "Nein"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Es wurden keine Maßnahmen ergriffen. Plugin %1$s war bereits aktiv."
+
+#: template-parts/content-nocoupons.php:14
+msgid "No Coupons Found"
+msgstr "Keine Coupons Gefunden"
+
+#: inc/linkmydeals.php:55
+msgid ""
+"No outdated offers: When a store does not communicate offer validity, We "
+"check it as frequently as twice a day. As soon as the offer expires, we "
+"suspend it in our database."
+msgstr ""
+"Keine überholt Angebote: Wenn ein Geschäft die Angebotsgültigkeit nicht "
+"mitteilt, überprüfen wir dies bis zu zweimal täglich. Sobald das Angebot "
+"abläuft, sperren wir es in unserer Datenbank."
+
+#: inc/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Derzeit sind keine plugins zur aktivierung verfügbar."
+
+#: inc/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Derzeit sind keine Plugins zur Installation verfügbar."
+
+#: inc/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Derzeit sind keine plugins verfügbar, die aktualisiert werden können."
+
+#: inc/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+"Es müssen keine Plugins installiert, aktualisiert oder aktiviert werden."
+
+#: inc/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Es wurden keine plugins zur aktivierung ausgewählt. Es wurden keine "
+"maßnahmen ergriffen."
+
+#: inc/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Es wurden keine plugins zur installation ausgewählt. Es wurden keine "
+"maßnahmen ergriffen."
+
+#: inc/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Es wurden keine plugins zum aktualisieren ausgewählt. Es wurden keine "
+"maßnahmen ergriffen."
+
+#: inc/cmd_functions.php:2775
+msgid "No reveiws"
+msgstr "Keine Bewertungen"
+
+#: inc/linkmydeals.php:54
+msgid ""
+"No vague & useless sentences: Our Offer Titles & Descriptions have a pretty "
+"standard length, unlike all our competitors who give junk lines."
+msgstr ""
+"Keine vagen und nutzlosen Sätze: Unsere Angebotstitel und -beschreibungen "
+"haben eine ziemlich normale Länge, im Gegensatz zu allen unseren "
+"Mitbewerbern, die Junk-Lines anbieten."
+
+#: inc/customizer.php:1233
+msgid "No. of Active Coupons on Store/Category/Brand page"
+msgstr "Nein. Aktive Coupons für Store/Kategorie/Markenseite"
+
+#: inc/customizer.php:267
+msgid "No. of Coupons on Homepage"
+msgstr "Nein. von Coupons auf der Homepage"
+
+#: inc/customizer.php:1247
+msgid "No. of Expired Coupons on Store/Category/Brand page"
+msgstr "Nein. Abgelaufene Coupons auf Shop/Kategorie/Markenseite"
+
+#: inc/cmd_functions.php:4384 inc/customizer.php:315 inc/quick_setup.php:138
+msgid "None"
+msgstr "None"
+
+#: inc/customizer.php:1443
+msgid "Normal"
+msgstr "normal"
+
+#: inc/cmd_functions.php:954 inc/cmd_functions.php:3696
+msgid "Not Found"
+msgstr "Nicht Gefunden"
+
+#: inc/cmd_functions.php:955 inc/cmd_functions.php:3697
+msgid "Not found in Trash"
+msgstr "Nicht im Mülleimer gefunden"
+
+#: inc/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Nicht Installiert"
+
+#: inc/customizer.php:1387
+msgid "Not on Homepage"
+msgstr "Nicht auf der Homepage"
+
+#: inc/cmd_functions.php:1175
+msgid "Note:"
+msgstr "Notiz:"
+
+#: inc/cmd_functions.php:1097
+msgid "Notes"
+msgstr "Notizen"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nichts Gefunden"
+
+#: inc/cmd_functions.php:3701
+msgid "notification"
+msgstr "Benachrichtigung"
+
+#: inc/customizer.php:1450
+msgid "Notification Requests"
+msgstr "Benachrichtigungsanfragen"
+
+#: inc/cmd_functions.php:3742
+msgid "Notification URL"
+msgstr "Benachrichtigungs-URL"
+
+#: inc/cmd_functions.php:3688 inc/cmd_functions.php:3702
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: inc/cmd_functions.php:1984 inc/cmd_functions.php:2038
+#: inc/cmd_functions.php:2089
+msgid "Notifications denied by user."
+msgstr "Benachrichtigungen vom Benutzer abgelehnt."
+
+#: inc/cmd_notification_logs.php:25 inc/cmd_notification_logs.php:61
+msgid "Notifications Log"
+msgstr "Benachrichtigungsprotokoll"
+
+#: inc/cmd_notification_logs.php:175
+msgid "Notifications log cleared successfully."
+msgstr "Das Benachrichtigungsprotokoll wurde erfolgreich gelöscht."
+
+#: inc/customizer.php:1149 inc/quick_setup.php:120
+msgid "Number of Coupons on single row"
+msgstr "Coupons auf einzelne Reihe"
+
+#: inc/customizer.php:667
+msgid ""
+"Number of images to show per slide on multi slides.<br> Recommended Three "
+"Images per Slide"
+msgstr ""
+"Anzahl der Bilder, die pro Folie auf mehreren Folien angezeigt werden sollen."
+"<br> Empfohlen werden drei Bilder pro Folie"
+
+#: inc/customizer.php:1119
+msgid "Number of results to show in Ajax search"
+msgstr "Anzahl der Ergebnisse ein, die in der Ajax-Suche"
+
+#: inc/customizer.php:1465
+msgid "Off"
+msgstr "Aus"
+
+#: inc/cmd_functions.php:2240 inc/cmd_functions.php:2340
+#: inc/cmd_widgets.php:114 inc/cmd_widgets.php:290 inc/cmd_widgets.php:487
+#: index.php:85 page-all-brands.php:81 page-all-locations.php:109
+#: page-all-offer-categories.php:113 page-alpha-stores.php:72
+msgid "Offer"
+msgstr "Angebot"
+
+#: inc/cmd_functions.php:298 inc/cmd_functions.php:300
+#: inc/cmd_functions.php:321 inc/cmd_functions.php:331
+#: page-submit-coupons.php:267
+msgid "Offer Categories"
+msgstr "Angebot Kategorien"
+
+#: page-submit-coupons.php:195
+msgid "Offer Details"
+msgstr "Angebotsdetails"
+
+#: page-submit-coupons.php:219
+msgid "Offer Type"
+msgstr "Angebots Typ"
+
+#: inc/cmd_functions.php:2240 inc/cmd_functions.php:2340
+#: inc/cmd_widgets.php:114 inc/cmd_widgets.php:290 inc/cmd_widgets.php:487
+#: inc/cmd_widgets.php:1987 index.php:85 page-all-brands.php:81
+#: page-all-locations.php:68 page-all-locations.php:109
+#: page-all-offer-categories.php:70 page-all-offer-categories.php:113
+#: page-all-stores.php:84 page-alpha-stores.php:72
+msgid "Offers"
+msgstr "Angebote"
+
+#: comments.php:58 comments.php:76
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: inc/customizer.php:1465
+msgid "On"
+msgstr "An"
+
+#: inc/customizer.php:1387
+msgid "On all pages"
+msgstr "Auf allen Seiten"
+
+#: inc/cmd_functions.php:3903
+msgid ""
+"Once your <strong>%s</strong> account is deleted, you will also have to "
+"manually revoke this App's Permissions in your iPhone Settings by following "
+"the below steps:"
+msgstr ""
+"Sobald Ihr <strong>%s</strong>-Konto gelöscht wurde, müssen Sie die "
+"Berechtigungen dieser App auch manuell in Ihren iPhone-Einstellungen "
+"widerrufen, indem Sie die folgenden Schritte ausführen:"
+
+#: page-submit-coupons.php:221
+msgid "Online"
+msgstr "Online"
+
+#: inc/customizer.php:1387
+msgid "Only on homepage"
+msgstr "Nur auf der Homepage"
+
+#: 404.php:27
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Diese Seite kann nicht gefunden werden."
+
+#. translators: %s: Alphabet filter on Store Page
+#: page-alpha-stores.php:86
+msgid "Oops! We do not have any store starting with %s"
+msgstr "Oops! Wir tun nicht haben irgendwelche speichern Sie beginnen mit %s"
+
+#: inc/cmd_widgets.php:158 inc/cmd_widgets.php:337 inc/cmd_widgets.php:561
+#: inc/cmd_widgets.php:726 inc/cmd_widgets.php:899 inc/cmd_widgets.php:1052
+#: inc/cmd_widgets.php:1214 inc/cmd_widgets.php:1834 inc/cmd_widgets.php:2038
+msgid "Order By:"
+msgstr "Order By:"
+
+#: inc/customizer.php:1985
+msgid "Orderby Display Priority"
+msgstr "Sortieren nach Anzeigepriorität"
+
+#: inc/customizer.php:1358
+msgid "Other Customizations"
+msgstr "Andere Anpassungen"
+
+#: inc/cmd_functions.php:376 inc/cmd_functions.php:469
+#: inc/cmd_functions.php:737 inc/cmd_functions.php:887
+msgid "Page Title"
+msgstr "Seitentitel"
+
+#: inc/quick_setup.php:199
+msgid "Pages"
+msgstr "Seiten"
+
+#: page-transparent.php:51 template-parts/content-notitle.php:18
+#: template-parts/content-page.php:23 template-parts/content.php:40
+#: template-parts/post.php:34
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: inc/cmd_functions.php:946
+msgid "Parent Coupon"
+msgstr "Eltern Coupon"
+
+#: inc/cmd_functions.php:414
+msgid "Parent Location"
+msgstr "Übergeordnete Lage"
+
+#: inc/cmd_functions.php:415
+msgid "Parent Location:"
+msgstr "Eltern Ort:"
+
+#: inc/cmd_functions.php:325
+msgid "Parent Offer Category"
+msgstr "Übergeordnete Kategorie Bieten"
+
+#: inc/cmd_functions.php:326
+msgid "Parent Offer Category:"
+msgstr "Eltern Bieten Kategorie:"
+
+#: inc/cmd_functions.php:4251
+msgid "Password"
+msgstr "Passwort"
+
+#: functions.php:208
+msgid "Password:"
+msgstr "Passwort:"
+
+#: inc/cmd_functions.php:4424
+msgid "Passwords do not match"
+msgstr "Passwörter stimmen nicht überein"
+
+#: inc/cmd_functions.php:4306
+msgid "Paym Phone Number (UK)"
+msgstr "Paym-Telefonnummer (UK)"
+
+#: inc/cmd_functions.php:4265
+msgid "Payment Details"
+msgstr "Zahlungsdetails"
+
+#: inc/cmd_functions.php:4285
+msgid "PayPal Email Address"
+msgstr "PayPal EMail Adresse"
+
+#: inc/cmd_functions.php:4313
+msgid "PayTM ID (India)"
+msgstr "PayTM-ID (Indien)"
+
+#: inc/cmd_functions.php:4373
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: inc/template-tags.php:152
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+"Bitte wenden Sie sich an den Administrator dieser Website, um Hilfe zu "
+"erhalten."
+
+#: inc/class-tgm-plugin-activation.php:1027
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Bitte wenden Sie sich an den Plugin-Anbieter und bitten Sie ihn, sein Plugin "
+"gemäß den WordPress-Richtlinien zu paketieren."
+
+#: inc/demo_import.php:121
+msgid "Please do not click back or refresh button till the page is loading."
+msgstr ""
+"Bitte klicken Sie nicht auf die Schaltfläche „Zurück“ oder „Aktualisieren“, "
+"bis die Seite geladen ist."
+
+#: page-submit-coupons.php:36
+msgid "Please enter a valid Email address"
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse"
+
+#: page-submit-coupons.php:34
+msgid "Please enter a valid name"
+msgstr "Geben Sie bitte einen gültigen Namen"
+
+#: page-submit-coupons.php:32
+msgid "Please enter your name"
+msgstr "Bitte geben Sie Ihren Namen ein"
+
+#: inc/demo_import.php:144 inc/quick_setup.php:65
+msgid "Please Wait %s"
+msgstr "Bitte Warten Sie %s"
+
+#: inc/demo_import.php:120
+msgid "Please Wait. This may take several minutes.</strong>"
+msgstr "Bitte warten. Dies kann einige Minuten dauern.</strong>"
+
+#: inc/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/class-tgm-plugin-activation.php:1214
+#: inc/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "und"
+
+#: inc/class-tgm-plugin-activation.php:394
+msgid "Plugin activated successfully."
+msgstr "Das Plugin wurde erfolgreich aktiviert."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin nicht aktiviert. Für dieses Theme ist eine höhere Version von %s "
+"erforderlich. Bitte aktualisieren Sie das Plugin."
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2481
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#: inc/cmd_functions.php:829
+msgid "Popular Brands"
+msgstr "Beliebte Marken"
+
+#: inc/cmd_functions.php:643
+msgid "Popular Store"
+msgstr "Beliebter Laden"
+
+#: inc/cmd_functions.php:506 index.php:35
+msgid "Popular Stores"
+msgstr "Beliebte Geschäfte"
+
+#: inc/customizer.php:1165
+msgid "Popup"
+msgstr "Aufpoppen"
+
+#: inc/quick_setup.php:196
+msgid "Post"
+msgstr "Post"
+
+#. translators: 1: Author of the post
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid "by %s"
+msgstr "von %s"
+
+#: comments.php:102
+msgid "Post Comment"
+msgstr "Kommentar Hinzufügen"
+
+#. translators: 1: coupon was posted on
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Veröffentlicht am %s"
+
+#: inc/cmd_functions.php:943
+msgctxt "Post Type General Name"
+msgid "Coupons"
+msgstr "Gutscheine"
+
+#: inc/cmd_functions.php:3686
+msgctxt "Post Type General Name"
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: inc/cmd_functions.php:944
+msgctxt "Post Type Singular Name"
+msgid "Coupon"
+msgstr "Coupon"
+
+#: inc/cmd_functions.php:3687
+msgctxt "Post Type Singular Name"
+msgid "Notification"
+msgstr "Benachrichtigung"
+
+#. translators: 1: List of Categories
+#: inc/template-tags.php:65
+msgid "Posted in %1$s"
+msgstr "Posted in %1$s"
+
+#: inc/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Vorverpackt"
+
+#: inc/customizer.php:42 inc/quick_setup.php:149
+msgid "Preset Styles"
+msgstr "Preset-Styles"
+
+#: archive-coupons.php:47
+msgid "Previous Coupons"
+msgstr "Vorherige Coupons"
+
+#: page-blog.php:54 search.php:152 taxonomy-brands.php:120
+#: taxonomy-locations.php:114 taxonomy-offer_categories.php:121
+#: taxonomy-stores.php:172
+msgid "Previous Page"
+msgstr "Vorherige Seite"
+
+#: inc/cmd_functions.php:2772
+msgid "Price Comparison"
+msgstr "Preisvergleich"
+
+#: functions.php:40
+msgid "Primary"
+msgstr "Primäre"
+
+#: inc/customizer.php:158
+msgid "Primary Color"
+msgstr "Primärfarbe"
+
+#: template-parts/code.php:56 template-parts/coupon-popup.php:96
+#: template-parts/coupon-popup.php:166
+msgid "Print Coupon"
+msgstr "Drucken Coupon"
+
+#: inc/cmd_functions.php:1130
+msgid "Printable Coupon"
+msgstr "Ausdruckbarer Gutschein"
+
+#: inc/cmd_functions.php:1134
+msgid "Printable Coupon:"
+msgstr "Ausdruckbarer Gutschein:"
+
+#: page-submit-coupons.php:222
+msgid "Printable Voucher"
+msgstr "Druckbare Gutschein"
+
+#: inc/cmd_widgets.php:1821
+msgid "Printable Vouchers"
+msgstr "Druckbare Gutscheine"
+
+#: inc/cmd_functions.php:1143
+msgid "Pro Tip:"
+msgstr "Profi-Tipp:"
+
+#: inc/customizer.php:1617 inc/customizer.php:1738
+msgid "Product Card"
+msgstr "Produktkarte"
+
+#: inc/cmd_functions.php:2771
+msgid "Product Description"
+msgstr "Produktbeschreibung"
+
+#: inc/customizer.php:1603 inc/customizer.php:1724
+msgid "Product Image"
+msgstr "Produktbild"
+
+#: inc/cmd_functions.php:2769
+msgid "Product Summary"
+msgstr "Produkt Zusammenfassung"
+
+#: inc/cmd_widgets.php:1824 inc/quick_setup.php:206
+msgid "Products"
+msgstr "Produkte"
+
+#: inc/cmd_functions.php:1270
+msgid "Publish on Social Media"
+msgstr "Auf Social Media veröffentlichen"
+
+#: inc/demo_import.php:110
+msgid "purchase the license."
+msgstr "die Lizenz erwerben."
+
+#: inc/cmd_tools.php:99
+msgid "Purge"
+msgstr "Purgieren"
+
+#: inc/cmd_functions.php:4399
+msgid "Push Notification"
+msgstr "Push-Benachrichtigung"
+
+#. translators: Push Notification from ClipMyDeals
+#: inc/cmd_functions.php:4046
+msgid "Push Notification from %s"
+msgstr "Push-Benachrichtigung von %s"
+
+#: inc/cmd_functions.php:3844
+msgid "Push Notifications"
+msgstr "Push-Benachrichtigungen"
+
+#: inc/cmd_functions.php:2087
+msgid "Push notifications are not compatible with this browser."
+msgstr "Push-Benachrichtigungen sind mit diesem Browser nicht kompatibel."
+
+#: inc/quick_setup.php:110 inc/update.php:42 inc/update.php:52
+msgid "Quick Setup"
+msgstr "Schnelle Einrichtung"
+
+#: inc/quick_setup.php:102
+msgid "Quick Setup is not available in Child Theme."
+msgstr "Die Schnelleinrichtung ist im Child Theme nicht verfügbar."
+
+#: template-parts/post.php:39
+msgid "Read More"
+msgstr "Mehr Lesen"
+
+#. translators: 1: New post
+#: template-parts/content-nocoupons.php:30 template-parts/content-none.php:28
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Bereit Deinen ersten Post zu veröffentlichen? <a href=\"%1$s\">Hier können "
+"Sie loslegen</a>."
+
+#: index.php:179
+msgid "Recent Posts"
+msgstr "Aktuelle Beiträge"
+
+#: taxonomy-brands.php:156 taxonomy-locations.php:150
+#: taxonomy-offer_categories.php:157 taxonomy-stores.php:208
+msgid "Recently Expired Offers"
+msgstr "Kürzlich Abgelaufene Angebote"
+
+#: inc/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: inc/cmd_widgets.php:548 inc/cmd_widgets.php:2034
+msgid "Redirect to Store Website"
+msgstr "Umleitung zur Store-Website"
+
+#: inc/cmd_functions.php:4380
+msgid "Referrer"
+msgstr "Referrer"
+
+#: inc/customizer.php:1451
+msgid "Request access for sending \"Push Notifications\""
+msgstr "Zugriff für den Versand von „Push-Benachrichtigungen“ anfordern"
+
+#: inc/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Erforderlich"
+
+#: inc/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Erforderliches Update nicht Verfügbar"
+
+#: inc/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Erfordert ein Update"
+
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Kehren Sie zum Installationsprogramm für erforderliche Plugins zurück"
+
+#: inc/class-tgm-plugin-activation.php:393
+#: inc/class-tgm-plugin-activation.php:920
+#: inc/class-tgm-plugin-activation.php:2626
+#: inc/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: inc/cmd_functions.php:2774
+msgid "Reviews"
+msgstr "Rezensionen"
+
+#: inc/customizer.php:1401
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/update.php:34
+msgid "Save"
+msgstr "Speichern"
+
+#: inc/customizer.php:1780
+msgid "Scale"
+msgstr "Skala"
+
+#: header.php:56 header.php:87 inc/cmd_subscriptions.php:71
+#: inc/cmd_widgets.php:1302 inc/cmd_widgets.php:1373 searchform.php:11
+#: searchform.php:96
+msgid "Search"
+msgstr "Suche"
+
+#: inc/cmd_functions.php:828
+msgid "Search Brands"
+msgstr "Marken suchen"
+
+#: inc/cmd_functions.php:953
+msgid "Search Coupon"
+msgstr "Suche Gutschein"
+
+#: inc/cmd_functions.php:412
+msgid "Search Locations"
+msgstr "Suche Standorte"
+
+#: inc/cmd_functions.php:3695
+msgid "Search Notification"
+msgstr "Suchbenachrichtigung"
+
+#: inc/cmd_functions.php:323
+msgid "Search Offer Categories"
+msgstr "Suche Angebot Kategorien"
+
+#. translators: 1:Search query
+#: search.php:64
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#. translators: 1:Search query
+#: search.php:57
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: inc/cmd_functions.php:505
+msgid "Search Stores"
+msgstr "Geschäfte durchsuchen"
+
+#: template-parts/code.php:86 template-parts/code.php:115
+#: template-parts/coupon-popup.php:234
+msgid "See Applicable Products"
+msgstr "Siehe Passende Produkte"
+
+#. translators: %s: Search Keyword
+#: inc/cmd_functions.php:3621
+msgid "See more results for \"%s\""
+msgstr "Siehe mehr Ergebnisse für \"%s\""
+
+#: inc/cmd_functions.php:208 inc/cmd_functions.php:210
+msgid "See Video."
+msgstr "Siehe Video."
+
+#: inc/cmd_functions.php:1127
+msgid "Select"
+msgstr "Wählen"
+
+#: inc/cmd_functions.php:3910
+msgid "Select <strong>%s</strong>"
+msgstr "Wählen Sie <strong>%s</strong>"
+
+#: inc/cmd_functions.php:3909
+msgid "Select <strong>Apps Using Your Apple ID</strong>"
+msgstr "Wählen Sie <strong>Apps, die Ihre Apple-ID verwenden</strong>"
+
+#: inc/cmd_functions.php:3908
+msgid "Select <strong>Password & Security</strong>"
+msgstr "Wählen Sie <strong>Passwort & Sicherheit</strong>"
+
+#: inc/cmd_functions.php:714
+msgid "Select a dark shade so that white text will appear clearly on buttons"
+msgstr ""
+"Wählen Sie einen dunklen Schatten, so dass weißer text erscheint klar auf "
+"Schaltflächen"
+
+#: inc/quick_setup.php:186
+msgid "Select quick data that you want to import"
+msgstr "Wählen Sie die demo-Daten, die Sie importieren möchten"
+
+#: inc/cmd_functions.php:464 inc/cmd_functions.php:723
+#: inc/cmd_functions.php:900
+msgid ""
+"Select the place in Google Map and go to Share > Embed a Map. Copy the HTML "
+"and paste in the above box."
+msgstr ""
+"Wählen Sie den Ort in Google Map aus und gehen Sie zu „Teilen“ > „Karte "
+"einbetten“. Kopieren Sie den HTML-Code und fügen Sie ihn in das obige Feld "
+"ein."
+
+#: inc/cmd_functions.php:3907
+msgid "Select your Apple account."
+msgstr "Wählen Sie Ihr Apple-Konto aus."
+
+#: inc/cmd_functions.php:3734
+msgid "Send to Users"
+msgstr "An Benutzer senden"
+
+#: inc/cmd_notification_logs.php:108
+msgid "Sent"
+msgstr "Gesendet"
+
+#: inc/cmd_functions.php:837
+msgid "Separate brands with commas"
+msgstr "Trennen Sie Marken durch Kommas"
+
+#: inc/cmd_functions.php:514
+msgid "Separate stores with commas"
+msgstr "Verschiedene stores mit Kommas"
+
+#: inc/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Legen Sie stattdessen die Konfigurationsvariable parent_slug fest."
+
+#: inc/customizer.php:1120
+msgid "Set to 0 for all results."
+msgstr "Satz 0 ist für alle Ergebnisse."
+
+#: inc/customizer.php:1129
+msgid "Set to 0 to start immediately"
+msgstr "Auf 0 gesetzt, um sofort beginnen"
+
+#: inc/quick_setup.php:518
+msgid "Settings applied successfully."
+msgstr "Einstellungen erfolgreich angewendet."
+
+#: inc/customizer.php:1102
+msgid "Show ajax results for search box in header."
+msgstr "Karte von ajax-Ergebnisse für das Suchfeld in der Kopfzeile."
+
+#: inc/customizer.php:1206
+msgid "Show All Brands"
+msgstr "Alle Marken Anzeigen"
+
+#: inc/customizer.php:1193
+msgid "Show All Categories"
+msgstr "Alle Kategorien Anzeigen"
+
+#: inc/customizer.php:1221
+msgid "Show All Locations"
+msgstr "Alle Standorte anzeigen"
+
+#: inc/customizer.php:1276
+msgid "Show article on Store/Category/Location/Brand pages?"
+msgstr "Zeigen Artikel auf den Seiten „Store/Kategorie/Standort/Marke“?"
+
+#: inc/cmd_widgets.php:2160
+msgid "Show Banner on :"
+msgstr "Show Banner auf :"
+
+#: inc/customizer.php:1204
+msgid "Show brands on Coupons?"
+msgstr "Marken auf Coupons anzeigen?"
+
+#: inc/cmd_widgets.php:551
+msgid "Show Cashback Message"
+msgstr "Cashback-Nachricht anzeigen"
+
+#: inc/customizer.php:1191
+msgid "Show Category list on Coupons?"
+msgstr "Karte Liste Kategorie auf Coupons?"
+
+#: inc/customizer.php:1163
+msgid "Show Coupon"
+msgstr "Show Coupon"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Zeige Details"
+
+#: inc/cmd_widgets.php:154 inc/cmd_widgets.php:333 inc/cmd_widgets.php:557
+#: inc/cmd_widgets.php:722 inc/cmd_widgets.php:895 inc/cmd_widgets.php:1048
+#: inc/cmd_widgets.php:1210 inc/cmd_widgets.php:2031
+msgid "Show Empty Terms"
+msgstr "Karte Leeren Begriffe"
+
+#: inc/customizer.php:1111
+msgid "Show Images for Ajax Search"
+msgstr "Zeigen Bilder für die Ajax-Suche"
+
+#: inc/customizer.php:1219
+msgid "Show Location on Coupons?"
+msgstr "Anzeigen der Position auf Coupons?"
+
+#: inc/cmd_widgets.php:151 inc/cmd_widgets.php:330 inc/cmd_widgets.php:554
+#: inc/cmd_widgets.php:719 inc/cmd_widgets.php:889 inc/cmd_widgets.php:1045
+#: inc/cmd_widgets.php:1204
+msgid "Show Offer Counts"
+msgstr "Show Bieten Zählt"
+
+#: inc/cmd_widgets.php:2028
+msgid "Show Offer Counts/ Cashback Message"
+msgstr "Show Bieten Counts/ Cashback Nachricht"
+
+#: inc/customizer.php:1193
+msgid "Show only Parent Categories"
+msgstr "Nur übergeordnete Kategorien anzeigen"
+
+#: inc/customizer.php:1221
+msgid "Show only Parent Locations"
+msgstr "Nur übergeordnete Standorte Anzeigen"
+
+#: inc/cmd_widgets.php:544
+msgid "Show Only Popular Stores"
+msgstr "Nur beliebte Geschäfte anzeigen"
+
+#: inc/customizer.php:339 inc/customizer.php:1016
+msgid "Show Search Form"
+msgstr "Show Search Form"
+
+#: inc/customizer.php:1385
+msgid "Show sidebar"
+msgstr "Show sidebar"
+
+#: inc/customizer.php:1986
+msgid "Show stores orderby Store display Priority."
+msgstr "Shops sortiert nach Store-Display-Priorität anzeigen."
+
+#: inc/cmd_widgets.php:892
+msgid "Show Sub-Categories"
+msgstr "Zeigen Sub-Kategorien"
+
+#: inc/cmd_widgets.php:1207
+msgid "Show Sub-Locations"
+msgstr "Show Sub-Standorten"
+
+#: template-parts/code.php:48
+msgid ""
+"Show this barcode at the checkout counter to avail this offer. You can scan "
+"it directly from your phone, or from a Printed copy."
+msgstr ""
+"Zeigen Sie diesen Barcode an der Kasse vor, um dieses Angebot in Anspruch zu "
+"nehmen. Sie können es direkt von Ihrem Telefon oder von einer gedruckten "
+"Kopie aus scannen."
+
+#: functions.php:107
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/customizer.php:1399
+msgid "Sidebar position"
+msgstr "Seitenleistenposition"
+
+#: inc/customizer.php:1837
+msgid "Site Description"
+msgstr "Website-Beschreibung"
+
+#: inc/cmd_tools.php:109
+msgid "Skip \"Trash\" and force delete."
+msgstr "Überspringen Sie „Papierkorb“ und erzwingen Sie das Löschen."
+
+#: header.php:29
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"
+
+#: inc/customizer.php:393
+msgid "Slide #1"
+msgstr "Folie #1"
+
+#: inc/customizer.php:636
+msgid "Slide #10"
+msgstr "Folie #10"
+
+#: inc/customizer.php:420
+msgid "Slide #2"
+msgstr "Folie #2"
+
+#: inc/customizer.php:447
+msgid "Slide #3"
+msgstr "Folie #3"
+
+#: inc/customizer.php:474
+msgid "Slide #4"
+msgstr "Folie #4"
+
+#: inc/customizer.php:501
+msgid "Slide #5"
+msgstr "Folie #5"
+
+#: inc/customizer.php:528
+msgid "Slide #6"
+msgstr "Folie #6"
+
+#: inc/customizer.php:555
+msgid "Slide #7"
+msgstr "Folie #7"
+
+#: inc/customizer.php:582
+msgid "Slide #8"
+msgstr "Folie #8"
+
+#: inc/customizer.php:609
+msgid "Slide #9"
+msgstr "Folie #9"
+
+#: inc/customizer.php:317 inc/quick_setup.php:141
+msgid "Slides"
+msgstr "Folien"
+
+#: inc/linkmydeals.php:57
+msgid ""
+"Smartlinks: Just set your Affiliate Networks in the order you like. And "
+"we'll make sure all offers use the best available network from your priority "
+"list."
+msgstr ""
+"Smartlinks: Ordnen Sie Ihre Affiliate-Netzwerke einfach in der von Ihnen "
+"gewünschten Reihenfolge an. Und wir stellen sicher, dass alle Angebote das "
+"beste verfügbare Netzwerk aus Ihrer Prioritätenliste nutzen."
+
+#: inc/customizer.php:1813
+msgid "Social Media Optimization"
+msgstr "Social Media Optimierung"
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Es ist ein Falsch mit dem Plugin-API."
+
+#: template-parts/content-nocoupons.php:35 template-parts/content-none.php:32
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Tut mir Leid, aber nichts abgestimmt Ihre Suchbegriffe. Bitte versuchen Sie "
+"es erneut mit einigen anderen Suchbegriffen."
+
+#: inc/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Quelle"
+
+#: inc/cmd_functions.php:1057 page-submit-coupons.php:227
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: inc/customizer.php:1128
+msgid "Start searching after \"N\" characters"
+msgstr "Starten Sie die Suche nach der \"N\" - Zeichen"
+
+#: comments.php:104
+msgid "Start typing"
+msgstr "Beginnen Sie mit der Eingabe"
+
+#: inc/class-tgm-plugin-activation.php:2647 inc/cmd_functions.php:623
+#: inc/cmd_functions.php:764 inc/cmd_notification_logs.php:118
+msgid "Status"
+msgstr "Status"
+
+#: inc/customizer.php:1443
+msgid "Sticky Top"
+msgstr "Klebriges Oberteil"
+
+#: page-submit-coupons.php:246
+msgid "Store"
+msgstr "Shop"
+
+#: inc/cmd_functions.php:1314
+msgid "store"
+msgstr "store"
+
+#: inc/cmd_functions.php:660
+msgid "Store Affiliate URL"
+msgstr "Store Affiliate URL"
+
+#: inc/cmd_functions.php:746
+msgid "Store Category"
+msgstr "Store-Kategorie"
+
+#: inc/cmd_widgets.php:538
+msgid "Store Category (comma-separated list of store categories):"
+msgstr "Store-Kategorie (durch Kommas getrennte Liste der Store-Kategorien):"
+
+#: inc/cmd_functions.php:755
+msgid "Store Display Priority"
+msgstr "Priorität der Store-Anzeige"
+
+#: inc/cmd_functions.php:719
+msgid "Store Location (IFrame)"
+msgstr "Store Location (IFrame)"
+
+#: inc/customizer.php:1631 inc/customizer.php:1752
+msgid "Store Logos in store listings"
+msgstr "Store Logos in Store einträgen"
+
+#: inc/cmd_functions.php:669
+msgid "Store Subdomains"
+msgstr "Store-Subdomäne"
+
+#: inc/cmd_functions.php:728
+msgid "Store Video (IFrame)"
+msgstr "Speichern Von Videos (IFrame)"
+
+#: inc/cmd_functions.php:651
+msgid "Store Website URL"
+msgstr "Store-Website-URL"
+
+#: inc/cmd_functions.php:291 inc/cmd_functions.php:293
+#: inc/cmd_functions.php:503 inc/cmd_functions.php:517
+msgid "Stores"
+msgstr "Shops"
+
+#: functions.php:208 inc/cmd_functions.php:4409 inc/quick_setup.php:221
+#: page-submit-coupons.php:350
+msgid "Submit"
+msgstr "Einreichen"
+
+#: inc/cmd_functions.php:2358
+msgid "Subscribe to Push Notifications"
+msgstr "Abonnieren Sie Push-Benachrichtigungen"
+
+#: inc/cmd_functions.php:1963
+msgid "Subscribing..."
+msgstr "Abonnieren..."
+
+#: inc/cmd_notification_logs.php:117 inc/cmd_subscriptions.php:126
+msgid "Subscription"
+msgstr "Abonnement"
+
+#: inc/cmd_subscriptions.php:215
+msgid "Subscription removed successfully."
+msgstr "Abonnement erfolgreich entfernt."
+
+#: inc/cmd_subscriptions.php:26 inc/cmd_subscriptions.php:64
+msgid "Subscriptions"
+msgstr "Abonnements"
+
+#: inc/cmd_functions.php:2773
+msgid "Suggested for you"
+msgstr "Für Sie empfohlen"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Super Deal"
+msgstr "Super Angebot"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Super Offer"
+msgstr "Super Angebot"
+
+#: inc/cmd_functions.php:2731
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#. translators: 1: List of tags
+#: inc/template-tags.php:77
+msgid "Tags: %1$s"
+msgstr "Tags: %1$s"
+
+#: inc/cmd_functions.php:4269
+msgid "Tax ID"
+msgstr "Steuer ID"
+
+#. Description of the theme
+#: style.css
+msgid ""
+"The best WordPress Coupon theme for Affiliate Marketers. We built this theme "
+"after 6 years of experience with running a coupon and deal website. Hence we "
+"have added all important features that really matter, and left out all the "
+"useless features that would have only made it complicated. It is based on "
+"the most powerful frameworks in the world: \"_s\" (by Automattic, the main "
+"people behind WordPress development), Twitter Bootstrap (the most popular "
+"HTML, CSS, and JS framework for developing responsive, mobile first projects "
+"on the web) and Font Awesome (or Fontawesome, a full suite of 675+ "
+"pictographic icons for easy scalable vector graphics on websites). It has a "
+"Widgetized sidebar and footer area, and it is WooCommerce ready, Compatible "
+"with Contact Form 7, Compatible with Visual Composer, Compatible with "
+"Elementor Page Builder. This theme will be an active project which we will "
+"update from time to time. Check this page regularly for the updates. Your "
+"feedback on how we can continuously improve this Theme will be highly "
+"appreciated."
+msgstr ""
+"Das beste WordPress Gutschein-theme für Affiliate-Vermarkter. Wir bauen "
+"dieses Thema nach 6 Jahren Erfahrung mit der Leitung eines coupon-und deal-"
+"website. Daher haben wir alle wichtigen Funktionen, die wirklich wichtig "
+"sind, und ließen all die nutzlosen Funktionen, die haben würde, machte es "
+"nur kompliziert. Es basiert auf der leistungsfähigsten frameworks der Welt: "
+"\"_s\" (von Automattic, dem wichtigsten Menschen hinter WordPress-"
+"Entwicklung), Twitter Bootstrap (the most popular HTML, CSS, and JS "
+"framework for developing responsive, mobile first projects on the web) und "
+"Font Awesome (oder Fontawesome, eine vollständige suite 675+ piktografische "
+"Symbole für einfache, skalierbare Vektor-Grafiken auf websites). Es hat eine "
+"Widgetized sidebar-und footer-Bereich, und es ist WooCommerce ready, "
+"Kompatibel mit Contact Form 7, Kompatibel mit Visual Composer Kompatibel mit "
+"Elementor Page Builder. Dieses Thema wird ein aktives Projekt, das wir von "
+"Zeit zu Zeit aktualisieren. Überprüfen Sie diese Seite regelmäßig für "
+"updates. Ihr feedback, wie wir kontinuierlich verbessern können-dieses Thema "
+"wird sehr geschätzt werden."
+
+#: inc/cmd_functions.php:1175
+msgid "The coupon will be active till 23:59 hrs on this day."
+msgstr "Der Gutschein ist an diesem Tag bis 23:59 Uhr aktiv."
+
+#: inc/customizer.php:1804
+msgid ""
+"The default image will be seen on the store listing section only in case a "
+"store does not have an image associated with it.\n"
+"        "
+msgstr ""
+"Das Standardbild wird im Abschnitt mit den Store-Einträgen nur dann "
+"angezeigt, wenn einem Store kein Bild zugeordnet ist.\n"
+"        "
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:353
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Das folgende plugin muss auf die neueste Version aktualisiert werden, um "
+"maximale Kompatibilität mit diesem Thema zu gewährleisten: %1$s."
+msgstr[1] ""
+"Die folgenden plugins müssen auf ihre neueste Version aktualisiert werden, "
+"um maximale Kompatibilität mit diesem Thema zu gewährleisten: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:395
+#: inc/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Das folgende plugin wurde erfolgreich aktiviert:"
+msgstr[1] "Die folgenden plugins wurden erfolgreich aktiviert:"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Das folgende empfohlene plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden empfohlenen plugins sind derzeit inaktiv: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Das folgende erforderliche plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden erforderlichen plugins sind derzeit inaktiv: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Der Installations- und Aktivierungsprozess beginnt. Dieser Vorgang kann auf "
+"einigen Hosts eine Weile dauern. Bitte haben Sie etwas Geduld."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3596
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#: inc/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Der Installationsvorgang beginnt. Dieser Vorgang kann auf einigen Hosts eine "
+"Weile dauern. Bitte haben Sie etwas Geduld."
+
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Das remote plugin paket besteht aus mehr als einer Datei, die Dateien sind "
+"jedoch nicht in einem Ordner verpackt."
+
+#: inc/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Das remote plugin paket enthält keinen Ordner mit dem gewünschten Slug und "
+"das Umbenennen hat nicht funktioniert."
+
+#: inc/customizer.php:43
+msgid "Theme Option"
+msgstr "- Theme-Option"
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Es müssen ein oder mehrere erforderliche oder empfohlene Plugins installiert,"
+" aktualisiert oder aktiviert werden."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Es ist ein Update verfügbar für: %1$s."
+msgstr[1] "Für die folgenden Plugins sind Updates verfügbar: %1$s."
+
+#: inc/cmd_functions.php:1190
+msgid ""
+"This appears on top-right of coupon in grid layout, and on left-side of "
+"coupon in list layout."
+msgstr ""
+"Dies erscheint im Rasterlayout oben rechts auf dem Coupon und im "
+"Listenlayout auf der linken Seite des Coupons."
+
+#: inc/cmd_functions.php:1151
+msgid ""
+"This is the Affiliate URL which will be opened after user clicks on the "
+"button"
+msgstr ""
+"Dies ist die Affiliate-URL, die geöffnet wird, nachdem der Benutzer auf die "
+"Schaltfläche geklickt hat"
+
+#: inc/cmd_functions.php:872
+msgid "This is the article that will be placed on the brand page"
+msgstr "Dies ist der Artikel, der auf der Markenseite platziert wird"
+
+#: inc/cmd_functions.php:362
+msgid "This is the article that will be placed on the category page"
+msgstr "Dies ist der Artikel, platziert werden auf der Kategorie-Seite"
+
+#: inc/cmd_functions.php:454
+msgid "This is the article that will be placed on the location page"
+msgstr "Dies ist der Artikel, der auf der Standortseite platziert wird"
+
+#: inc/cmd_functions.php:695
+msgid "This is the article that will be placed on the store page"
+msgstr "Dies ist der Artikel, platziert werden auf der store-Seite"
+
+#: inc/cmd_functions.php:1159
+msgid "This is the Image URL which will be shown in Grid View"
+msgstr "Dies ist die Bild-URL, die in der Rasteransicht angezeigt wird"
+
+#: inc/cmd_functions.php:3775
+msgid ""
+"This is the URL which will be opened after user clicks on the notification"
+msgstr ""
+"Dies ist die URL, die geöffnet wird, nachdem der Benutzer auf die "
+"Benachrichtigung geklickt hat"
+
+#: inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Dieses Plugin muss aktualisiert werden, damit es mit Ihrem Theme kompatibel "
+"ist."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Dieses Theme empfiehlt das folgende plugin: %1$s."
+msgstr[1] "Dieses Thema empfiehlt die folgenden plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Für dieses Theme ist das folgende plugin erforderlich: %1$s."
+msgstr[1] "Dieses Theme erfordert die folgenden plugins: %1$s."
+
+#: inc/customizer.php:1957
+msgid "This will be added before <code>&lt;/body\t&gt;</code> tag"
+msgstr "Dies wird vor dem <code>&lt;/body &gt;</code>-Tag hinzugefügt"
+
+#: inc/customizer.php:1942
+msgid "This will be added in the <code>&lt;head&gt;</code> section"
+msgstr "Dies wird im Abschnitt <code>&lt;head&gt;</code> hinzugefügt"
+
+#: inc/customizer.php:1838
+msgid ""
+"This will be the default description in case no content is available on the "
+"page being shared. Example: Home or Contact-Us page."
+msgstr ""
+"Dies wird der Standard-Beschreibung in Fall wird kein Inhalt zur Verfügung, "
+"die auf der Seite geteilt. Beispiel: nach Hause oder Kontaktieren Sie Uns "
+"Seite."
+
+#: inc/customizer.php:1851
+msgid ""
+"This will be the default image in case no image is available on the page "
+"being shared."
+msgstr ""
+"Dies wird das Standardbild, falls kein Bild verfügbar auf der Seite geteilt."
+
+#: inc/customizer.php:1791
+msgid ""
+"This will be used as a default image in case a coupon does not have an image "
+"associated with it\n"
+"        ."
+msgstr ""
+"Dieses wird als Standardbild verwendet, falls einem Coupon kein Bild "
+"zugeordnet ist\n"
+"        ."
+
+#: inc/cmd_tools.php:55
+msgid ""
+"This will drop current offers and pull everything again. Do you want to "
+"proceed?"
+msgstr ""
+"Dadurch werden aktuelle Angebote wegfallen und alles wieder ziehen. Möchten "
+"Sie fortfahren?"
+
+#: inc/customizer.php:670
+msgid "Three"
+msgstr "Drei"
+
+#: page-submit-coupons.php:201
+msgid "Title"
+msgstr "Titel"
+
+#: page-submit-coupons.php:38
+msgid "Title should be minimum 5 characters"
+msgstr "Titel sollte mindestens 5 Zeichen"
+
+#: inc/cmd_widgets.php:145 inc/cmd_widgets.php:324 inc/cmd_widgets.php:533
+#: inc/cmd_widgets.php:713 inc/cmd_widgets.php:883 inc/cmd_widgets.php:1039
+#: inc/cmd_widgets.php:1198 inc/cmd_widgets.php:1393 inc/cmd_widgets.php:1458
+#: inc/cmd_widgets.php:1522 inc/cmd_widgets.php:1584 inc/cmd_widgets.php:1647
+#: inc/cmd_widgets.php:1809 inc/cmd_widgets.php:2022 inc/cmd_widgets.php:2156
+msgid "Title:"
+msgstr "Titel:"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2493
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Um <span class=\"count\">(%s)</span> zu aktivieren"
+msgstr[1] "Um <span class=\"count\">(%s)</span> zu aktivieren"
+
+#: inc/customizer.php:1047
+msgid ""
+"To customize the contents of this header banner and other elements of your "
+"site go to Dashboard > Appearance > Customize"
+msgstr ""
+"Um den Inhalt dieses Header-Banners und anderer Elemente Ihrer Website "
+"anzupassen, gehen Sie zu Dashboard > Erscheinungsbild > Anpassen"
+
+#: inc/customizer.php:367
+msgid ""
+"To customize the contents on this video and other elements of your site go "
+"to Dashboard > Appearance > Customize"
+msgstr ""
+"Um den Inhalt dieses Videos und anderer Elemente Ihrer Website anzupassen, "
+"gehen Sie zu Dashboard > Erscheinungsbild > Anpassen"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2485
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Installieren Sie <span class=\"count\">(%s)</span>"
+msgstr[1] "Installieren Sie <span class=\"count\">(%s)</span>"
+
+#: functions.php:207
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+"Geben Sie das folgende Passwort ein, um diesen geschützten Beitrag "
+"anzuzeigen:"
+
+#: inc/cmd_tools.php:20 inc/cmd_tools.php:42
+msgid "Toolbox"
+msgstr "Werkzeugkasten"
+
+#: inc/customizer.php:1919
+msgid "Twitter Author"
+msgstr "Twitter Autor"
+
+#: inc/customizer.php:1905
+msgid "Twitter Page"
+msgstr "Twitter-Seite"
+
+#: inc/customizer.php:669
+msgid "Two"
+msgstr "Zwei"
+
+#: inc/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Typ"
+
+#: inc/customizer.php:85
+msgid "Typography"
+msgstr "Typografie"
+
+#: inc/customizer.php:1824
+msgid ""
+"Uncheck this if you are using a separate plugin for SEO and Social Media "
+"Optimization"
+msgstr ""
+"Dies deaktivieren, wenn Sie ein eigenes plugin für SEO und Social Media "
+"Optimization"
+
+#: inc/customizer.php:1307
+msgid "Uncheck this if you do not want show get android in footer"
+msgstr ""
+"Abwählen Sie diese Option, wenn Sie get Android nicht in der Fußzeile "
+"anzeigen möchten"
+
+#: inc/customizer.php:1320
+msgid "Uncheck this if you do not want show get ios in footer"
+msgstr ""
+"Abwählen Sie diese Option, wenn Sie get IOS nicht in der Fußzeile anzeigen "
+"möchten"
+
+#: inc/linkmydeals.php:53
+msgid "Unique Data: Offer Titles & Descriptions are unique for each subscriber"
+msgstr ""
+"Eindeutige Daten: Angebotstitel und -beschreibungen sind für jeden "
+"Abonnenten einzigartig"
+
+#: inc/cmd_functions.php:1963
+msgid "Unsubscribing..."
+msgstr "Abbestellen..."
+
+#: inc/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Aktualisiere"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2701
+msgid "Update %2$s"
+msgstr "Aktualisiere %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2489
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Update verfügbar <span class=\"count\">(%s)</span>"
+msgstr[1] "Update verfügbar <span class=\"count\">(%s)</span>"
+
+#: inc/cmd_functions.php:834
+msgid "Update Brand"
+msgstr "Marke aktualisieren"
+
+#: inc/cmd_functions.php:952
+msgid "Update Coupon"
+msgstr "Update Gutschein"
+
+#: inc/cmd_functions.php:418
+msgid "Update Location"
+msgstr "Update-Speicherort"
+
+#: inc/cmd_functions.php:3694
+msgid "Update Notification"
+msgstr "Update-Benachrichtigung"
+
+#: inc/cmd_functions.php:328
+msgid "Update Offer Category"
+msgstr "Update Anbieten Kategorie"
+
+#: inc/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Update empfohlen"
+
+#: inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Aktualisierung Erforderlich"
+
+#: inc/cmd_functions.php:511
+msgid "Update Store"
+msgstr "Update Store"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3591
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin wird Aktualisiert %1$s (%2$d/%3$d)"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr "Plugin Wird Aktualisiert: %s"
+
+#: inc/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade nachricht vom plugin autor:"
+
+#: inc/customizer.php:1529 inc/customizer.php:1650
+msgid "Use Values"
+msgstr "Nutzen Sie Werte"
+
+#: inc/cmd_subscriptions.php:127
+msgid "User"
+msgstr "Benutzer"
+
+#: inc/cmd_functions.php:4438
+msgid "User Data not updated."
+msgstr "Benutzerdaten nicht aktualisiert."
+
+#: inc/cmd_functions.php:4448
+msgid "User Data updated Successfully."
+msgstr "Benutzerdaten erfolgreich aktualisiert."
+
+#: inc/cmd_functions.php:4233
+msgid "Username"
+msgstr "Benutzername"
+
+#: inc/cmd_functions.php:1065 inc/cmd_functions.php:1268
+#: page-submit-coupons.php:232 template-parts/coupon-grid.php:122
+#: template-parts/coupon-list.php:188 template-parts/coupon-popup.php:216
+#: template-parts/coupon-print.php:59 template-parts/single-coupon.php:196
+msgid "Valid Till"
+msgstr "Gültig Bish"
+
+#. translators: 1: validity
+#: inc/cmd_functions.php:2732
+msgid "Valid till: %1$s"
+msgstr "Gültig bis: %1$s"
+
+#: inc/cmd_functions.php:1313
+msgid "valid_till"
+msgstr "Gültig Bish"
+
+#: template-parts/coupon-grid-mobile.php:54 template-parts/coupon-grid.php:55
+#: template-parts/coupon-list.php:58 template-parts/single-coupon.php:67
+msgid "Value for Money"
+msgstr "Wert für Geld"
+
+#: inc/cmd_functions.php:1073 template-parts/coupon-grid.php:190
+#: template-parts/coupon-list.php:202 template-parts/single-coupon.php:210
+msgid "Verified On"
+msgstr "Verifiziert Auf"
+
+#: inc/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Version"
+
+#: inc/customizer.php:316 inc/quick_setup.php:140
+msgid "Video (Full Screen)"
+msgstr "Video (Full Screen)"
+
+#: inc/customizer.php:371
+msgid "Video Tagline"
+msgstr "Video Slogan"
+
+#: inc/customizer.php:382
+msgid "Video Tagline Color"
+msgstr "Video Slogan Farbe"
+
+#: inc/customizer.php:350
+msgid "Video Title"
+msgstr "Video-Titel"
+
+#: inc/customizer.php:361
+msgid "Video Title Color"
+msgstr "Video-Titel-Farbe"
+
+#: inc/customizer.php:328
+msgid "Video URL"
+msgstr "Video-URL"
+
+#: inc/cmd_functions.php:948
+msgid "View Coupon"
+msgstr "Anzeigen-Coupon"
+
+#: inc/demo_import.php:83
+msgid "View Demo"
+msgstr "Demo Ansehen"
+
+#: template-parts/coupon-grid.php:105 template-parts/coupon-list.php:96
+#: template-parts/single-coupon.php:105
+msgid "View Details"
+msgstr "Details Anzeigen"
+
+#: inc/cmd_functions.php:417
+msgid "View Location"
+msgstr "Ansicht Standort"
+
+#: inc/cmd_functions.php:2776
+msgid "View More"
+msgstr "Ansicht Mehr"
+
+#: inc/cmd_functions.php:3690
+msgid "View Notification"
+msgstr "Ansicht Benachrichtigung"
+
+#: header.php:267 taxonomy-stores.php:43 taxonomy-stores.php:90
+msgid "Visit Website"
+msgstr "Website Besuchen"
+
+#: inc/cmd_functions.php:4279
+msgid "Wallet Details"
+msgstr "Wallet-Details"
+
+#: inc/customizer.php:310 inc/quick_setup.php:134
+msgid "Welcome Type"
+msgstr "Willkommen Type"
+
+#: inc/customizer.php:1771
+msgid ""
+"When incorporating Image Preference for Display Type setting, ensure that a "
+"custom height is set for card, carousal, coupon/product image and store logo "
+"images under Desktop/Mobile Card and Image Settings. \n"
+"        "
+msgstr ""
+"Stellen Sie beim Einbinden der Bildpräferenz für die Einstellung "
+"„Anzeigetyp“ sicher, dass eine benutzerdefinierte Höhe für Karten-, "
+"Karussell-, Coupon-/Produktbilder und Shop-Logobilder unter „Desktop/Mobile-"
+"Karte und Bildeinstellungen“ festgelegt ist. \n"
+"        "
+
+#: inc/linkmydeals.php:49
+msgid "Why LinkMyDeals?"
+msgstr "Warum LinkMyDeals?"
+
+#: inc/cmd_functions.php:1133
+msgid "Will have \"Activate Deal\" button"
+msgstr "Wird über die Schaltfläche „Deal aktivieren“ verfügen"
+
+#: inc/cmd_functions.php:1132
+msgid "Will have \"Get Coupon Code\" button"
+msgstr "Wird über die Schaltfläche „Gutscheincode erhalten“ verfügen"
+
+#: inc/cmd_functions.php:1134
+msgid "Will have \"Print\" button"
+msgstr "Wird über die Schaltfläche „Drucken“ verfügen"
+
+#: inc/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: inc/cmd_functions.php:1215
+msgid "Write whatever you want. This does not show anywhere on the website."
+msgstr ""
+"Schreiben Sie, was Sie wollen. Dies wird nirgendwo auf der Website angezeigt."
+
+#: inc/customizer.php:1106 inc/customizer.php:1264 inc/customizer.php:1990
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/customizer.php:1278
+msgid "Yes - Show above the Coupons"
+msgstr "Ja – Über den Gutscheinen anzeigen"
+
+#: inc/customizer.php:1278
+msgid "Yes - Show below the Coupons"
+msgstr "Ja - Zeige unter den Gutscheinen"
+
+#: page-submit-coupons.php:209
+msgid "You can use HTML markup here"
+msgstr "Sie kann verwenden HTML-markup hier"
+
+#: inc/demo_import.php:109
+msgid ""
+"You cannot undo this operation after this step. Click \"<strong class=\"\">"
+"Cancel</strong>\" to abort."
+msgstr ""
+"Sie können diesen Vorgang nach diesem Schritt nicht mehr rückgängig machen. "
+"Klicken Sie zum Abbrechen auf „<strong class=\"\">Abbrechen</strong>."
+
+#: inc/cmd_functions.php:3901
+msgid ""
+"You cannot undo this operation after this step. Click\"<strong>"
+"Cancel</strong>\" to abort.</p>"
+msgstr ""
+"Sie können diesen Vorgang nach diesem Schritt nicht mehr rückgängig machen. "
+"Klicken Sie zum Abbrechen auf „<strong>Abbrechen</strong>“.</p>"
+
+#: index.php:170
+msgid "You have not added any Coupon so far."
+msgstr "Sie haben noch keine Coupon so weit."
+
+#: inc/cmd_functions.php:208
+msgid "You have not added license key."
+msgstr "Sie haben keinen Lizenzschlüssel hinzugefügt."
+
+#: inc/cmd_functions.php:4209 inc/cmd_functions.php:4211
+msgid "You need to be logged in to access this page"
+msgstr "Sie müssen angemeldet sein, um auf diese Seite zugreifen zu können"
+
+#: inc/demo_import.php:110
+msgid ""
+"Your access to admin demo is a view only access to help you experience our "
+"array of functionalities. This functionality is restricted for you to "
+"safeguard the working of our admin demo. This restriction will be removed "
+"when you"
+msgstr ""
+"Ihr Zugriff auf die Admin-Demo ist ein reiner Ansichtszugriff, der Ihnen "
+"hilft, unsere vielfältigen Funktionen kennenzulernen. Diese Funktionalität "
+"ist für Sie eingeschränkt, um die Funktionsfähigkeit unserer Admin-Demo zu "
+"gewährleisten. Diese Einschränkung wird aufgehoben, wenn Sie"
+
+#: inc/cmd_functions.php:3865
+msgid "Your app/app bundle ID"
+msgstr "Ihre App/App-Bundle-ID"
+
+#: inc/template-tags.php:183
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf die moderation."
+
+#: page-submit-coupons.php:129
+msgid "Your Coupon has been submitted for approval."
+msgstr "Ihren Gutschein zur Genehmigung eingereicht wurde."
+
+#: page-submit-coupons.php:176
+msgid "Your Details"
+msgstr "Deine Details"
+
+#: page-submit-coupons.php:186
+msgid "Your Email"
+msgstr "Ihre E-Mail"
+
+#: inc/cmd_functions.php:210
+msgid "Your key/domain is incorrect."
+msgstr "Ihr Schlüssel/Ihre Domäne ist falsch."
+
+#: page-submit-coupons.php:181
+msgid "Your Name"
+msgstr "Ihr Name"

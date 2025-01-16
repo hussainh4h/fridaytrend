@@ -1,0 +1,21 @@
+:root {
+  --cmd-primary: #4582ec;
+  --cmd-header-color: #ffffff;
+  --cmd-header-logo-color: #4582ec;
+  --cmd-header-menu-color: #787878;
+  --cmd-header-menu-active-color: ##343a40;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+#desktop-search input,
+#mobile-search input,
+#mobile-search .input-group-text {
+  filter: brightness(90%);
+}
+
+.dropdown-menu.show {
+  background: #dbd9d982;
+}

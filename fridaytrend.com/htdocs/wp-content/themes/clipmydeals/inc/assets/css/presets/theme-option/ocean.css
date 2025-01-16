@@ -1,0 +1,18 @@
+:root {
+  --cmd-primary: #2f67a6;
+  --cmd-header-gradient-color: #45a262;
+  --cmd-header-search-btn-color: #ffc107;
+}
+
+/* Box around active tab */
+.navbar-nav .active > .nav-link {
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+
+#desktop-search input,
+#mobile-search input,
+#mobile-search .input-group-text {
+  filter: brightness(85%);
+}

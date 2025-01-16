@@ -1,0 +1,7 @@
+:root {
+  --cmd-primary: #e95420;
+  --cmd-header-logo-color: #ffffff;
+  --cmd-header-menu-color: #d5d5d5;
+  --cmd-header-menu-active-color: var(--cmd-header-logo-color);
+  --cmd-header-search-btn-color: #efb73e;
+}

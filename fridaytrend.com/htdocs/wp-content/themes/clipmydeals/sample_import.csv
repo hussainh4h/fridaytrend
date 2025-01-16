@@ -1,0 +1,4 @@
+ID,title,description,badge,type,code,store,categories,brands,locations,url,image_url,start_date,valid_till,verified_on,priority,notes
+,New-Title-1,Description-1,5% OFF,code,SAMPLE5,store1,"cat1,cat2",brand1,"loc1,loc2",https://clipmydeals.com,http://via.placeholder.com/640x360,2020-05-01,2020-05-31,2020-05-12,0,This is test 1
+101,Updated-Title-2,Updated-Description-2,10% OFF,deal,,store1,"cat1,cat3","brand1,brand2","loc1,loc3",https://clipmydeals.com,http://via.placeholder.com/640x360,2020-05-01,2020-05-31,2020-05-12,0,This is test 2
+102,Updated-Title-3,Updated-Description-3,20% OFF,print,SAMPLE20,store2,"cat2,cat3",brand1,"loc2,loc3",https://clipmydeals.com,http://via.placeholder.com/640x360,2020-05-01,2020-05-31,2020-05-12,2,This is test 3

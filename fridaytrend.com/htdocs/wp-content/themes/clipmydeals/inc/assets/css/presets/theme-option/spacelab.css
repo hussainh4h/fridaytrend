@@ -1,0 +1,29 @@
+:root {
+  --cmd-primary: #3399f3;
+  --cmd-header-color: #ffffff;
+  --cmd-header-logo-color: #3399f3;
+  --cmd-header-menu-color: #a0a0a1;
+  --cmd-header-search-btn-color: #3399f3;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+#desktop-search input,
+#mobile-search input,
+#mobile-search .input-group-text {
+  filter: brightness(90%);
+}
+
+.dropdown-menu .dropdown-item {
+  color: #efefef;
+}
+
+#footer-widget .btn-primary,
+#footer-widget-wide .btn-primary {
+  color: #ffffff;
+}
+#desktop-search input, #mobile-search input, #mobile-search .input-group-text{
+  color: black;
+}

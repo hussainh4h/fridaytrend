@@ -1,0 +1,64 @@
+:root {
+  --cmd-primary: #5db9e4;
+  --cmd-header-color: #222222;
+  --cmd-card-bg: #282828;
+  --cmd-font-default: #e6e6e6;
+  --cmd-header-search-btn-color: #77b300;
+  --cmd-body-bg: #060606;
+}
+
+#desktop-search input,
+#mobile-search input,
+#mobile-search .input-group-text {
+  filter: brightness(200%);
+}
+
+.list-group-item:hover {
+  background-color: #282828;
+  color: var(--cmd-link-color);
+}
+.text-muted {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+.product-box article {
+  background-color: var(--cmd-card-bg);
+}
+.tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: #6c6c6c;
+}
+
+table th,
+table td {
+  color: black !important;
+}
+.dataTables_wrapper select,
+.dataTables_wrapper input,
+.cmdcp-transactions-card .card-header,
+.cmdcp-bonuses-card .card-header,
+input {
+  color: black !important;
+}
+.form-select,
+.search-store select,
+.search-category select,
+.search-button select {
+  color: black;
+}
+.form-control:focus {
+  color: black !important;
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(29, 103, 196, 0.25);
+}
+.form-control {
+  color: black;
+}
+.priceModal td, .priceModal th{
+  color: white !important;
+}
